@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="college_APT">ГАПОУ РС (Я) «АЛДАНСКИЙ ПОЛИТЕХНИЧЕСКИЙ ТЕХНИКУМ»</string>
+    <string name="adress_APT">678901 Республика Саха (Якутия),  г. Алдан, ул. Ленина, д. 36</string>
+    <string name="phone_APT">"тел/факс: 8 (41145) 3-31-09, 3-57-89"</string>
+    <string name="email_APT">apt_aldan@gov14.ru</string>
+    <string name="site_APT">http://aldanpolitehnikum.com/</string>
+    <string name="name_dir_APT">Иванов Алексей Венадьевич</string>
+
+    <string name="s13_02_03">"Электрические станции, сети и системы"</string>
+    <string name="s13_02_11">"Техническая эксплуатация и обслуживание электрического и электромеханического оборудования. Горная промышленность. Открытые горные работы."</string>
+    <string name="s21_01_08">"Машинист на открытых горных работах"</string>
+</resources>

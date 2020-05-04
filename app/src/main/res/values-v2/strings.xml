@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ»-->
+    <string name="college_MRTK">ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ» </string>
+    <string name="name_dir_MRTK">БЕРЕЗОВОЙ  Владимир  Викторович</string>
+    <string name="adress_MRTK">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
+    <string name="phone_MRTK">" тел/факс: 8 (41136) 3-53-31"</string>
+    <string name="email_MRTK">rtkm_mirniy@gov14.ru</string>
+    <string name="site_MRTK">https://mrtk-edu.ru/</string>
+
+    <!--Специальности-->
+    <string name="s21_01_08">"Машинист на открытых горных работах "</string>
+    <string name="s13_02_03">"Электрические станции, сети и системы "</string>
+    <string name="s21_02_15">"Открытые горные работы "</string>
+    <string name="s23_02_07">"Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей "</string>
+    <string name="s23_01_17">"Мастер по ремонту и обслуживанию автомобилей "</string>
+    <string name="s13_02_01">"Теплоснабжение и теплотехническое оборудование"</string>
+    <string name="s23_02_03">"Техническое обслуживание и ремонт автомобильного транспорта"</string>
+    <string name="s10_02_01">"Организация и технология защиты информации"</string>
+    <string name="s18_01_02">"Лаборант-эколог"</string>
+
+    <!--Квалификация-->
+    <string name="kv_text_s21_01_08">Техник, Техник-электрик,14668 Монтер пути</string>
+    <string name="kv_text_s15_01_15">Электрогазосварщик 3-4 раз,Электросварщик ручной сварки 2 разр</string>
+    <string name="kv_text_s38_02_01">Бухгалтер</string>
+
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года  10 мес"</string>
+
+    <!--Количество мест-->
+    <string name="platnoe_m40">40</string>
+    <string name="platnoe_m10">10</string>
+    <string name="bujet_m25">25</string>
+</resources>

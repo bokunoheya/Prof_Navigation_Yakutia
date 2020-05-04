@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VPK">\"Вилюйский педагогический колледж имени Н.Г.Чернышевског\"</string>
+
+    <string name="college_VPK">ГАПОУ РС (Я) "Вилюйский педагогический колледж имени Н.Г.Чернышевског"</string>
+    <string name="adress_VPK">678200, Вилюйский улус, г. Вилюйск, ул. Иряева. д.30</string>
+    <string name="phone_VPK">тел/факс: 8 (4112) 4-29-96</string>
+    <string name="email_VPK">pk_vilyisk@gov14.ru</string>
+    <string name="site_VPK">https://vilcollege.ru/</string>
+
+    <string name="s54_02_06">Мастер по ремонту и обслуживанию</string>
+    <string name="s44_02_06">Пожарный</string>
+    <string name="s44_02_03">Машинист на открытых горных работах</string>
+    <string name="s44_02_01">Дошкольное образование</string>
+    <string name="s44_02_02">Преподавание в начальных классах</string>
+    <string name="s49_02_02">Адаптивная физическая культура</string>
+
+    <string name="kv_text_s54_02_06">Электромонтер по ремонту и обслуживанию электрооборудования</string>
+    <string name="kv_text_s44_02_06">Пожарный</string>
+    <string name="kv_text_s44_02_03">Машинист бульдозера Машинист экскаватора</string>
+    <string name="kv_text_s44_02_01">Воспитатель детей дошкольного возраста</string>
+    <string name="kv_text_s44_02_02">Учитель начальных классов</string>
+    <string name="kv_text_s49_02_02">Педагог по адаптивной физической культуре и спорту/Учитель адаптивной физической культуры</string>
+
+</resources>

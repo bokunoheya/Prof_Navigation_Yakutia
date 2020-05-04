@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YHDU">\"Якутское художественное училище (колледж) имени П.П. Романова\"</string>
+
+    <string name="college_YHDU">ГБПОУ РС(Я) \"Якутское художественное училище (колледж) имени П.П. Романова\"</string>
+    <string name="adress_YHDU">677027, Республика Саха (Якутия), г. Якутск, ул. Горького, 65</string>
+    <string name="phone_YHDU">тел/факс: 8 (4112) 42-82-14</string>
+    <string name="email_YHDU">izoyhu@gov14.ru</string>
+    <string name="site_YHDU">http://art-college.saha.muzkult.ru/</string>
+
+    <string name="s54_02_01">Дизайн (по отраслям)</string>
+    <string name="s54_02_02">Декоративно-прикладное искусство и народные промыслы</string>
+    <string name="s54_02_04">Реставрация </string>
+    <string name="s54_02_05">Живопись (по видам) </string>
+
+    <string name="kv_text_s54_02_01">Дизайнер, преподаватель</string>
+    <string name="kv_text_s54_02_02">Художник-мастер, преподаватель, художник народных художественных промыслов</string>
+    <string name="kv_text_s54_02_04">Художник-реставратор</string>
+    <string name="kv_text_s54_02_05">Художник-живописец, преподаватель</string>
+</resources>

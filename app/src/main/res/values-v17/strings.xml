@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ГБПОУ РС (Я) «ВИЛЮЙСКИЙ ТЕХНИКУМ В г. Вилюйск»-->
+    <string name="college_VT">ГБПОУ РС (Я) «ВИЛЮЙСКИЙ ТЕХНИКУМ В г. Вилюйск» </string>
+    <string name="name_dir_VT">АЛЕКСЕЕВ Иван Иванович</string>
+    <string name="adress_VT">678200, Республика Саха (Якутия), г. Ленск, ул. Мира, д.17</string>
+    <string name="phone_VT">" тел/факс: 8 (41132) 4-29-22"</string>
+    <string name="email_VT">vt_vilyuisk@gov14.ru</string>
+    <string name="site_vT">https://viltech.ru/</string>
+    <!--Специальности-->
+    <string name="s08_01_18">"Электромонтажник электрических сетей и электрооборудования"</string>
+    <string name="s23_01_17">"Мастер по ремонту и обслуживанию автомобилей "</string>
+    <string name="s18_01_28">"Оператор нефтепереработки"</string>
+    <string name="s21_01_01">"Оператор нефтяных и газовых скважин"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s08_01_18">Электромонтажник по распределительным устройствам и вторичным цепям</string>
+    <string name="kv_text_s23_01_17">Слесарь по ремонту автомобилей</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <string name="srok_10">"10 мес"</string>
+    <!--Количество мест-->
+    <string name="platnoe_m40">25</string>
+
+
+</resources>

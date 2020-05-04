@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YMK">\"Якутский музыкальный колледж (училище) имени М.Н. Жиркова\"</string>
+
+    <string name="college_YMK">ГБПОУ РС(Я) \"Якутский музыкальный колледж (училище) имени М.Н. Жиркова\"</string>
+    <string name="adress_YMK">677027, Республика Саха (Якутия), г. Якутск, ул. Кирова, 23а</string>
+    <string name="phone_YMK">тел/факс: 8 (4112) 42-94-16</string>
+    <string name="email_YMK">ymuzk@gov14.ru</string>
+    <string name="site_YMK">http://yamuscoi.ru/</string>
+
+    <string name="s53_02_03">Инструментальное исполнительство (по видам)</string>
+    <string name="s53_02_04">Вокальное искусство</string>
+    <string name="s53_02_05">Сольное и хоровое народное пение</string>
+    <string name="s53_02_06">Хоровое дирижирование</string>
+    <string name="s53_02_07">Теория музыки</string>
+
+    <string name="kv_text_s53_02_03">Артист-инструменталист (концертмейстер), преподаватель</string>
+    <string name="kv_text_s53_02_03_srok_6">Артист-инструменталист (концертмейстер), преподаватель</string>
+    <string name="kv_text_s53_02_04">Артист-вокалист, преподаватель, руководитель народного коллектива</string>
+    <string name="kv_text_s53_02_05">Артист-вокалист, преподаватель, руководитель народного коллектива</string>
+    <string name="kv_text_s53_02_06">Дирижер хора, преподаватель</string>
+    <string name="kv_text_s53_02_07">Преподаватель, организатор музыкально-просветительской деятельности</string>
+    <string name="srok_6_10">6 лет 10 мес</string>
+</resources>

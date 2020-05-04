@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ГБПОУ РС (Я) «НЮРБИНСКИЙ ТЕХНИКУМ В с. Маар»-->
+    <string name="college_NuRT">ГБПОУ РС (Я) «НЮРБИНСКИЙ ТЕХНИКУМ В с. Маар» </string>
+    <string name="name_dir_NuRT">БУТАКОВА ОКСАНА СТЕФАНОВНА</string>
+    <string name="adress_NuRT">678455, Республика Саха (Якутия), с. Маар, ул. Набережная, д.12</string>
+    <string name="phone_NuRT">" тел/факс: 8 (41134) 4-44-74"</string>
+    <string name="email_NuRT">nt_nurba@gov14.ru</string>
+    <string name="site_NuRT">https://kollegenyurba.ucoz.ru/</string>
+    <!--Специальности-->
+    <string name="s21_01_08">"Машинист на открытых горных работах"</string>
+    <string name="s08_01_07">"Мастер общестроительных работ "</string>
+    <string name="s38_01_02">"Продавец, контролер-кассир"</string>
+    <string name="s35_01_14">"Мастер по техническому обслуживанию и ремонту машинно-тракторного парка"</string>
+    <string name="s21_01_10">"Ремонтник горного оборудования"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s21_01_08">Электромонтёр по ремонту и обслуживанию электрооборудования</string>
+    <string name="kv_text_s08_01_17">Арматурщик Электросварщик ручной сварки</string>
+    <string name="kv_text_s38_01_02">Кассир торгового зала, Продавец</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <string name="srok_10">"10 мес"</string>
+    <!--Количество мест-->
+
+</resources>

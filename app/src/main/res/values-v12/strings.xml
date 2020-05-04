@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    &lt;!&ndash;ГБПОУ РС (Я) «НАМСКИЙ ТЕХНИКУМ В селе Графский Берег»&ndash;&gt;
+    <string name="college_NamT">ГБПОУ РС (Я) «НАМСКИЙ ТЕХНИКУМ В селе Графский Берег»</string>
+    <string name="name_dir_NamT">ЖИРКОВ Ньургустан Михайлович</string>
+    <string name="adress_NamT">678386, Республика Саха (Якутия), село Графский Берег, ул. Советская, д.20</string>
+    <string name="phone_NamT">" тел/факс: 8 (41162) 2-30-41,2-30-92"</string>
+    <string name="email_NamT">nt_namtsy@14gov.ru</string>
+    <string name="site_NamT">https://namteh.3dn.ru/</string>
+    &lt;!&ndash;Специальности&ndash;&gt;
+    <string name="s08_01_07">"Мастер общестроительных работ"</string>
+    <string name="s22_02_06">"Сварочное производство "</string>
+    <string name="s23_01_17">"Мастер по ремонту и обслуживанию автомобилей"</string>
+    <string name="s43_01_09">"Повар, кондитер "</string>
+    <string name="s38_02_01">"Банковское дело "</string>
+    <string name="s39_02_01">"Социология и социальная работа "</string>
+    <string name="s40_02_01">"Право и организация социального обеспечения "</string>-->
+    <!--Квалификация-->
+    <string name="kv_text_s15_01_05">Сварщик ручной дуговой сварки плавящимся покрытым электродом, Сварщик ручной сварки полимерных материалов</string>
+   <!-- <string name="kv_text_s08_01_07">Монтажник по монтажу стальных и железобетонных конструкций - Электросварщик ручной сварки</string>-->
+    <string name="kv_text_s43_01_09">Повар, кондитер</string>
+    <string name="kv_text_s23_01_17">Слесарь по ремонту автомобилей - водитель автомобиля</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <!--Количество мест-->
+</resources>

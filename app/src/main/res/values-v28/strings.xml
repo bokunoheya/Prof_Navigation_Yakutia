@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HOK">\"Харбалахский образовательный комплекс им. Н.И. Мординова – Амма-Аччыгыйа\"</string>
+
+    <string name="college_HOK">ГБПОУ РС(Я) \"Харбалахский образовательный комплекс им. Н.И. Мординова – Амма-Аччыгыйа\"</string>
+    <string name="adress_HOK">677666, Республика Саха (Якутия), Таттинский улус, с. Харбалах, ул. Амгинская, 1</string>
+    <string name="phone_HOK">тел/факс: 8 (4112) 2-44-97</string>
+    <string name="email_HOK">hok_harbalah@gov14.ru</string>
+    <string name="site_HOK">https://khok.siteedu.ru/</string>
+
+    <string name="s13_01_10">Мастер по ремонту и обслуживанию</string>
+    <string name="s20_01_01">Пожарный</string>
+    <string name="s21_01_08">Машинист на открытых горных работах</string>
+
+    <string name="kv_text_s13_01_10">Электромонтер по ремонту и обслуживанию электрооборудования</string>
+    <string name="kv_text_s20_01_01">Пожарный</string>
+    <string name="kv_text_s21_01_08">Машинист бульдозера Машинист экскаватора</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ГБПОУ РС (Я) «ПОКРОВСКИЙ КОЛЛЕДЖ В г. Покровск»-->
+    <string name="college_PC">ГБПОУ РС (Я) «ПОКРОВСКИЙ КОЛЛЕДЖ В г. Покровск» </string>
+    <string name="name_dir_PC">ХАБАРОВ Владислав Гаврильевич</string>
+    <string name="adress_PC">678000, Республика Саха (Якутия), г. Покровск, ул. Братьев Ксенофонтовых, д.31</string>
+    <string name="phone_PC">" тел/факс: 8 (41144) 4-52-42"</string>
+    <string name="email_PC">pk_pokrovsk@gov14.ru</string>
+    <string name="site_PC">https://college-pokrovsk.ru/</string>
+    <!--Специальности-->
+    <string name="s09_02_07">"Информационные системы и программирование"</string>
+    <string name="s10_02_01">"Организация и технология защиты информации"</string>
+    <string name="s43_02_10">"Туризм"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s09_02_07">Разработчик веб и мультимедийных приложений</string>
+    <string name="kv_text_s10_02_01">Техник по защите информации (21299 Делопроизводитель)</string>
+    <string name="kv_text_s43_02_10">Специалист по туризму</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <string name="srok_1_10">"1 года 10 мес"</string>
+    <!--Количество мест-->
+    <string name="platnoe_m40">100</string>
+
+</resources>

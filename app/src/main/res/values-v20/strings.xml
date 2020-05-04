@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YBS">\"Якутская балетная школа (колледж) имени Аксении и Натальи Посельских\"</string>
+
+    <string name="college_YBS">ГБПОУ РС(Я) \"Якутская балетная школа (колледж) имени Аксении и Натальи Посельских\"</string>
+    <string name="adress_YBS">677000, Республика Саха (Якутия), гю Якутск, проспект Ленина, 46/2</string>
+    <string name="phone_YBS">тел/факс: 8 (4112) 35-04-28</string>
+    <string name="email_YBS">ubsk@gov14.ru</string>
+    <string name="site_YBS">http://sakha-ballet.ru/</string>
+
+    <string name="s52_02_01">Искусство балета</string>
+
+    <string name="kv_text_s52_02_01">Артист балета</string>
+    <string name="srok_7">7 лет</string>
+</resources>

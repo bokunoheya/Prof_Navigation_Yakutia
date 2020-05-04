@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--9. ГБПОУ РС(Я) "Арктический колледж народов Севера"»-->
+<!--    <string name="college_AKNS">9. ГБПОУ РС(Я) "Арктический колледж народов Севера" В г.Якутск» </string>
+    <string name="name_dir_AKNS">Антипина Елена Егоровна</string>-->
+    <string name="adress_AKNS">678830, Республика Саха (Якутия), Нижнеколымский район, п. Черский, ул. Молодежная, 38</string>
+    <string name="phone_AKNS">" тел/факс: 8(41157) 25-123"</string>
+    <string name="email_AKNS">cher_koledg1@cher.sakha.ru</string>
+    <string name="site_AKNS">http://petua1985.wix.com/arctickolledge</string>
+    <!--Специальности-->
+    <string name="s35_01_21">"Оленевод-механизатор "</string>
+    <!--<string name="s20_02_01">"Рациональное использование природохозяйственных комплексов "</string>-->
+    <string name="s21_02_15">"Открытые горные работы "</string>
+    <string name="s23_02_07">"Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей "</string>
+    <!--<string name="s15_01_30">"Слесарь "</string>-->
+
+    <!--Квалификация-->
+    <string name="kv_text_s35_01_21">"Оленевод-механизатор</string>
+    <!--<string name="kv_text_s20_02_01">"Рациональное использование природохозяйственных комплексов "</string>
+    <string name="kv_text_s21_02_15">"Открытые горные работы "</string>
+    <string name="kv_text_s23_02_07">"Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей "</string>
+    <string name="kv_text_s15_01_30">Слесарь</string>-->
+
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года  10 мес"</string>
+
+    <!--Количество мест-->
+    <!--<string name="platnoe_m12">12</string>-->
+</resources>

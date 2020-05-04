@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ГБПОУ РС (Я) «ЖАТАЙСКИЙ ТЕХНИКУМ В п. Жатайск»-->
+    <string name="college_ZHT">ГБПОУ РС (Я) «ЖАТАЙСКИЙ ТЕХНИКУМ В п. Жатайск» </string>
+    <string name="name_dir_ZHT">МОРОЗОВА Алена Анатольевна</string>
+    <string name="adress_ZHT">678902, Республика Саха (Якутия), п. Жатайск, ул. Строда, д.7</string>
+    <string name="phone_ZHT">" тел/факс: 8 (4112) 42-64-07"</string>
+    <string name="email_ZHT">zht_zhatai@gov14.ru</string>
+    <string name="site_ZHT">https://zhataytekh.ru/</string>
+    <!--Специальности-->
+    <string name="s13_01_10">"Электромонтер по ремонту и обслуживанию электрооборудования (по отраслям)"</string>
+    <string name="s15_01_05">"Сварщик (ручной и частично механизированной сварки (наплавки)"</string>
+    <string name="s23_01_02">"Докер - механизатор"</string>
+    <string name="s26_02_01">"Эксплуатация внутренних водных путей "</string>
+    <string name="s26_02_03">"Судовождение "</string>
+    <string name="s26_02_06">"Эксплуатация судового электрооборудования и средств автоматики "</string>
+    <string name="s26_02_05">"Эксплуатация судовых энергетических установок"</string>
+    <string name="s34_02_02">"Медицинский массаж (для обучения лиц с ограниченными возможностями здоровья по зрению)"</string>
+    <string name="s43_01_09">"Повар, кондитер"</string>
+    <string name="s34_01_02">"Сестринское дело"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s26_02_03">Электромонтер по ремонту и обслуживанию электрооборудования 3-4 разряда</string>
+    <string name="kv_text_s26_01_01">Сборщик корпусов металлических судов, сборщик-достройщик судовой</string>
+    <string name="kv_text_s34_02_02">Медицинская сестра по массажу/медицинский брат по массажу</string>
+    <string name="kv_text_s23_01_02">Механизатор (докер-механизатор)</string>
+    <string name="kv_text_s26_02_02">Техник (Электрик судовой, судокорпусник, ремонтник)</string>
+    <string name="kv_text_s26_02_06">Техник-электромеханик (Электрик судовой)</string>
+    <string name="kv_text_s26_02_01">Техник (Моторист (машинист), Слесарь-судоремонтник)</string>
+    <string name="kv_text_s43_01_09">Повар, кондитер</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <string name="srok_3_10">"3 года 10 мес"</string>
+    <string name="srok_10">"10 мес"</string>
+    <!--Количество мест-->
+    <string name="platnoe_m40">50</string>
+    <string name="bujet_m25">212</string>
+
+</resources>
