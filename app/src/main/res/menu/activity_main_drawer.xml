@@ -7,23 +7,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@android:drawable/ic_menu_myplaces"
+            android:icon="@drawable/button_corner"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:icon="@drawable/button_corner"
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:icon="@drawable/button_corner"
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/socGarant"
-            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:icon="@drawable/button_corner"
             android:title="@string/menu_soc_gar" />
         <item
             android:id="@+id/blankFragment2"
-            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:icon="@drawable/button_corner"
             android:title="@string/menu_pro" />
         
     </group>
