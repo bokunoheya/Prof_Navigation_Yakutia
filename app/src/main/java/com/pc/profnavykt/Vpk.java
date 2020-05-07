@@ -11,10 +11,10 @@ import androidx.navigation.Navigation;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Mrtk#newInstance} factory method to
+ * Use the {@link Vpk#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Mrtk extends Fragment {
+public class Vpk extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,10 +24,9 @@ public class Mrtk extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Mrtk() {
+    public Vpk() {
         // Required empty public constructor
     }
-
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
@@ -37,8 +36,8 @@ public class Mrtk extends Fragment {
      * @return A new instance of fragment Specialnosti.
      */
     // TODO: Rename and change types and number of parameters
-    public static Mrtk newInstance(String param1, String param2) {
-        Mrtk fragment = new Mrtk();
+    public static Vpk newInstance(String param1, String param2) {
+        Vpk fragment = new Vpk();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,11 +58,11 @@ public class Mrtk extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.mrtk, container, false);
+        View root= inflater.inflate(R.layout.vpk, container, false);
         Button info=root.findViewById(R.id.info_button);
         info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));
-        Button professii=root.findViewById(R.id.professii_button2);
-        professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiApt));
+        Button professii=root.findViewById(R.id.professii_button);
+        professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiVpk));
         return root;
     }
 }

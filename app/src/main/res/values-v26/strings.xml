@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="YKIT">\"Якутский колледж инновационных технологий\"</string>
+    <string name="YKIT">Якутский колледж инновационных технологий</string>
 
-    <string name="college_YKIT">НПОУ \"Якутский колледж инновационных технологий\"</string>
+    <string name="college_YKIT">НПОУ Якутский колледж инновационных технологий</string>
     <string name="adress_YKIT">677000, Республика Саха (Якутия), г. Якутск, 203-й микрорайон, ул. Ларионова, 4</string>
     <string name="phone_YKIT">тел/факс: 8 (4112) 36-97-92</string>
     <string name="email_YKIT">yakit10@mail.ru</string>

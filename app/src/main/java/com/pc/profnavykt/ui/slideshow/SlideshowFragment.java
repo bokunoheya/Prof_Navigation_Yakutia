@@ -61,8 +61,14 @@ public class SlideshowFragment extends Fragment {
         button12.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ymk));
         button13= root.findViewById(R.id.button13)       ;
         button13.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ybs));
-
-
+        Button  button14= root.findViewById(R.id.button14)       ;
+        button14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.hok));
+        Button  button15= root.findViewById(R.id.button15)       ;
+        button15.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.npk));
+        Button  button16= root.findViewById(R.id.button16)       ;
+        button16.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.vpk));
+        Button  button17= root.findViewById(R.id.button17)       ;
+        button17.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ypk));
        // Toolbar toolbar = root.findViewById(R.id.toolbar);
         /*toolbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03DAC5")));*/
      //   toolbar = ((MainActivity)getActivity()).getSupportActionBar(toolbar);

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="YMK">\"Якутский музыкальный колледж (училище) имени М.Н. Жиркова\"</string>
+    <string name="YMK">Якутский музыкальный колледж (училище) имени М.Н. Жиркова</string>
 
-    <string name="college_YMK">ГБПОУ РС(Я) \"Якутский музыкальный колледж (училище) имени М.Н. Жиркова\"</string>
+    <string name="college_YMK">ГБПОУ РС(Я) Якутский музыкальный колледж (училище) имени М.Н. Жиркова</string>
     <string name="adress_YMK">677027, Республика Саха (Якутия), г. Якутск, ул. Кирова, 23а</string>
     <string name="phone_YMK">тел/факс: 8 (4112) 42-94-16</string>
     <string name="email_YMK">ymuzk@gov14.ru</string>

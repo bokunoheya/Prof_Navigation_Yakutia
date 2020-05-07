@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--ГБПОУ РС (Я) «ГОРНО-ГЕОЛОГИЧЕСКИЙ ТЕХНИКУМ В п. Хандыга»-->
-    <string name="college_GGT">ГБПОУ РС (Я) «ГОРНО-ГЕОЛОГИЧЕСКИЙ ТЕХНИКУМ В п. Хандыга» </string>
+    <string name="college_GGT">ГБПОУ РС (Я) ГОРНО-ГЕОЛОГИЧЕСКИЙ ТЕХНИКУМ В п. Хандыга</string>
     <string name="name_dir_GGT">НЕУСТРОЕВ Михаил Александрович</string>
     <string name="adress_GGT">678720, Республика Саха (Якутия), п. Хандыга, ул. Е.Д.Кычкина, д.4</string>
     <string name="phone_GGT">" тел/факс: 8 (41153) 4-28-22"</string>

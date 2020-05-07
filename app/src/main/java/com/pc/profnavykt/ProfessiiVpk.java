@@ -1,20 +1,21 @@
 package com.pc.profnavykt;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link S21_01_08#newInstance} factory method to
+ * Use the {@link ProfessiiVpk#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class S21_01_08 extends Fragment {
+public class ProfessiiVpk extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +25,7 @@ public class S21_01_08 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public S21_01_08() {
+    public ProfessiiVpk() {
         // Required empty public constructor
     }
 
@@ -34,11 +35,11 @@ public class S21_01_08 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment S21_01_08.
+     * @return A new instance of fragment ProfessiiApt.
      */
     // TODO: Rename and change types and number of parameters
-    public static S21_01_08 newInstance(String param1, String param2) {
-        S21_01_08 fragment = new S21_01_08();
+    public static ProfessiiVpk newInstance(String param1, String param2) {
+        ProfessiiVpk fragment = new ProfessiiVpk();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +60,19 @@ public class S21_01_08 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_s21_01_08, container, false);
+        View root= inflater.inflate(R.layout.fragment_professii_vpk, container, false);
+        Button s44_02_01=root.findViewById(R.id.button1);
+        s44_02_01.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_01));
+        Button s44_02_02=root.findViewById(R.id.button2);
+        s44_02_02.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_02));
+        Button s44_02_03=root.findViewById(R.id.button3);
+        s44_02_03.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_03));
+        Button s44_02_04=root.findViewById(R.id.button4);
+        s44_02_04.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_04));
+        Button s44_02_05=root.findViewById(R.id.button5);
+        s44_02_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_05));
+        Button s49_02_02=root.findViewById(R.id.button6);
+        s49_02_02.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s49_02_02));
+        return root;
     }
 }

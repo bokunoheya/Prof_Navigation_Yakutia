@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="YGK">\"Якутский гуманитарный колледж\"</string>
+    <string name="YGK">Якутский гуманитарный колледж</string>
 
-    <string name="college_YGK">АНПОО \"Якутский гуманитарный колледж\"</string>
+    <string name="college_YGK">АНПОО Якутский гуманитарный колледж</string>
     <string name="adress_YGK">677018, Республика Саха (Якутия), г. Якутск, ул. Дежнева, 16</string>
     <string name="phone_YGK">тел/факс: 8 (4112) 36-09-88</string>
     <string name="email_YGK">kolledzh2009@mail.ru</string>

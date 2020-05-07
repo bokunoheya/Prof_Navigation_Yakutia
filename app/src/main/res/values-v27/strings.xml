@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="YTEK">\"Якутский торгово-экономический колледж потребительской кооперации\"</string>
+    <string name="YTEK">Якутский торгово-экономический колледж потребительской кооперации</string>
 
-    <string name="college_YTEK">ПОУ \"Якутский торгово-экономический колледж потребительской кооперации\"</string>
+    <string name="college_YTEK">ПОУ Якутский торгово-экономический колледж потребительской кооперации</string>
     <string name="adress_YTEK">677007, Республика Саха (Якутия), г. Якутск, пр. Ленина, д.50</string>
     <string name="phone_YTEK">тел/факс: 8 (4112) 36-22-91, 36-16-53</string>
     <string name="email_YTEK">common@ytecpk.ru</string>

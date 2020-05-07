@@ -4,17 +4,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
+
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Mrtk#newInstance} factory method to
+ * Use the {@link S20_01_01#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Mrtk extends Fragment {
+public class S20_01_01 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +23,7 @@ public class Mrtk extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Mrtk() {
+    public S20_01_01() {
         // Required empty public constructor
     }
 
@@ -34,11 +33,11 @@ public class Mrtk extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Specialnosti.
+     * @return A new instance of fragment S13_02_03.
      */
     // TODO: Rename and change types and number of parameters
-    public static Mrtk newInstance(String param1, String param2) {
-        Mrtk fragment = new Mrtk();
+    public static S20_01_01 newInstance(String param1, String param2) {
+        S20_01_01 fragment = new S20_01_01();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,11 +58,7 @@ public class Mrtk extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.mrtk, container, false);
-        Button info=root.findViewById(R.id.info_button);
-        info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));
-        Button professii=root.findViewById(R.id.professii_button2);
-        professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiApt));
-        return root;
+        return inflater.inflate(R.layout.fragment_s20_01_01, container, false);
+
     }
 }

@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="NPK">\"Намский педагогический колледж имени И.Е.Винокурова\"</string>
 
-    <string name="college_NPK">ГАПОУ РС (Я) "Намский педагогический колледж имени И.Е.Винокурова"</string>
-    <string name="adress_NPK">678380, Республика Саха (Якутия), Намский улус, с. Намцы, ул. Студенческая, д.1</string>
-    <string name="phone_NPK">тел/факс: 8 (4112) 4-11-94</string>
-    <string name="email_NPK">npk_namtsy@gov14.ru</string>
-    <string name="site_NPK">https://namcollege.ru/</string>
-
-    <string name="s54_02_06">Мастер по ремонту и обслуживанию</string>
-    <string name="s44_02_06">Пожарный</string>
-    <string name="s44_02_03">Машинист на открытых горных работах</string>
-    <string name="s44_02_01">Дошкольное образование</string>
-    <string name="s44_02_02">Преподавание в начальных классах</string>
-    <string name="s49_02_02">Адаптивная физическая культура</string>
-
-    <string name="kv_text_s54_02_06">Электромонтер по ремонту и обслуживанию электрооборудования</string>
-    <string name="kv_text_s44_02_06">Пожарный</string>
-    <string name="kv_text_s44_02_03">Машинист бульдозера Машинист экскаватора</string>
-    <string name="kv_text_s44_02_01">Воспитатель детей дошкольного возраста</string>
-    <string name="kv_text_s44_02_02">Учитель начальных классов</string>
-    <string name="kv_text_s49_02_02">Педагог по адаптивной физической культуре и спорту/Учитель адаптивной физической культуры</string>
 
 </resources>

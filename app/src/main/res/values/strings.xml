@@ -53,10 +53,10 @@
     <string name="UTYK">ГАПОУ РС(Я) \"Южно-Якутский технологический колледж\"</string>
 
     <!--Наименование учреждений сокращенное-->
-    <string name="APT_mini">"Алданский политехнический техникум"</string>
-    <string name="MRTK_mini">"Региональный технический колледж в г. Мирном"</string>
-    <string name="UTYK_mini">"Южно-Якутский технологический колледж"</string>
-    <string name="PC_mini">"Покровский колледж"</string>
+    <string name="APT_mini">Алданский политехнический техникум</string>
+    <string name="MRTK_mini">Региональный технический колледж в г. Мирном</string>
+    <string name="UTYK_mini">Южно-Якутский технологический колледж</string>
+    <string name="PC_mini">Покровский колледж</string>
     <string name="ysht">Якутский сельскохозяйственный техникум</string>
     <string name="CD">Якутский колледж технологии и дизайна традиционных промыслов народов Якутии</string>
     <string name="CC">Якутский колледж культуры и искусств Республики Саха (Якутия)</string>
@@ -69,7 +69,7 @@
     <string name="college_MRTK">ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ» </string>
     <string name="name_dir_MRTK">БЕРЕЗОВОЙ  Владимир  Викторович</string>
     <string name="adress_MRTK">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
-    <string name="phone_MRTK">" тел/факс: 8 (41136) 3-53-31"</string>
+    <string name="phone_MRTK">"тел/факс: 8 (41136) 3-53-31"</string>
     <string name="email_MRTK">rtkm_mirniy@gov14.ru</string>
     <string name="site_MRTK">https://mrtk-edu.ru/</string>
 
@@ -205,7 +205,13 @@
     <string name="kv_text_s35_01_21"> Оленевод
 \n Водитель мототранспортных средств</string>
 
+    <string name="s53_02_01">Музыкальное образование</string>
+    <string name="kv_text_s53_02_01">Учитель музыки/музыкальный руководитель\</string>
 
+    <string name="s44_02_04">Специальное дошкольное образование</string>
+    <string name="kv_text_s44_02_04">Воспитатель детей дошкольного возраста с отклонениями в развитиии и с сохранным развитием</string>
+    <string name="s44_02_05">Коррекционная педагогика в начальном образовании</string>
+    <string name="kv_text_s44_02_05">Учитель начальных классов и начальных классов компенсирующего и коррекционно-развивающего образования</string>
     <string name="s31_02_01">"Лечебное дело"</string>
     <string name="s31_02_02">"Акушерское дело"</string>
     <string name="s34_02_01">"Сестринское дело"</string>
@@ -220,4 +226,5 @@
     <string name="uznat">Узнать</string>
     <string name="hints">Подсказка</string>
     <string name="hint_test">Как выбрать профессию, чтобы в будущем приносила не только деньгт, но и удовольствие? Эти тесты помогут тебе определить твои способности.</string>
+
 </resources>

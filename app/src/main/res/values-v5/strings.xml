@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--1. 4. ГАПОУ РС(Я) "Якутский автодорожный техникум"-->
-    <string name="college_IAT">1. 4. ГАПОУ РС(Я) "Якутский автодорожный техникум" В г.Якутск» </string>
+    <string name="college_IAT">1. 4. ГАПОУ РС(Я) Якутский автодорожный техникум" В г.Якутск</string>
     <string name="name_dir_IAT">Попова Валентина Гаврильевна</string>
     <string name="adress_IAT">677008, Республики Саха (Якутия), г. Якутск, Вилюйский тракт 5 км., корпус 1</string>
     <string name="phone_IAT">" тел/факс: 8(41136) 36-94-42 "</string>

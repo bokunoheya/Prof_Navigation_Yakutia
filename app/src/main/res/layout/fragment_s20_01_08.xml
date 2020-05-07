@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S21_02_14" >
+    tools:context="com.pc.profnavykt.S20_01_08" >
 
     <TextView
         android:id="@+id/textView49"

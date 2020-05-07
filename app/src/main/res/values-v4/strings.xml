@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--1.3. ГАПОУ РС(Я) "Южно-Якутский технологический колледж"»-->
-    <string name="college_YAITK">1. 3. ГАПОУ РС(Я) "Южно-Якутский технологический колледж" В г.Алдан» </string>
+    <string name="college_YAITK">1. 3. ГАПОУ РС(Я) Южно-Якутский технологический колледж" В г.Алдан</string>
     <string name="name_dir_YAITK">Подмазкова Ирина Юрьевна</string>
     <string name="adress_YAITK">678960, Республика Саха (Якутия), Нерюнгринский район, г. Нерюнгри, ул. Кравченко, 16/1</string>
     <string name="phone_YAITK">" тел/факс: 8(41147) 3-26-56</string>

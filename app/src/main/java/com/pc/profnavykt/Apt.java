@@ -61,7 +61,7 @@ public class Apt extends Fragment {
         View root= inflater.inflate(R.layout.apt, container, false);
         Button info=root.findViewById(R.id.info_button);
         info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));
-        Button professii=root.findViewById(R.id.professii_button);
+        Button professii=root.findViewById(R.id.professii_button2);
         professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiApt));
         return root;
     }

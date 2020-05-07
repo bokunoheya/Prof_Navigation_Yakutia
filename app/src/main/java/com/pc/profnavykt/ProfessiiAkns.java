@@ -67,7 +67,7 @@ public class ProfessiiAkns extends Fragment {
         Button s15_01_05=root.findViewById(R.id.button2);
         s15_01_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_07));
 
-        Button s18_01_33=root.findViewById(R.id.button3);
+        Button s18_01_33=root.findViewById(R.id.button1);
         s18_01_33.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_21));
 
         return root;

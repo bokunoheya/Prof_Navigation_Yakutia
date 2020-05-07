@@ -61,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Toast.makeText(this, "Во время боя переход назад не возможен", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Так переход назад не возможен, нажмите на верхне-левое меню", Toast.LENGTH_SHORT).show();
     }
 }

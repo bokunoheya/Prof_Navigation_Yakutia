@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ»-->
-    <string name="college_MRTK">ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ» </string>
+    <string name="college_MRTK">ГАПОУ РС (Я) РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ</string>
     <string name="name_dir_MRTK">БЕРЕЗОВОЙ  Владимир  Викторович</string>
     <string name="adress_MRTK">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
     <string name="phone_MRTK">" тел/факс: 8 (41136) 3-53-31"</string>

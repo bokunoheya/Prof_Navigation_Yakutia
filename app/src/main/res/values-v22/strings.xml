@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="YHDU">\"Якутское художественное училище (колледж) имени П.П. Романова\"</string>
+    <string name="YHDU">Якутское художественное училище (колледж) имени П.П. Романова</string>
 
-    <string name="college_YHDU">ГБПОУ РС(Я) \"Якутское художественное училище (колледж) имени П.П. Романова\"</string>
+    <string name="college_YHDU">ГБПОУ РС(Я) Якутское художественное училище (колледж) имени П.П. Романова</string>
     <string name="adress_YHDU">677027, Республика Саха (Якутия), г. Якутск, ул. Горького, 65</string>
     <string name="phone_YHDU">тел/факс: 8 (4112) 42-82-14</string>
     <string name="email_YHDU">izoyhu@gov14.ru</string>

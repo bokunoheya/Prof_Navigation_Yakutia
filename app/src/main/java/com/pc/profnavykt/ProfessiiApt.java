@@ -62,7 +62,7 @@ public class ProfessiiApt extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_apt, container, false);
-        Button s13_02_03=root.findViewById(R.id.button6);
+        Button s13_02_03=root.findViewById(R.id.button1);
         s13_02_03.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03));
 
         Button s13_02_11=root.findViewById(R.id.button1);
@@ -71,10 +71,10 @@ public class ProfessiiApt extends Fragment {
         Button s15_01_05=root.findViewById(R.id.button2);
         s15_01_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
 
-        Button s18_01_33=root.findViewById(R.id.button3);
+        Button s18_01_33=root.findViewById(R.id.button1);
         s18_01_33.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s18_01_33));
 
-        Button s21_02_14=root.findViewById(R.id.button4);
+        Button s21_02_14=root.findViewById(R.id.button1);
         s21_02_14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_14));
 
         Button s21_01_08=root.findViewById(R.id.b_s21_01_08);

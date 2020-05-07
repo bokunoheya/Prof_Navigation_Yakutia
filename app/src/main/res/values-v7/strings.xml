@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--1. 6. ГАПОУ РС (Я) "Якутский промышленный техникум им. Т.Г.Десяткина"»-->
-    <string name="college_IPT"> 6. ГАПОУ РС (Я) "Якутский промышленный техникум им. Т.Г.Десяткина" </string>
+    <string name="college_IPT"> 6. ГАПОУ РС (Я) Якутский промышленный техникум им. Т.Г.Десяткина</string>
     <string name="name_dir_IPT">Христофоров Станислав Робертович</string>
     <string name="adress_IPT">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
     <string name="phone_IPT">" тел/факс: 8(4112) 44 91 56"</string>
