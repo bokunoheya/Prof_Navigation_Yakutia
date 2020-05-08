@@ -11,4 +11,18 @@
     <string name="s13_02_03">"Электрические станции, сети и системы"</string>
     <string name="s13_02_11">"Техническая эксплуатация и обслуживание электрического и электромеханического оборудования. Горная промышленность. Открытые горные работы."</string>
     <string name="s21_01_08">"Машинист на открытых горных работах"</string>
+
+    <string name="college_YTTS">Якутский технологический техникум сервиса</string>
+    <string name="adress_YTTS">677007 Республика Саха (Якутия),  г. Якутск, ул. Чернышевского, 74</string>
+    <string name="phone_YTTS"> 8 (4112) 36-31-49, 8 (4112) 36-32-19</string>
+    <string name="email_YTTS">e-mail: yatts@gov14.ru</string>
+    <string name="site_YTTS">http://http://yatts.ru//</string>
+
+    <string name="s19_01_04">Пекарь</string>
+    <string name="s19_02_03">Технология хлеба, макаронных и кондитерских изделий</string>
+
+
+    <string name="kv_text_s19_01_04">Пекарь-кондитер 3 разряда</string>
+    <string name="kv_text_s19_02_03">Техник-технолог (16475 Пекарь-мастер)</string>
+
 </resources>

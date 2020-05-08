@@ -21,7 +21,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_opacity_p"
                 android:text="@string/soc_gar_detyam_sir" />
 
             <Button
@@ -29,7 +30,8 @@
                 style="@style/soc_gar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_opacity_b"
                 android:text="@string/gov_ac_st" />
 
             <Button
@@ -37,7 +39,8 @@
                 style="@style/soc_gar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_opacity_o"
                 android:text="@string/mery_soc_pod" />
 
             <Button
@@ -45,7 +48,8 @@
                 style="@style/soc_gar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_opacity_g"
                 android:text="@string/pitanie" />
 
             <Button
@@ -53,7 +57,7 @@
                 style="@style/soc_gar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="?attr/selectableItemBackground"
+                android:background="@drawable/block_opacity_r"
                 android:text="@string/gov_soc_st" />
         </LinearLayout>
     </ScrollView>

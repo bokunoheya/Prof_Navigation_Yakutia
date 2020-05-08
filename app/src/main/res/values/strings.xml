@@ -2,7 +2,7 @@
     <string name="app_name">Проф_Навигатор_Якутии</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Проф_Навигатор_Якутии</string>
+    <string name="nav_header_title">ПРОФ_НАВИГАТОР_ЯКУТИИ</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
@@ -96,7 +96,7 @@
     <string name="s13_02_11">"Техническая эксплуатация и обслуживание электрического и электромеханического оборудования (Горная промышленность. Открытые горные работы) "</string>
     <string name="s15_01_05">"Сварщик (ручной и частично механизированной сварки (наплавки) "</string>
     <string name="s18_01_05">"Лаборант по контролю качества сырья, реактивов, промежуточных продуктов, готовой продукции, отходов производства (по отраслям) "</string>
-    <string name="s21_02_14">"Маркшейдерское дело "</string>
+    <string name="s21_02_14">"Маркшейдерское дело"</string>
     <string name="s54_01_02">Ювелир</string>
     <string name="s19_01_04">Пекарь</string>
     <string name="s21_01_10">Ремонтник горного оборудования</string>
@@ -226,5 +226,6 @@
     <string name="uznat">Узнать</string>
     <string name="hints">Подсказка</string>
     <string name="hint_test">Как выбрать профессию, чтобы в будущем приносила не только деньгт, но и удовольствие? Эти тесты помогут тебе определить твои способности.</string>
+    <string name="mest_25">25 мест</string>
 
 </resources>

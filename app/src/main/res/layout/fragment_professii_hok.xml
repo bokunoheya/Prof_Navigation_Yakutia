@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/buttonStyle1"
+    android:theme="@style/buttonStyle2"
     tools:context="com.pc.profnavykt.ProfessiiHok" >
 
     <ScrollView
@@ -24,6 +24,8 @@
                     android:id="@+id/button1"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_o"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -36,6 +38,7 @@
                     android:layout_height="100dp"
                     android:elevation="2dp"
                     android:src="@drawable/mlh"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/button1"
@@ -63,6 +66,7 @@
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_r"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -75,6 +79,7 @@
                     android:layout_height="100dp"
                     android:elevation="2dp"
                     android:src="@drawable/em"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/button2" />
@@ -105,6 +110,7 @@
                     android:layout_marginBottom="24dp"
                     android:elevation="3dp"
                     android:src="@drawable/om"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/button3" />
@@ -113,6 +119,7 @@
                     android:id="@+id/b_s23_01_06"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_p"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -143,6 +150,7 @@
                     android:layout_height="100dp"
                     android:elevation="3dp"
                     android:src="@drawable/om"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/button4" />
@@ -151,6 +159,7 @@
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_g"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"

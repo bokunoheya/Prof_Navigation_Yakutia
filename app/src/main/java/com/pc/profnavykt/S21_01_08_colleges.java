@@ -1,21 +1,20 @@
 package com.pc.profnavykt;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Specialnosti#newInstance} factory method to
+ * Use the {@link S21_01_08_colleges#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Specialnosti extends Fragment {
+public class S21_01_08_colleges extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -25,7 +24,7 @@ public class Specialnosti extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Specialnosti() {
+    public S21_01_08_colleges() {
         // Required empty public constructor
     }
 
@@ -35,11 +34,11 @@ public class Specialnosti extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Specialnosti.
+     * @return A new instance of fragment S21_01_10_colleges.
      */
     // TODO: Rename and change types and number of parameters
-    public static Specialnosti newInstance(String param1, String param2) {
-        Specialnosti fragment = new Specialnosti();
+    public static S21_01_08_colleges newInstance(String param1, String param2) {
+        S21_01_08_colleges fragment = new S21_01_08_colleges();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,13 +59,13 @@ public class Specialnosti extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root= inflater.inflate(R.layout.fragmentse, container, false);
-        Button button8= root.findViewById(R.id.button8);
-        Button button9= root.findViewById(R.id.button9);
-        Button button10= root.findViewById(R.id.button10);
-        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        button9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        button10.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.mrtk));
+        View root= inflater.inflate(R.layout.s21_01_08_colleges, container, false);
+        Button but1= root.findViewById(R.id.but1);
+        Button but2= root.findViewById(R.id.but2);
+        Button but3= root.findViewById(R.id.but3);
+        but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
+        but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
+        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.mrtk));
         return root;
     }
 }

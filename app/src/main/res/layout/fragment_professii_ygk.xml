@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/buttonStyle1"
+    android:theme="@style/buttonStyle2"
     tools:context="com.pc.profnavykt.ProfessiiYgk" >
 
     <ScrollView
@@ -24,6 +24,8 @@
                     android:id="@+id/button1"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/block_opacity_o"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -35,6 +37,7 @@
                     android:layout_width="120dp"
                     android:layout_height="100dp"
                     android:elevation="2dp"
+                    android:visibility="invisible"
                     android:src="@drawable/mlh"
                     app:layout_constraintBottom_toBottomOf="@+id/button1"
                     app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +66,7 @@
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_r"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -74,6 +78,7 @@
                     android:layout_width="120dp"
                     android:layout_height="100dp"
                     android:elevation="2dp"
+                    android:visibility="invisible"
                     android:src="@drawable/em"
                     app:layout_constraintBottom_toBottomOf="@+id/button2"
                     app:layout_constraintStart_toStartOf="parent"

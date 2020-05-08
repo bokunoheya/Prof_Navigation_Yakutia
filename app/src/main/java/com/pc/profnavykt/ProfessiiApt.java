@@ -62,23 +62,23 @@ public class ProfessiiApt extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_apt, container, false);
-        Button s13_02_03=root.findViewById(R.id.button1);
-        s13_02_03.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03));
+        Button button1=root.findViewById(R.id.button1);
+        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_11));
 
-        Button s13_02_11=root.findViewById(R.id.button1);
-        s13_02_11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_11));
+        Button button2=root.findViewById(R.id.button2);
+        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
 
-        Button s15_01_05=root.findViewById(R.id.button2);
-        s15_01_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
+        Button button3=root.findViewById(R.id.button3);
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
 
-        Button s18_01_33=root.findViewById(R.id.button1);
-        s18_01_33.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s18_01_33));
+      Button button4=root.findViewById(R.id.button4);
+        button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_14));
 
-        Button s21_02_14=root.findViewById(R.id.button1);
-        s21_02_14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_14));
+        Button button5=root.findViewById(R.id.button5);
+        button5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08));
 
-        Button s21_01_08=root.findViewById(R.id.b_s21_01_08);
-        s21_01_08.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08));
+        Button b_s21_01_08=root.findViewById(R.id.button6);
+        b_s21_01_08.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03));
         return root;
     }
 }

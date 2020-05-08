@@ -5,6 +5,7 @@
     android:id="@+id/frt"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/buttonStyle2"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <ScrollView
@@ -22,10 +23,11 @@
 
                 <Button
                     android:id="@+id/button1"
-                    style="@style/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
+                    android:layout_marginTop="10dp"
+
+                    android:background="@drawable/block_opacity_r"
                     android:clickable="true"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -34,11 +36,12 @@
 
                 <ImageView
                     android:id="@+id/imageView1"
-                    android:layout_width="@dimen/logo_list"
-                    android:layout_height="@dimen/logo_list"
+                    android:layout_width="105dp"
+                    android:layout_height="104dp"
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_apt"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button1"
                     app:layout_constraintStart_toStartOf="@+id/button1"
                     app:layout_constraintTop_toTopOf="@+id/button1" />
@@ -68,8 +71,7 @@
                     style="@style/buttonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_o"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +84,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_mrtk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button2"
                     app:layout_constraintStart_toStartOf="@+id/button2"
                     app:layout_constraintTop_toTopOf="@+id/button2" />
@@ -110,7 +113,7 @@
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
+                    android:background="@drawable/block_opacity_b"
                     android:clickable="true"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -124,6 +127,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/f1"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button3"
                     app:layout_constraintStart_toStartOf="@+id/button3"
                     app:layout_constraintTop_toTopOf="@+id/button3" />
@@ -151,8 +155,7 @@
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_g"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -165,6 +168,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/f2"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button4"
                     app:layout_constraintStart_toStartOf="@+id/button4"
                     app:layout_constraintTop_toTopOf="@+id/button4" />
@@ -192,8 +196,9 @@
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@drawable/block_opacity_r"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -206,6 +211,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/f3"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button5"
                     app:layout_constraintStart_toStartOf="@+id/button5"
                     app:layout_constraintTop_toTopOf="@+id/button5" />
@@ -233,8 +239,9 @@
                     android:id="@+id/button6"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@drawable/block_opacity_g"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -247,6 +254,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_ytek"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button6"
                     app:layout_constraintStart_toStartOf="@+id/button6"
                     app:layout_constraintTop_toTopOf="@+id/button6" />
@@ -254,8 +262,8 @@
                 <TextView
                     android:id="@+id/textView6"
                     style="@style/buttonStyle"
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/logo_list"
+                    android:layout_width="278dp"
+                    android:layout_height="@dimen/heightList"
                     android:layout_weight="0.1"
                     android:elevation="2dp"
                     android:text="@string/YTEK"
@@ -263,7 +271,8 @@
                     app:layout_constraintEnd_toEndOf="@+id/button6"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView6"
-                    app:layout_constraintTop_toTopOf="@+id/button6" />
+                    app:layout_constraintTop_toTopOf="@+id/button6"
+                    app:layout_constraintVertical_bias="0.355" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 <!--_________________________________________________________________ -->
 
@@ -275,8 +284,9 @@
                     android:id="@+id/button7"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@drawable/block_opacity_p"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -289,6 +299,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_ykit"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button7"
                     app:layout_constraintStart_toStartOf="@+id/button7"
                     app:layout_constraintTop_toTopOf="@+id/button7" />
@@ -317,8 +328,7 @@
                     android:id="@+id/button8"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_b"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -331,6 +341,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_ygk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button8"
                     app:layout_constraintStart_toStartOf="@+id/button8"
                     app:layout_constraintTop_toTopOf="@+id/button8" />
@@ -359,8 +370,7 @@
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_o"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -373,6 +383,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_ruor"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button9"
                     app:layout_constraintStart_toStartOf="@+id/button9"
                     app:layout_constraintTop_toTopOf="@+id/button9" />
@@ -400,8 +411,7 @@
                     android:id="@+id/button10"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_r"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -414,6 +424,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_yki"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button10"
                     app:layout_constraintStart_toStartOf="@+id/button10"
                     app:layout_constraintTop_toTopOf="@+id/button10" />
@@ -441,8 +452,7 @@
                     android:id="@+id/button11"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_p"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -455,6 +465,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_yhdu"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button11"
                     app:layout_constraintStart_toStartOf="@+id/button11"
                     app:layout_constraintTop_toTopOf="@+id/button11" />
@@ -482,8 +493,7 @@
                     android:id="@+id/button12"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_o"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -496,6 +506,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logoymk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button12"
                     app:layout_constraintStart_toStartOf="@+id/button12"
                     app:layout_constraintTop_toTopOf="@+id/button12" />
@@ -523,8 +534,7 @@
                     android:id="@+id/button13"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_g"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -537,6 +547,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logotype2"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button13"
                     app:layout_constraintStart_toStartOf="@+id/button13"
                     app:layout_constraintTop_toTopOf="@+id/button13" />
@@ -564,8 +575,7 @@
                     android:id="@+id/button14"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_r"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -578,6 +588,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_hok"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button14"
                     app:layout_constraintStart_toStartOf="@+id/button14"
                     app:layout_constraintTop_toTopOf="@+id/button14" />
@@ -605,8 +616,7 @@
                     android:id="@+id/button15"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_b"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -619,6 +629,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_npk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button15"
                     app:layout_constraintStart_toStartOf="@+id/button15"
                     app:layout_constraintTop_toTopOf="@+id/button15" />
@@ -646,8 +657,7 @@
                     android:id="@+id/button16"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_g"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -660,6 +670,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_vpk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button16"
                     app:layout_constraintStart_toStartOf="@+id/button16"
                     app:layout_constraintTop_toTopOf="@+id/button16" />
@@ -687,8 +698,7 @@
                     android:id="@+id/button17"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="?attr/colorButtonNormal"
-                    android:clickable="true"
+                    android:background="@drawable/block_opacity_p"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -701,6 +711,7 @@
                     android:layout_marginStart="16dp"
                     android:elevation="2dp"
                     android:src="@drawable/logo_ypk"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="@+id/button17"
                     app:layout_constraintStart_toStartOf="@+id/button17"
                     app:layout_constraintTop_toTopOf="@+id/button17" />
@@ -720,6 +731,47 @@
                     app:layout_constraintTop_toTopOf="@+id/button17" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <!--_________________________________________________________________ -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_opacity_p"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="@dimen/logo_list"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_marginStart="16dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/logo_ypk"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/button18"
+                    app:layout_constraintStart_toStartOf="@+id/button18"
+                    app:layout_constraintTop_toTopOf="@+id/button18" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    style="@style/buttonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_weight="0.1"
+                    android:elevation="2dp"
+                    android:text="@string/YPK"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/button18"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView18"
+                    app:layout_constraintTop_toTopOf="@+id/button18" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
             <Button
                 android:id="@+id/b_s23_01_06"
                 style="@style/buttonStyle"

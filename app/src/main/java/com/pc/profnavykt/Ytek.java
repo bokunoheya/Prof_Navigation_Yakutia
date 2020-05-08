@@ -33,7 +33,7 @@ public class Ytek extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Specialnosti.
+     * @return A new instance of fragment S21_01_10_colleges.
      */
     // TODO: Rename and change types and number of parameters
     public static Ytek newInstance(String param1, String param2) {
@@ -59,8 +59,8 @@ public class Ytek extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.ytek, container, false);
-        Button info=root.findViewById(R.id.info_button);
-        info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));
+      /*  Button info=root.findViewById(R.id.info_button);
+        info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));*/
         Button professii=root.findViewById(R.id.professii_button);
         professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiYtek));
         return root;

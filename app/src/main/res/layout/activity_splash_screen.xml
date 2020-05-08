@@ -10,41 +10,41 @@
     <TextView
         android:id="@+id/textView23"
         style="@style/app_name_start"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="394dp"
+        android:layout_height="172dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:text="@string/app_name_v2"
+        android:text="@string/nav_header_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.971" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
-        android:layout_width="330dp"
-        android:layout_height="623dp"
+        android:layout_width="315dp"
+        android:layout_height="653dp"
         android:indeterminateDrawable="@drawable/spin_round"
         android:indeterminateDuration="3500"
         android:indeterminateOnly="true"
-        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23"
-        app:layout_constraintVertical_bias="0.507" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="309dp"
-        android:layout_height="631dp"
+        android:layout_width="266dp"
+        android:layout_height="585dp"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="@+id/progressBar"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/progressBar"
         app:layout_constraintTop_toTopOf="@+id/progressBar"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.632"
         app:srcCompat="@drawable/logo_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>
