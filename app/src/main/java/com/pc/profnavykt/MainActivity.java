@@ -5,6 +5,8 @@ import android.view.Menu;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -16,9 +18,14 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
-
+    protected OnBackPressedListener onBackPressedListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Hello, World!");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final Toolbar toolbar = findViewById(R.id.toolbar);
@@ -59,8 +66,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
+/*    @Override
     public void onBackPressed() {
         Toast.makeText(this, "Так переход назад не возможен, нажмите на верхне-левое меню", Toast.LENGTH_SHORT).show();
-    }
+    }*/
+@Override                                                                                   // Обработка перехода Назад
+public void onBackPressed() {                                                               //
+    if (onBackPressedListener != null)                                                      //
+        onBackPressedListener.doBack();                                                     //
+    else                                                                                    //
+        super.onBackPressed();                                                              //
+}                                                                                           //
+    public interface OnBackPressedListener {                                                //
+        public void doBack();                                                               //
+    }                                                                                       //
+    public void setOnBackPressedListener(OnBackPressedListener onBackPressedListener) {     //
+        this.onBackPressedListener = onBackPressedListener;                                 //
+    }//
+
 }

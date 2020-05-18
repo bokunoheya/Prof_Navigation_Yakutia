@@ -61,11 +61,8 @@ public class S19_01_04_colleges extends Fragment {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.s19_01_04_colleges, container, false);
         Button but1= root.findViewById(R.id.but1);
-        Button but2= root.findViewById(R.id.but2);
-        Button but3= root.findViewById(R.id.but3);
-        but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.mrtk));
+        but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ytts));
+
         return root;
     }
 }

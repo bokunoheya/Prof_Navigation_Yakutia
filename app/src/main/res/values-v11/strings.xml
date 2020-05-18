@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    &lt;!&ndash;ГБПОУ РС (Я) «ЛЕНСКИЙ ТЕХНОЛОГИЧЕСКИЙ ТЕХНИКУМ В г. Ленск»&ndash;&gt;
+
+    <string name="LTT">Ленский технологический техникум</string>
     <string name="college_LTT">ГБПОУ РС (Я) «ЛЕНСКИЙ ТЕХНОЛОГИЧЕСКИЙ ТЕХНИКУМ В г. Ленск» </string>
     <string name="name_dir_LTT">БУТАКОВА Оксана Стефановна</string>
     <string name="adress_LTT">678144, Республика Саха (Якутия), г. Ленск, ул. Нюйская, д.14</string>
     <string name="phone_LTT">" тел/факс: 8 (41137) 2-31-29"</string>
     <string name="email_LTT">ltt_lensk@gov14.ru</string>
     <string name="site_LTT">https://lensktekh.ru/</string>
-    &lt;!&ndash;Специальности&ndash;&gt;
+
     <string name="s13_01_13">"Электромонтер по ремонту и обслуживанию электрооборудования (по отраслям) "</string>
     <string name="s15_01_30">"Слесарь "</string>
     <string name="s18_01_27">"Машинист технологических насосов и компрессоров "</string>
     <string name="s20_01_01">"Пожарный "</string>
     <string name="s21_01_03">"Автомеханик "</string>
     <string name="s39_01_01">"Социальный работник "</string>
-    &lt;!&ndash;Квалификация&ndash;&gt;
+    <string name="s18_01_29">Мастер по обслуживанию магистральных трубопроводов</string>-->
     <string name="kv_text_s13_01_13">Электромонтёр по ремонту и обслуживанию электрооборудования</string>
     <string name="kv_text_s18_01_27">Машинист компрессорных установок</string>
     <string name="kv_text_s18_01_29">Монтер по защите подземных трубопроводов от коррозии, Трубопроводчик линейный</string>-->

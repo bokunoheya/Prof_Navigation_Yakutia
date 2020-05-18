@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--1. 5. ГАПОУ РС(Я) "Якутский колледж связи и энергетики имени П.И. Дудкина"»-->
-    <string name="college_IKSUH">1. 5. ГАПОУ РС(Я) Якутский колледж связи и энергетики имени П.И. Дудкина" В г.Якутск</string>
-    <string name="name_dir_IKSUH">Семенов Гаврил Иннокентьевич</string>
-    <string name="adress_IKSUH">677000, Республика Саха (Якутия), г. Якутск, ул. Петра Алексеева, 25</string>
-    <string name="phone_IKSUH">" тел/факс: 8(4112) 44-46-17"</string>
-    <string name="email_IKSUH">yaktsit@mail.ru</string>
-    <string name="site_IKSUH">http://yakse.ru/</string>
+    <!--1. 5. ГАПОУ РС(Я) "Якутский колледж связи и энергетики им. П.И. Дудкина"»-->
+    <string name="YKSE">Якутский колледж связи и энергетики им. П.И. Дудкина"</string>
+    <string name="college_YKSE">ГАПОУ РС(Я) Якутский колледж связи и энергетики им. П.И. Дудкина" В г.Якутск</string>
+    <string name="name_dir_YKSE">Семенов Гаврил Иннокентьевич</string>
+    <string name="adress_YKSE">677000, Республика Саха (Якутия), г. Якутск, ул. Петра Алексеева, 25</string>
+    <string name="phone_YKSE">" тел/факс: 8(4112) 44-46-17"</string>
+    <string name="email_YKSE">yaktsit@mail.ru</string>
+    <string name="site_YKSE">http://yakse.ru/</string>
     <!--Специальности-->
     <string name="s09_02_06">"Сетевое и системное администрирование "</string>
     <string name="s09_02_07">"Информационные системы и программирование "</string>

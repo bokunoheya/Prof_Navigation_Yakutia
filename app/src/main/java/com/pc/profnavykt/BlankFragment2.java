@@ -61,12 +61,15 @@ public class BlankFragment2 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_blank2, container, false);
-        Button but2= root.findViewById(R.id.but2) ;
-        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_10_colleges));
+
         Button but1= root.findViewById(R.id.but1) ;
         but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s19_01_04_colleges));
+        Button but2= root.findViewById(R.id.but2) ;
+        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_10_colleges));
         Button but3= root.findViewById(R.id.but3) ;
         but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08_colleges));
+        Button but4= root.findViewById(R.id.but4) ;
+        but4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03_colleges));
         return root;
     }
 }

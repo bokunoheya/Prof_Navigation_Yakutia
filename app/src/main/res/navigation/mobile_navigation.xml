@@ -113,55 +113,25 @@
             app:destination="@id/professiiApt" />
     </fragment>
     <fragment
-        android:id="@+id/mrtk"
-        android:name="com.pc.profnavykt.Mrtk"
-        android:label="@string/app_name" />
-    <fragment
         android:id="@+id/socGarant"
         android:name="com.pc.profnavykt.ui.SocGarant"
         android:label="@string/soc_garant"
         tools:layout="@layout/soc_garant_fragment" >
         <action
-            android:id="@+id/action_socGarant_to_soc_gar_child"
-            app:destination="@id/soc_gar_child" />
+            android:id="@+id/action_socGarant_to_soc_gar_child" />
         <action
             android:id="@+id/action_socGarant_to_pitanie"
-            app:destination="@id/pitanie" />
+            />
         <action
             android:id="@+id/action_socGarant_to_govAcSt"
-            app:destination="@id/govAcSt" />
+            />
         <action
             android:id="@+id/action_socGarant_to_merySocPod"
-            app:destination="@id/merySocPod" />
+           />
         <action
             android:id="@+id/action_socGarant_to_govSocSt"
-            app:destination="@id/govSocSt" />
+             />
     </fragment>
-    <fragment
-        android:id="@+id/soc_gar_child"
-        android:name="com.pc.profnavykt.Soc_gar_child"
-        android:label="@string/soc_gar_detyam_sir"
-        tools:layout="@layout/fragment_soc_gar_child" />
-    <fragment
-        android:id="@+id/pitanie"
-        android:name="com.pc.profnavykt.pitanie"
-        android:label="@string/pitanie"
-        tools:layout="@layout/fragment_pitanie" />
-    <fragment
-        android:id="@+id/govAcSt"
-        android:name="com.pc.profnavykt.GovAcSt"
-        android:label="@string/gov_ac_st"
-        tools:layout="@layout/fragment_gov_ac_st" />
-    <fragment
-        android:id="@+id/merySocPod"
-        android:name="com.pc.profnavykt.MerySocPod"
-        android:label="@string/mery_soc_pod"
-        tools:layout="@layout/fragment_mery_soc_pod" />
-    <fragment
-        android:id="@+id/govSocSt"
-        android:name="com.pc.profnavykt.GovSocSt"
-        android:label="@string/gov_soc_st"
-        tools:layout="@layout/fragment_gov_soc_st" />
     <fragment
         android:id="@+id/blankFragment3"
         android:name="com.pc.profnavykt.BlankFragment3"
@@ -174,58 +144,28 @@
         tools:layout="@layout/fragment_professii_apt" >
         <action
             android:id="@+id/action_professiiApt_to_s13_02_03"
-            app:destination="@id/s13_02_03" />
+            />
         <action
             android:id="@+id/action_professiiApt_to_s13_02_11"
-            app:destination="@id/s13_02_11" />
+             />
         <action
             android:id="@+id/action_professiiApt_to_s15_01_05"
-            app:destination="@id/s15_01_05" />
+            />
         <action
             android:id="@+id/action_professiiApt_to_s21_02_14"
-            app:destination="@id/s21_02_14" />
+            />
         <action
             android:id="@+id/action_professiiApt_to_s18_01_33"
-            app:destination="@id/s18_01_33" />
+           />
         <action
             android:id="@+id/action_professiiApt_to_s21_01_08"
-            app:destination="@id/s21_01_08" />
+             />
     </fragment>
     <activity
         android:id="@+id/splashScreen"
         android:name="com.pc.profnavykt.SplashScreen"
         android:label="activity_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
-    <fragment
-        android:id="@+id/s13_02_03"
-        android:name="com.pc.profnavykt.S13_02_03"
-        android:label="fragment_s13_02_03"
-        tools:layout="@layout/fragment_s13_02_03" />
-    <fragment
-        android:id="@+id/s13_02_11"
-        android:name="com.pc.profnavykt.S13_02_11"
-        android:label="fragment_s13_02_11"
-        tools:layout="@layout/fragment_s13_02_11" />
-    <fragment
-        android:id="@+id/s18_01_33"
-        android:name="com.pc.profnavykt.S18_01_33"
-        android:label="fragment_s18_01_33"
-        tools:layout="@layout/fragment_s18_01_33" />
-    <fragment
-        android:id="@+id/s21_01_08"
-        android:name="com.pc.profnavykt.S21_01_08"
-        android:label="fragment_s21_01_08"
-        tools:layout="@layout/fragment_s21_01_08" />
-    <fragment
-        android:id="@+id/s15_01_05"
-        android:name="com.pc.profnavykt.S15_01_05"
-        android:label="fragment_s15_01_05"
-        tools:layout="@layout/fragment_s15_01_05" />
-    <fragment
-        android:id="@+id/s21_02_14"
-        android:name="com.pc.profnavykt.S21_02_14"
-        android:label="fragment_s21_02_14"
-        tools:layout="@layout/fragment_s21_02_14" />
     <fragment
         android:id="@+id/akns"
         android:name="com.pc.profnavykt.Akns"
@@ -256,40 +196,15 @@
         tools:layout="@layout/fragment_professii_akns">
         <action
             android:id="@+id/action_professiiAkns_to_s35_01_01"
-            app:destination="@id/s35_01_01" />
+             />
         <action
             android:id="@+id/action_professiiAkns_to_s13_01_07"
-            app:destination="@id/s13_01_07" />
+           />
         <action
             android:id="@+id/action_professiiAkns_to_s35_01_21"
-            app:destination="@id/s35_01_21" />
+            />
     </fragment>
-    <fragment
-        android:id="@+id/s35_01_01"
-        android:name="com.pc.profnavykt.S35_01_01"
-        android:label="fragment_s35_01_01"
-        tools:layout="@layout/fragment_s35_01_01" />
-    <fragment
-        android:id="@+id/s13_01_07"
-        android:name="com.pc.profnavykt.S13_01_07"
-        android:label="fragment_s13_01_07"
-        tools:layout="@layout/fragment_s13_01_07" />
-    <fragment
-        android:id="@+id/s13_01_10"
-        android:name="com.pc.profnavykt.S13_01_10"
-        android:label="fragment_s13_01_10"
-        tools:layout="@layout/fragment_s13_01_10" />
-    <fragment
-        android:id="@+id/s20_01_01"
-        android:name="com.pc.profnavykt.S20_01_01"
-        android:label="fragment_s20_01_01"
-        tools:layout="@layout/fragment_s20_01_01" />
 
-    <fragment
-        android:id="@+id/s35_01_21"
-        android:name="com.pc.profnavykt.S35_01_21"
-        android:label="fragment_s35_01_21"
-        tools:layout="@layout/fragment_s35_01_21" />
     <fragment
         android:id="@+id/professiiAmk"
         android:name="com.pc.profnavykt.ProfessiiAmk"
@@ -329,36 +244,6 @@
         android:label="@string/hints"
         tools:layout="@layout/fragment_blank5" />
     <fragment
-        android:id="@+id/s54_02_02"
-        android:name="com.pc.profnavykt.S54_02_02"
-        android:label="fragment_s54_02_02"
-        tools:layout="@layout/fragment_s54_02_02" />
-    <fragment
-        android:id="@+id/s54_02_04"
-        android:name="com.pc.profnavykt.S54_02_02"
-        android:label="fragment_s54_02_02"
-        tools:layout="@layout/fragment_s54_02_02" />
-    <fragment
-        android:id="@+id/s55_02_01"
-        android:name="com.pc.profnavykt.S55_02_01"
-        android:label="fragment_s55_02_01"
-        tools:layout="@layout/fragment_s55_02_01" />
-    <fragment
-        android:id="@+id/s53_02_07"
-        android:name="com.pc.profnavykt.S53_02_07"
-        android:label="fragment_s53_02_07"
-        tools:layout="@layout/fragment_s53_02_07" />
-    <fragment
-        android:id="@+id/s54_02_05"
-        android:name="com.pc.profnavykt.S54_02_05"
-        android:label="fragment_s54_02_05"
-        tools:layout="@layout/fragment_s54_02_05" />
-    <fragment
-        android:id="@+id/s54_02_042"
-        android:name="com.pc.profnavykt.S54_02_04"
-        android:label="fragment_s54_02_04"
-        tools:layout="@layout/fragment_s54_02_04" />
-    <fragment
         android:id="@+id/s54_02_01"
         android:name="com.pc.profnavykt.S54_02_01"
         android:label="fragment_s54_02_01"
@@ -369,101 +254,9 @@
         android:label="fragment_s53_02_06"
         tools:layout="@layout/fragment_s53_02_06" />
     <fragment
-        android:id="@+id/s53_02_05"
-        android:name="com.pc.profnavykt.S53_02_05"
-        android:label="fragment_s53_02_05"
-        tools:layout="@layout/fragment_s53_02_05" />
-    <fragment
-        android:id="@+id/s53_02_04"
-        android:name="com.pc.profnavykt.S53_02_04"
-        android:label="fragment_s53_02_04"
-        tools:layout="@layout/fragment_s53_02_04" />
-    <fragment
-        android:id="@+id/s53_02_03_srok_6"
-        android:name="com.pc.profnavykt.S53_02_03_srok_6"
-        android:label="fragment_s53_02_03_srok_6"
-        tools:layout="@layout/fragment_s53_02_03_srok_6" />
-    <fragment
-        android:id="@+id/s53_02_03"
-        android:name="com.pc.profnavykt.S53_02_03"
-        android:label="fragment_s53_02_03"
-        tools:layout="@layout/fragment_s53_02_03" />
-    <fragment
-        android:id="@+id/s52_02_01"
-        android:name="com.pc.profnavykt.S52_02_01"
-        android:label="fragment_s52_02_01"
-        tools:layout="@layout/fragment_s52_02_01" />
-    <fragment
-        android:id="@+id/s51_02_03"
-        android:name="com.pc.profnavykt.S51_02_03"
-        android:label="fragment_s51_02_03"
-        tools:layout="@layout/fragment_s51_02_03" />
-    <fragment
-        android:id="@+id/s51_02_02"
-        android:name="com.pc.profnavykt.S51_02_02"
-        android:label="fragment_s51_02_02"
-        tools:layout="@layout/fragment_s51_02_02" />
-    <fragment
-        android:id="@+id/s51_02_01"
-        android:name="com.pc.profnavykt.S51_02_01"
-        android:label="fragment_s51_02_01"
-        tools:layout="@layout/fragment_s51_02_01" />
-    <fragment
-        android:id="@+id/s49_02_01"
-        android:name="com.pc.profnavykt.S49_02_01"
-        android:label="fragment_s49_02_01"
-        tools:layout="@layout/fragment_s49_02_01" />
-    <fragment
-        android:id="@+id/s43_02_15"
-        android:name="com.pc.profnavykt.S43_02_15"
-        android:label="fragment_s43_02_15"
-        tools:layout="@layout/fragment_s43_02_15" />
-    <fragment
-        android:id="@+id/s43_02_01"
-        android:name="com.pc.profnavykt.S43_02_01"
-        android:label="fragment_s43_02_01"
-        tools:layout="@layout/fragment_s43_02_01" />
-    <fragment
-        android:id="@+id/s38_02_05"
-        android:name="com.pc.profnavykt.S38_02_05"
-        android:label="fragment_s38_02_05"
-        tools:layout="@layout/fragment_s38_02_05" />
-    <fragment
-        android:id="@+id/s38_02_03"
-        android:name="com.pc.profnavykt.S38_02_03"
-        android:label="fragment_s38_02_03"
-        tools:layout="@layout/fragment_s38_02_03" />
-    <fragment
-        android:id="@+id/s38_02_01"
-        android:name="com.pc.profnavykt.S38_02_01"
-        android:label="fragment_s38_02_01"
-        tools:layout="@layout/fragment_s38_02_01" />
-    <fragment
-        android:id="@+id/s19_02_03"
-        android:name="com.pc.profnavykt.S19_02_03"
-        android:label="fragment_s19_02_03"
-        tools:layout="@layout/fragment_s19_02_03" />
-    <fragment
-        android:id="@+id/s10_02_01"
-        android:name="com.pc.profnavykt.S10_02_01"
-        android:label="fragment_s10_02_01"
-        tools:layout="@layout/fragment_s10_02_01" />
-    <fragment
-        android:id="@+id/ytek"
-        android:name="com.pc.profnavykt.Ytek"
-        android:label="@string/app_name" />
-    <fragment
-        android:id="@+id/ymk"
-        android:name="com.pc.profnavykt.Ymk"
-        android:label="@string/app_name" />
-    <fragment
         android:id="@+id/professiiYmk"
         android:name="com.pc.profnavykt.ProfessiiYmk"
         android:label="@string/YMK" />
-    <fragment
-        android:id="@+id/ykit"
-        android:name="com.pc.profnavykt.Ykit"
-        android:label="@string/app_name" />
     <fragment
         android:id="@+id/professiiIKSUH"
         android:name="com.pc.profnavykt.ProfessiiIKSUH"
@@ -485,26 +278,6 @@
         android:name="com.pc.profnavykt.ProfessiiHok"
         android:label="@string/HOK" />
     <fragment
-        android:id="@+id/ruor"
-        android:name="com.pc.profnavykt.Ruor"
-        android:label="@string/app_name" />
-    <fragment
-        android:id="@+id/ybs"
-        android:name="com.pc.profnavykt.Ybs"
-        android:label="@string/app_name" />
-    <fragment
-        android:id="@+id/ygk"
-        android:name="com.pc.profnavykt.Ygk"
-        android:label="@string/app_name" />
-    <fragment
-        android:id="@+id/yhdu"
-        android:name="com.pc.profnavykt.Yhdu"
-        android:label="@string/app_name" />
-    <fragment
-        android:id="@+id/yki"
-        android:name="com.pc.profnavykt.Yki"
-        android:label="@string/app_name" />
-    <fragment
         android:id="@+id/professiiYhdu"
         android:name="com.pc.profnavykt.ProfessiiYhdu"
         android:label="@string/YHDU" />
@@ -513,115 +286,14 @@
         android:name="com.pc.profnavykt.ProfessiiYki"
         android:label="@string/YKI" />
     <fragment
-        android:id="@+id/professiiRuor"
-        android:name="com.pc.profnavykt.ProfessiiRuor"
-        android:label="@string/RUOR"
-        tools:layout="@layout/fragment_professii_ruor" />
-    <fragment
-        android:id="@+id/professiiYgk"
-        android:name="com.pc.profnavykt.ProfessiiYgk"
-        android:label="@string/YGK"
-        tools:layout="@layout/fragment_professii_ygk" />
-    <fragment
-        android:id="@+id/professiiYkit"
-        android:name="com.pc.profnavykt.ProfessiiYkit"
-        android:label="@string/YKIT"
-        tools:layout="@layout/fragment_professii_ykit" />
-    <fragment
-        android:id="@+id/professiiYtek"
-        android:name="com.pc.profnavykt.ProfessiiYtek"
-        android:label="@string/YTEK"
-        tools:layout="@layout/fragment_professii_ytek" />
+        android:id="@+id/professiiNmk"
+        android:name="com.pc.profnavykt.ProfessiiNmk"
+        android:label="@string/NMK" />
     <fragment
         android:id="@+id/blankFragment7"
         android:name="com.pc.profnavykt.BlankFragment7"
         android:label="fragment_blank7"
         tools:layout="@layout/fragment_blank7" />
-    <fragment
-        android:id="@+id/professiiNpk"
-        android:name="com.pc.profnavykt.ProfessiiNpk"
-        android:label="@string/NPK"
-        tools:layout="@layout/fragment_professii_npk" />
-    <fragment
-        android:id="@+id/s44_02_01"
-        android:name="com.pc.profnavykt.S44_02_01"
-        android:label="fragment_s44_02_01"
-        tools:layout="@layout/fragment_s44_02_01" />
-    <fragment
-        android:id="@+id/s44_02_02"
-        android:name="com.pc.profnavykt.S44_02_02"
-        android:label="fragment_s44_02_02"
-        tools:layout="@layout/fragment_s44_02_02" />
-    <fragment
-        android:id="@+id/s44_02_03"
-        android:name="com.pc.profnavykt.S44_02_03"
-        android:label="fragment_s44_02_03"
-        tools:layout="@layout/fragment_s44_02_03" />
-    <fragment
-        android:id="@+id/s44_02_06"
-        android:name="com.pc.profnavykt.S44_02_06"
-        android:label="fragment_s44_02_06"
-        tools:layout="@layout/fragment_s44_02_06" />
-    <fragment
-        android:id="@+id/s49_02_02"
-        android:name="com.pc.profnavykt.S49_02_02"
-        android:label="fragment_s49_02_02"
-        tools:layout="@layout/fragment_s49_02_02" />
-    <fragment
-        android:id="@+id/s54_02_06"
-        android:name="com.pc.profnavykt.S54_02_06"
-        android:label="fragment_s54_02_06"
-        tools:layout="@layout/fragment_s54_02_06" />
-    <fragment
-        android:id="@+id/hok"
-        android:name="com.pc.profnavykt.Hok"
-        android:label="@string/app_name"
-        tools:layout="@layout/hok" />
-    <fragment
-        android:id="@+id/npk"
-        android:name="com.pc.profnavykt.Npk"
-        android:label="@string/app_name"
-        tools:layout="@layout/npk" />
-    <fragment
-        android:id="@+id/vpk"
-        android:name="com.pc.profnavykt.Vpk"
-        android:label="@string/app_name"
-        tools:layout="@layout/vpk" />
-    <fragment
-        android:id="@+id/professiiVpk"
-        android:name="com.pc.profnavykt.ProfessiiVpk"
-        android:label="fragment_professii_vpk"
-        tools:layout="@layout/fragment_professii_vpk" />
-    <fragment
-        android:id="@+id/s44_02_04"
-        android:name="com.pc.profnavykt.S44_02_04"
-        android:label="fragment_s44_02_04"
-        tools:layout="@layout/fragment_s44_02_04" />
-    <fragment
-        android:id="@+id/s44_02_05"
-        android:name="com.pc.profnavykt.S44_02_05"
-        android:label="fragment_s44_02_05"
-        tools:layout="@layout/fragment_s44_02_05" />
-    <fragment
-        android:id="@+id/s20_01_08"
-        android:name="com.pc.profnavykt.S20_01_08"
-        android:label="fragment_s20_01_08"
-        tools:layout="@layout/fragment_s20_01_08" />
-    <fragment
-        android:id="@+id/ypk"
-        android:name="com.pc.profnavykt.Ypk"
-        android:label="@string/app_name"
-        tools:layout="@layout/ypk" />
-    <fragment
-        android:id="@+id/professiiYpk"
-        android:name="com.pc.profnavykt.ProfessiiYpk"
-        android:label="@string/YPK"
-        tools:layout="@layout/fragment_professii_ypk" />
-    <fragment
-        android:id="@+id/s53_02_01"
-        android:name="com.pc.profnavykt.S53_02_01"
-        android:label="fragment_s53_02_01"
-        tools:layout="@layout/fragment_s53_02_01" />
     <fragment
         android:id="@+id/professiiVvt"
         android:name="com.pc.profnavykt.ProfessiiVvt"
@@ -641,15 +313,928 @@
         android:name="com.pc.profnavykt.S21_01_08_colleges"
         android:label="S21_01_08_colleges" />
     <fragment
-        android:id="@+id/professiiYtts"
-        android:name="com.pc.profnavykt.ProfessiiYtts"
-        android:label="fragment_professii_ytts"
-        tools:layout="@layout/fragment_professii_ytts" />
+        android:id="@+id/s08_01_02"
+        android:name="com.pc.profnavykt.S08_01_02"
+        android:label="S08_01_02" />
     <fragment
-        android:id="@+id/s19_01_04"
-        android:name="com.pc.profnavykt.S19_01_04"
-        android:label="fragment_s19_01_04"
-        tools:layout="@layout/fragment_s19_01_04" />
+        android:id="@+id/s44_02_05_colleges"
+        android:name="com.pc.profnavykt.S44_02_05_colleges"
+        android:label="S44_02_05_colleges" />
+
+        <fragment
+            android:id="@+id/s13_01_07_colleges"
+            android:name="com.pc.profnavykt.S13_01_07_colleges"
+            android:label="s13_01_07_colleges"
+            tools:layout="@layout/s13_01_07_colleges" />
+        <fragment
+            android:id="@+id/s23_01_17_colleges"
+            android:name="com.pc.profnavykt.S23_01_17_colleges"
+            android:label="s23_01_17_colleges"
+            tools:layout="@layout/s23_01_17_colleges" />
+            <fragment
+                android:id="@+id/s13_02_03_colleges"
+                android:name="com.pc.profnavykt.S13_02_03_colleges"
+                android:label="s13_02_03_colleges"
+                tools:layout="@layout/s13_02_03_colleges" />
+                <fragment
+                    android:id="@+id/s44_02_04_colleges"
+                    android:name="com.pc.profnavykt.S44_02_04_colleges"
+                    android:label="s44_02_04_colleges"
+                    tools:layout="@layout/s44_02_04_colleges" />
+                <fragment
+                    android:id="@+id/s53_02_01_colleges"
+                    android:name="com.pc.profnavykt.S53_02_01_colleges"
+                    android:label="s53_02_01_colleges"
+                    tools:layout="@layout/s53_02_01_colleges" />
+                <fragment
+                    android:id="@+id/s21_02_15_colleges"
+                    android:name="com.pc.profnavykt.S21_02_15_colleges"
+                    android:label="s44_02_05_colleges"
+                    tools:layout="@layout/s44_02_05_colleges" />
+
+
+        <fragment
+            android:id="@+id/s13_01_07"
+            android:name="com.pc.profnavykt.S13_01_07"
+            android:label="fragment_s13_01_07"
+            tools:layout="@layout/fragment_s13_01_07" />
+        <fragment
+            android:id="@+id/s35_01_01"
+            android:name="com.pc.profnavykt.S35_01_01"
+            android:label="fragment_s35_01_01"
+            tools:layout="@layout/fragment_s35_01_01" />
+        <fragment
+            android:id="@+id/s35_01_21"
+            android:name="com.pc.profnavykt.S35_01_21"
+            android:label="fragment_s35_01_21"
+            tools:layout="@layout/fragment_s35_01_21" />
+
+
+        <fragment
+            android:id="@+id/s18_01_33"
+            android:name="com.pc.profnavykt.S18_01_33"
+            android:label="fragment_s18_01_33"
+            tools:layout="@layout/fragment_s18_01_33" />
+        <fragment
+            android:id="@+id/s13_02_11"
+            android:name="com.pc.profnavykt.S13_02_11"
+            android:label="fragment_s13_02_11"
+            tools:layout="@layout/fragment_s13_02_11" />
+        <fragment
+            android:id="@+id/s21_02_14"
+            android:name="com.pc.profnavykt.S21_02_14"
+            android:label="fragment_s21_02_14"
+            tools:layout="@layout/fragment_s21_02_14" />
+        <fragment
+            android:id="@+id/s15_01_05"
+            android:name="com.pc.profnavykt.S15_01_05"
+            android:label="fragment_s15_01_05"
+            tools:layout="@layout/fragment_s15_01_05" />
+        <fragment
+            android:id="@+id/s21_01_08"
+            android:name="com.pc.profnavykt.S21_01_08"
+            android:label="fragment_s21_01_08"
+            tools:layout="@layout/fragment_s21_01_08" />
+        <fragment
+            android:id="@+id/s13_02_03"
+            android:name="com.pc.profnavykt.S13_02_03"
+            android:label="fragment_s13_02_03"
+            tools:layout="@layout/fragment_s13_02_03" />
+
+
+        <fragment
+            android:id="@+id/merySocPod"
+            android:name="com.pc.profnavykt.MerySocPod"
+            android:label="@string/mery_soc_pod"
+            tools:layout="@layout/fragment_mery_soc_pod" />
+        <fragment
+            android:id="@+id/govSocSt"
+            android:name="com.pc.profnavykt.GovSocSt"
+            android:label="@string/gov_soc_st"
+            tools:layout="@layout/fragment_gov_soc_st" />
+        <fragment
+            android:id="@+id/govAcSt"
+            android:name="com.pc.profnavykt.GovAcSt"
+            android:label="@string/gov_ac_st"
+            tools:layout="@layout/fragment_gov_ac_st" />
+        <fragment
+            android:id="@+id/pitanie"
+            android:name="com.pc.profnavykt.pitanie"
+            android:label="@string/pitanie"
+            tools:layout="@layout/fragment_pitanie" />
+        <fragment
+            android:id="@+id/soc_gar_child"
+            android:name="com.pc.profnavykt.Soc_gar_child"
+            android:label="@string/soc_gar_detyam_sir"
+            tools:layout="@layout/fragment_soc_gar_child" />
+
+        <fragment
+            android:id="@+id/yamk"
+            android:name="com.pc.profnavykt.Yamk"
+            android:label="yamk"
+            tools:layout="@layout/yamk" />
+        <fragment
+            android:id="@+id/ggt"
+            android:name="com.pc.profnavykt.Ggt"
+            android:label="ggt"
+            tools:layout="@layout/ggt" />
+        <fragment
+            android:id="@+id/nt"
+            android:name="com.pc.profnavykt.Nt"
+            android:label="nt"
+            tools:layout="@layout/nt" />
+        <fragment
+            android:id="@+id/namt"
+            android:name="com.pc.profnavykt.Namt"
+            android:label="namt"
+            tools:layout="@layout/namt" />
+        <fragment
+            android:id="@+id/ltt"
+            android:name="com.pc.profnavykt.Ltt"
+            android:label="ltt"
+            tools:layout="@layout/ltt" />
+        <fragment
+            android:id="@+id/nmk"
+            android:name="com.pc.profnavykt.Nmk"
+            android:label="nmk"
+            tools:layout="@layout/nmk" />
+        <fragment
+            android:id="@+id/yktd"
+            android:name="com.pc.profnavykt.Yktd"
+            android:label="yktd"
+            tools:layout="@layout/yktd" />
+        <fragment
+            android:id="@+id/pc"
+            android:name="com.pc.profnavykt.Pc"
+            android:label="pc"
+            tools:layout="@layout/pc" />
+        <fragment
+            android:id="@+id/vpk"
+            android:name="com.pc.profnavykt.Vpk"
+            android:label="@string/app_name"
+            tools:layout="@layout/vpk" />
+        <fragment
+            android:id="@+id/npk"
+            android:name="com.pc.profnavykt.Npk"
+            android:label="@string/app_name"
+            tools:layout="@layout/npk" />
+        <fragment
+            android:id="@+id/hok"
+            android:name="com.pc.profnavykt.Hok"
+            android:label="@string/app_name"
+            tools:layout="@layout/hok" />
+        <fragment
+            android:id="@+id/zml"
+            android:name="com.pc.profnavykt.Zml"
+            android:label="zml"
+            tools:layout="@layout/zml" />
+        <fragment
+            android:id="@+id/tml"
+            android:name="com.pc.profnavykt.Tml"
+            android:label="tml"
+            tools:layout="@layout/tml" />
+        <fragment
+            android:id="@+id/ypk"
+            android:name="com.pc.profnavykt.Ypk"
+            android:label="@string/app_name"
+            tools:layout="@layout/ypk" />
+        <fragment
+            android:id="@+id/yipk"
+            android:name="com.pc.profnavykt.Yipk"
+            android:label="yipk"
+            tools:layout="@layout/yipk" />
+        <fragment
+            android:id="@+id/uytk"
+            android:name="com.pc.profnavykt.Uytk"
+            android:label="uytk"
+            tools:layout="@layout/uytk" />
+        <fragment
+            android:id="@+id/ck"
+            android:name="com.pc.profnavykt.Ck"
+            android:label="ck"
+            tools:layout="@layout/ck" />
+        <fragment
+            android:id="@+id/zt"
+            android:name="com.pc.profnavykt.Zt"
+            android:label="zt"
+            tools:layout="@layout/zt" />
+
+        <fragment
+            android:id="@+id/ykst"
+            android:name="com.pc.profnavykt.Ykst"
+            android:label="ykst"
+            tools:layout="@layout/ykst" />
+        <fragment
+            android:id="@+id/fek"
+            android:name="com.pc.profnavykt.Fek"
+            android:label="fek"
+            tools:layout="@layout/fek" />
+
+
+        <fragment
+            android:id="@+id/s21_01_16"
+            android:name="com.pc.profnavykt.S21_01_16"
+            android:label="fragment_s21_01_16"
+            tools:layout="@layout/fragment_s21_01_16" />
+        <fragment
+            android:id="@+id/s21_02_13"
+            android:name="com.pc.profnavykt.S21_02_13"
+            android:label="fragment_s21_02_13"
+            tools:layout="@layout/fragment_s21_02_13" />
+        <fragment
+            android:id="@+id/s08_01_10"
+            android:name="com.pc.profnavykt.S08_01_10"
+            android:label="fragment_s08_01_10"
+            tools:layout="@layout/fragment_s08_01_10" />
+        <fragment
+            android:id="@+id/s21_02_15"
+            android:name="com.pc.profnavykt.S21_02_15"
+            android:label="fragment_s21_02_15"
+            tools:layout="@layout/fragment_s21_02_15" />
+        <fragment
+            android:id="@+id/s13_01_04"
+            android:name="com.pc.profnavykt.S13_01_04"
+            android:label="fragment_s13_01_04"
+            tools:layout="@layout/fragment_s13_01_04" />
+        <fragment
+            android:id="@+id/s15_01_30"
+            android:name="com.pc.profnavykt.S15_01_30"
+            android:label="fragment_s15_01_30"
+            tools:layout="@layout/fragment_s15_01_30" />
+        <activity
+            android:id="@+id/s38_02_06"
+            android:name="com.pc.profnavykt.S38_02_06"
+            android:label="fragment_s38_02_06"
+            tools:layout="@layout/fragment_s38_02_06" />
+        <activity
+            android:id="@+id/s38_02_07"
+            android:name="com.pc.profnavykt.S38_02_07"
+            android:label="fragment_s38_02_07"
+            tools:layout="@layout/fragment_s38_02_07" />
+        <fragment
+            android:id="@+id/s08_01_09"
+            android:name="com.pc.profnavykt.S08_01_09"
+            android:label="S08_01_09"
+            tools:layout="@layout/fragment_s08_01_09" />
+        <fragment
+            android:id="@+id/s08_01_07"
+            android:name="com.pc.profnavykt.S08_01_07"
+            android:label="S08_01_07"
+            tools:layout="@layout/fragment_s08_01_07" />
+        <fragment
+            android:id="@+id/s08_01_06"
+            android:name="com.pc.profnavykt.S08_01_06"
+            android:label="S08_01_06"
+            tools:layout="@layout/fragment_s08_01_06" />
+        <fragment
+            android:id="@+id/s43_02_15"
+            android:name="com.pc.profnavykt.S43_02_15"
+            android:label="fragment_s43_02_15"
+            tools:layout="@layout/fragment_s43_02_15" />
+        <fragment
+            android:id="@+id/s43_02_01"
+            android:name="com.pc.profnavykt.S43_02_01"
+            android:label="fragment_s43_02_01"
+            tools:layout="@layout/fragment_s43_02_01" />
+        <fragment
+            android:id="@+id/s38_02_05"
+            android:name="com.pc.profnavykt.S38_02_05"
+            android:label="fragment_s38_02_05"
+            tools:layout="@layout/fragment_s38_02_05" />
+        <fragment
+            android:id="@+id/s38_02_03"
+            android:name="com.pc.profnavykt.S38_02_03"
+            android:label="fragment_s38_02_03"
+            tools:layout="@layout/fragment_s38_02_03" />
+        <fragment
+            android:id="@+id/s08_01_25"
+            android:name="com.pc.profnavykt.S08_01_25"
+            android:label="S08_01_25"
+            tools:layout="@layout/fragment_s08_01_25" />
+        <fragment
+            android:id="@+id/s44_02_01"
+            android:name="com.pc.profnavykt.S44_02_01"
+            android:label="fragment_s44_02_01"
+            tools:layout="@layout/fragment_s44_02_01" />
+        <fragment
+            android:id="@+id/s38_02_01"
+            android:name="com.pc.profnavykt.S38_02_01"
+            android:label="fragment_s38_02_01"
+            tools:layout="@layout/fragment_s38_02_01" />
+        <fragment
+            android:id="@+id/s20_01_01"
+            android:name="com.pc.profnavykt.S20_01_01"
+            android:label="fragment_s20_01_01"
+            tools:layout="@layout/fragment_s20_01_01" />
+        <fragment
+            android:id="@+id/s13_01_10"
+            android:name="com.pc.profnavykt.S13_01_10"
+            android:label="fragment_s13_01_10"
+            tools:layout="@layout/fragment_s13_01_10" />
+        <fragment
+            android:id="@+id/s19_02_03"
+            android:name="com.pc.profnavykt.S19_02_03"
+            android:label="fragment_s19_02_03"
+            tools:layout="@layout/fragment_s19_02_03" />
+        <fragment
+            android:id="@+id/s44_02_02"
+            android:name="com.pc.profnavykt.S44_02_02"
+            android:label="fragment_s44_02_02"
+            tools:layout="@layout/fragment_s44_02_02" />
+        <fragment
+            android:id="@+id/s08_01_26"
+            android:name="com.pc.profnavykt.S08_01_26"
+            android:label="S08_01_26"
+            tools:layout="@layout/fragment_s08_01_26" />
+        <fragment
+            android:id="@+id/s21_02_03"
+            android:name="com.pc.profnavykt.S21_02_03"
+            android:label="fragment_s21_02_03"
+            tools:layout="@layout/fragment_s21_02_03" />
+        <fragment
+            android:id="@+id/s35_02_16"
+            android:name="com.pc.profnavykt.S35_02_16"
+            android:label="fragment_s35_02_16"
+            tools:layout="@layout/fragment_s35_02_16" />
+        <fragment
+            android:id="@+id/s08_02_10"
+            android:name="com.pc.profnavykt.S08_02_10"
+            android:label="fragment_s08_02_10"
+            tools:layout="@layout/fragment_s08_02_10" />
+        <fragment
+            android:id="@+id/s23_02_01"
+            android:name="com.pc.profnavykt.S23_02_01"
+            android:label="fragment_s23_02_01"
+            tools:layout="@layout/fragment_s23_02_01" />
+        <fragment
+            android:id="@+id/s23_02_06"
+            android:name="com.pc.profnavykt.S23_02_06"
+            android:label="fragment_s23_02_06"
+            tools:layout="@layout/fragment_s23_02_06" />
+        <fragment
+            android:id="@+id/s08_02_01"
+            android:name="com.pc.profnavykt.S08_02_01"
+            android:label="S08_02_01"
+            tools:layout="@layout/fragment_s08_02_01" />
+        <fragment
+            android:id="@+id/s44_02_03"
+            android:name="com.pc.profnavykt.S44_02_03"
+            android:label="fragment_s44_02_03"
+            tools:layout="@layout/fragment_s44_02_03" />
+        <fragment
+            android:id="@+id/s10_02_01"
+            android:name="com.pc.profnavykt.S10_02_01"
+            android:label="fragment_s10_02_01"
+            tools:layout="@layout/fragment_s10_02_01" />
+        <fragment
+            android:id="@+id/s44_02_06"
+            android:name="com.pc.profnavykt.S44_02_06"
+            android:label="fragment_s44_02_06"
+            tools:layout="@layout/fragment_s44_02_06" />
+        <fragment
+            android:id="@+id/s08_02_08"
+            android:name="com.pc.profnavykt.S08_02_08"
+            android:label="fragment_s08_02_08"
+            tools:layout="@layout/fragment_s08_02_08" />
+        <fragment
+            android:id="@+id/s13_02_02"
+            android:name="com.pc.profnavykt.S13_02_02"
+            android:label="fragment_s13_02_02"
+            tools:layout="@layout/fragment_s13_02_02" />
+        <fragment
+            android:id="@+id/s49_02_02"
+            android:name="com.pc.profnavykt.S49_02_02"
+            android:label="fragment_s49_02_02"
+            tools:layout="@layout/fragment_s49_02_02" />
+        <fragment
+            android:id="@+id/s54_02_06"
+            android:name="com.pc.profnavykt.S54_02_06"
+            android:label="fragment_s54_02_06"
+            tools:layout="@layout/fragment_s54_02_06" />
+        <fragment
+            android:id="@+id/s29_02_03"
+            android:name="com.pc.profnavykt.S29_02_03"
+            android:label="fragment_s29_02_03"
+            tools:layout="@layout/fragment_s29_02_03" />
+        <fragment
+            android:id="@+id/s54_02_02"
+            android:name="com.pc.profnavykt.S54_02_02"
+            android:label="fragment_s54_02_02"
+            tools:layout="@layout/fragment_s54_02_02" />
+        <fragment
+            android:id="@+id/s54_02_04"
+            android:name="com.pc.profnavykt.S54_02_02"
+            android:label="fragment_s54_02_02"
+            tools:layout="@layout/fragment_s54_02_02" />
+        <fragment
+            android:id="@+id/s55_02_01"
+            android:name="com.pc.profnavykt.S55_02_01"
+            android:label="fragment_s55_02_01"
+            tools:layout="@layout/fragment_s55_02_01" />
+        <fragment
+            android:id="@+id/s53_02_07"
+            android:name="com.pc.profnavykt.S53_02_07"
+            android:label="fragment_s53_02_07"
+            tools:layout="@layout/fragment_s53_02_07" />
+        <fragment
+            android:id="@+id/s54_02_05"
+            android:name="com.pc.profnavykt.S54_02_05"
+            android:label="fragment_s54_02_05"
+            tools:layout="@layout/fragment_s54_02_05" />
+        <fragment
+            android:id="@+id/s54_02_042"
+            android:name="com.pc.profnavykt.S54_02_04"
+            android:label="fragment_s54_02_04"
+            tools:layout="@layout/fragment_s54_02_04" />
+        <fragment
+            android:id="@+id/s29_02_04"
+            android:name="com.pc.profnavykt.S29_02_04"
+            android:label="fragment_s29_02_04"
+            tools:layout="@layout/fragment_s29_02_04" />
+        <fragment
+            android:id="@+id/s39_02_01"
+            android:name="com.pc.profnavykt.S39_02_01"
+            android:label="fragment_s39_02_01"
+            tools:layout="@layout/fragment_s39_02_01" />
+        <fragment
+            android:id="@+id/s54_01_20"
+            android:name="com.pc.profnavykt.S54_01_20"
+            android:label="fragment_s54_01_20"
+            tools:layout="@layout/fragment_s54_01_20" />
+        <fragment
+            android:id="@+id/s09_02_07"
+            android:name="com.pc.profnavykt.S09_02_07"
+            android:label="fragment_s09_02_07"
+            tools:layout="@layout/fragment_s09_02_07" />
+        <fragment
+            android:id="@+id/s43_02_10"
+            android:name="com.pc.profnavykt.S43_02_10"
+            android:label="fragment_s43_02_10"
+            tools:layout="@layout/fragment_s43_02_10" />
+        <fragment
+            android:id="@+id/s10_02_05"
+            android:name="com.pc.profnavykt.S10_02_05"
+            android:label="fragment_s10_02_05"
+            tools:layout="@layout/fragment_s10_02_05" />
+        <fragment
+            android:id="@+id/s18_01_27"
+            android:name="com.pc.profnavykt.S18_01_27"
+            android:label="fragment_s18_01_27"
+            tools:layout="@layout/fragment_s18_01_27" />
+        <fragment
+            android:id="@+id/s15_01_19"
+            android:name="com.pc.profnavykt.S15_01_19"
+            android:label="fragment_s15_01_19"
+            tools:layout="@layout/fragment_s15_01_19" />
+        <fragment
+            android:id="@+id/s18_01_29"
+            android:name="com.pc.profnavykt.S18_01_29"
+            android:label="fragment_s18_01_29"
+            tools:layout="@layout/fragment_s18_01_29" />
+        <fragment
+            android:id="@+id/s15_02_14"
+            android:name="com.pc.profnavykt.S15_02_14"
+            android:label="fragment_s15_02_14"
+            tools:layout="@layout/fragment_s15_02_14" />
+        <fragment
+            android:id="@+id/s21_01_10"
+            android:name="com.pc.profnavykt.S21_01_10"
+            android:label="fragment_s21_01_10"
+            tools:layout="@layout/fragment_s21_01_10" />
+        <fragment
+            android:id="@+id/s21_02_17"
+            android:name="com.pc.profnavykt.S21_02_17"
+            android:label="fragment_s21_02_17"
+            tools:layout="@layout/fragment_s21_02_17" />
+        <fragment
+            android:id="@+id/s21_02_18"
+            android:name="com.pc.profnavykt.S21_02_18"
+            android:label="fragment_s21_02_18"
+            tools:layout="@layout/fragment_s21_02_18" />
+        <fragment
+            android:id="@+id/s09_01_01"
+            android:name="com.pc.profnavykt.S09_01_01"
+            android:label="fragment_s09_01_01"
+            tools:layout="@layout/fragment_s09_01_01" />
+        <fragment
+            android:id="@+id/s05_01_01"
+            android:name="com.pc.profnavykt.S05_01_01"
+            android:label="fragment_s05_01_01"
+            tools:layout="@layout/fragment_s05_01_01" />
+        <fragment
+            android:id="@+id/s44_02_04"
+            android:name="com.pc.profnavykt.S44_02_04"
+            android:label="fragment_s44_02_04"
+            tools:layout="@layout/fragment_s44_02_04" />
+        <fragment
+            android:id="@+id/s44_02_05"
+            android:name="com.pc.profnavykt.S44_02_05"
+            android:label="fragment_s44_02_05"
+            tools:layout="@layout/fragment_s44_02_05" />
+        <fragment
+            android:id="@+id/s20_01_08"
+            android:name="com.pc.profnavykt.S20_01_08"
+            android:label="fragment_s20_01_08"
+            tools:layout="@layout/fragment_s20_01_08" />
+        <fragment
+            android:id="@+id/s22_02_06"
+            android:name="com.pc.profnavykt.S22_02_06"
+            android:label="fragment_s22_02_06"
+            tools:layout="@layout/fragment_s22_02_06" />
+        <fragment
+            android:id="@+id/s27_02_07"
+            android:name="com.pc.profnavykt.S27_02_07"
+            android:label="fragment_s27_02_07"
+            tools:layout="@layout/fragment_s27_02_07" />
+        <fragment
+            android:id="@+id/s23_01_02"
+            android:name="com.pc.profnavykt.S23_01_02"
+            android:label="fragment_s23_01_02"
+            tools:layout="@layout/fragment_s23_01_02" />
+        <fragment
+            android:id="@+id/s26_01_01"
+            android:name="com.pc.profnavykt.S26_01_01"
+            android:label="fragment_s26_01_01"
+            tools:layout="@layout/fragment_s26_01_01" />
+        <fragment
+            android:id="@+id/s15_01_20"
+            android:name="com.pc.profnavykt.S15_01_20"
+            android:label="fragment_s15_01_20"
+            tools:layout="@layout/fragment_s15_01_20" />
+        <fragment
+            android:id="@+id/s26_02_01"
+            android:name="com.pc.profnavykt.S26_02_01"
+            android:label="fragment_s26_02_01"
+            tools:layout="@layout/fragment_s26_02_01" />
+        <fragment
+            android:id="@+id/s23_02_07"
+            android:name="com.pc.profnavykt.S23_02_07"
+            android:label="fragment_s23_02_07"
+            tools:layout="@layout/fragment_s23_02_07" />
+        <fragment
+            android:id="@+id/s23_01_17"
+            android:name="com.pc.profnavykt.S23_01_17"
+            android:label="fragment_s23_01_17"
+            tools:layout="@layout/fragment_s23_01_17" />
+        <fragment
+            android:id="@+id/s53_02_01"
+            android:name="com.pc.profnavykt.S53_02_01"
+            android:label="fragment_s53_02_01"
+            tools:layout="@layout/fragment_s53_02_01" />
+        <fragment
+            android:id="@+id/s23_02_04"
+            android:name="com.pc.profnavykt.S23_02_04"
+            android:label="fragment_s23_02_04"
+            tools:layout="@layout/fragment_s23_02_04" />
+        <fragment
+            android:id="@+id/s15_01_36"
+            android:name="com.pc.profnavykt.S15_01_36"
+            android:label="fragment_s15_01_36"
+            tools:layout="@layout/fragment_s15_01_36" />
+        <fragment
+            android:id="@+id/s43_01_09"
+            android:name="com.pc.profnavykt.S43_01_09"
+            android:label="fragment_s43_01_09"
+            tools:layout="@layout/fragment_s43_01_09" />
+        <fragment
+            android:id="@+id/s26_02_03"
+            android:name="com.pc.profnavykt.S26_02_03"
+            android:label="fragment_s26_02_03"
+            tools:layout="@layout/fragment_s26_02_03" />
+        <fragment
+            android:id="@+id/s26_02_06"
+            android:name="com.pc.profnavykt.S26_02_06"
+            android:label="fragment_s26_02_06"
+            tools:layout="@layout/fragment_s26_02_06" />
+        <fragment
+            android:id="@+id/s34_02_02"
+            android:name="com.pc.profnavykt.S34_02_02"
+            android:label="fragment_s34_02_02"
+            tools:layout="@layout/fragment_s34_02_02" />
+        <fragment
+            android:id="@+id/s53_02_05"
+            android:name="com.pc.profnavykt.S53_02_05"
+            android:label="fragment_s53_02_05"
+            tools:layout="@layout/fragment_s53_02_05" />
+        <fragment
+            android:id="@+id/s53_02_04"
+            android:name="com.pc.profnavykt.S53_02_04"
+            android:label="fragment_s53_02_04"
+            tools:layout="@layout/fragment_s53_02_04" />
+        <fragment
+            android:id="@+id/s53_02_03_srok_6"
+            android:name="com.pc.profnavykt.S53_02_03_srok_6"
+            android:label="fragment_s53_02_03_srok_6"
+            tools:layout="@layout/fragment_s53_02_03_srok_6" />
+        <fragment
+            android:id="@+id/s53_02_03"
+            android:name="com.pc.profnavykt.S53_02_03"
+            android:label="fragment_s53_02_03"
+            tools:layout="@layout/fragment_s53_02_03" />
+        <fragment
+            android:id="@+id/s52_02_01"
+            android:name="com.pc.profnavykt.S52_02_01"
+            android:label="fragment_s52_02_01"
+            tools:layout="@layout/fragment_s52_02_01" />
+        <fragment
+            android:id="@+id/s51_02_03"
+            android:name="com.pc.profnavykt.S51_02_03"
+            android:label="fragment_s51_02_03"
+            tools:layout="@layout/fragment_s51_02_03" />
+        <fragment
+            android:id="@+id/s51_02_02"
+            android:name="com.pc.profnavykt.S51_02_02"
+            android:label="fragment_s51_02_02"
+            tools:layout="@layout/fragment_s51_02_02" />
+        <fragment
+            android:id="@+id/s51_02_01"
+            android:name="com.pc.profnavykt.S51_02_01"
+            android:label="fragment_s51_02_01"
+            tools:layout="@layout/fragment_s51_02_01" />
+        <fragment
+            android:id="@+id/s49_02_01"
+            android:name="com.pc.profnavykt.S49_02_01"
+            android:label="fragment_s49_02_01"
+            tools:layout="@layout/fragment_s49_02_01" />
+        <fragment
+            android:id="@+id/s19_01_04"
+            android:name="com.pc.profnavykt.S19_01_04"
+            android:label="fragment_s19_01_04"
+            tools:layout="@layout/fragment_s19_01_04" />
+        <fragment
+            android:id="@+id/s20_02_04"
+            android:name="com.pc.profnavykt.S20_02_04"
+            android:label="fragment_s20_02_04"
+            tools:layout="@layout/fragment_s20_02_04" />
+        <fragment
+            android:id="@+id/s13_02_07"
+            android:name="com.pc.profnavykt.S13_02_07"
+            android:label="fragment_s13_02_07"
+            tools:layout="@layout/fragment_s13_02_07" />
+        <fragment
+            android:id="@+id/s09_01_02"
+            android:name="com.pc.profnavykt.S09_01_02"
+            android:label="fragment_s09_01_02"
+            tools:layout="@layout/fragment_s09_01_02" />
+
+
+        <fragment
+            android:id="@+id/professiiNpk"
+            android:name="com.pc.profnavykt.ProfessiiNpk"
+            android:label="@string/NPK"
+            tools:layout="@layout/fragment_professii_npk" />
+        <fragment
+            android:id="@+id/professiiVpk"
+            android:name="com.pc.profnavykt.ProfessiiVpk"
+            android:label="fragment_professii_vpk"
+            tools:layout="@layout/fragment_professii_vpk" />
+        <fragment
+            android:id="@+id/professiiYpk"
+            android:name="com.pc.profnavykt.ProfessiiYpk"
+            android:label="@string/YPK"
+            tools:layout="@layout/fragment_professii_ypk" />
+        <fragment
+            android:id="@+id/professiiOt"
+            android:name="com.pc.profnavykt.ProfessiiOt"
+            android:label="fragment_professii_ot"
+            tools:layout="@layout/fragment_professii_ot" />
+        <fragment
+            android:id="@+id/professiiSml"
+            android:name="com.pc.profnavykt.ProfessiiSml"
+            android:label="fragment_professii_sml"
+            tools:layout="@layout/fragment_professii_sml" />
+        <fragment
+            android:id="@+id/professiiSit"
+            android:name="com.pc.profnavykt.ProfessiiSit"
+            android:label="fragment_professii_sit"
+            tools:layout="@layout/fragment_professii_sit" />
+        <fragment
+            android:id="@+id/professiiYamk"
+            android:name="com.pc.profnavykt.ProfessiiYamk"
+            android:label="fragment_professii_yamk"
+            tools:layout="@layout/fragment_professii_yamk" />
+        <fragment
+            android:id="@+id/professiiStk"
+            android:name="com.pc.profnavykt.ProfessiiStk"
+            android:label="fragment_professii_stk"
+            tools:layout="@layout/fragment_professii_stk" />
+        <fragment
+            android:id="@+id/s35_01_21_colleges"
+            android:name="com.pc.profnavykt.S35_01_21_colleges"
+            android:label="s35_01_21_colleges"
+            tools:layout="@layout/s35_01_21_colleges" />
+        <fragment
+            android:id="@+id/professiiTml"
+            android:name="com.pc.profnavykt.ProfessiiTml"
+            android:label="fragment_professii_tml"
+            tools:layout="@layout/fragment_professii_tml" />
+        <fragment
+            android:id="@+id/professiiYtek"
+            android:name="com.pc.profnavykt.ProfessiiYtek"
+            android:label="@string/YTEK"
+            tools:layout="@layout/fragment_professii_ytek" />
+        <fragment
+            android:id="@+id/professiiYkit"
+            android:name="com.pc.profnavykt.ProfessiiYkit"
+            android:label="@string/YKIT"
+            tools:layout="@layout/fragment_professii_ykit" />
+        <fragment
+            android:id="@+id/professiiPc"
+            android:name="com.pc.profnavykt.ProfessiiPc"
+            android:label="fragment_professii_pc"
+            tools:layout="@layout/fragment_professii_pc" />
+        <fragment
+            android:id="@+id/s35_01_01_colleges"
+            android:name="com.pc.profnavykt.S35_01_01_colleges"
+            android:label="s35_01_01_colleges"
+            tools:layout="@layout/s35_01_01_colleges" />
+        <fragment
+            android:id="@+id/s31_02_02_colleges"
+            android:name="com.pc.profnavykt.S31_02_02_colleges"
+            android:label="s31_02_02_colleges"
+            tools:layout="@layout/s31_02_02_colleges" />
+        <fragment
+            android:id="@+id/professiiYgk"
+            android:name="com.pc.profnavykt.ProfessiiYgk"
+            android:label="@string/YGK"
+            tools:layout="@layout/fragment_professii_ygk" />
+        <fragment
+            android:id="@+id/s31_02_01_colleges"
+            android:name="com.pc.profnavykt.S31_02_01_colleges"
+            android:label="s31_02_01_colleges"
+            tools:layout="@layout/s31_02_01_colleges" />
+        <fragment
+            android:id="@+id/professiiRuor"
+            android:name="com.pc.profnavykt.ProfessiiRuor"
+            android:label="@string/RUOR"
+            tools:layout="@layout/fragment_professii_ruor" />
+        <fragment
+            android:id="@+id/professiiUytk"
+            android:name="com.pc.profnavykt.ProfessiiUytk"
+            android:label="fragment_professii_uytk"
+            tools:layout="@layout/fragment_professii_uytk" />
+        <fragment
+            android:id="@+id/professiiTt"
+            android:name="com.pc.profnavykt.ProfessiiTt"
+            android:label="fragment_professii_tt"
+            tools:layout="@layout/fragment_professii_tt" />
+        <fragment
+            android:id="@+id/professiiGgt"
+            android:name="com.pc.profnavykt.ProfessiiGgt"
+            android:label="fragment_professii_ggt"
+            tools:layout="@layout/fragment_professii_ggt" />
+        <fragment
+            android:id="@+id/professiiFek"
+            android:name="com.pc.profnavykt.ProfessiiFek"
+            android:label="fragment_professii_fek"
+            tools:layout="@layout/fragment_professii_fek" />
+        <fragment
+            android:id="@+id/professiiZt"
+            android:name="com.pc.profnavykt.ProfessiiZt"
+            android:label="fragment_professii_zt"
+            tools:layout="@layout/fragment_professii_zt" />
+        <fragment
+            android:id="@+id/professiiCk"
+            android:name="com.pc.profnavykt.ProfessiiCk"
+            android:label="fragment_professii_ck"
+            tools:layout="@layout/fragment_professii_ck" />
+        <fragment
+            android:id="@+id/professiiYipk"
+            android:name="com.pc.profnavykt.ProfessiiYipk"
+            android:label="fragment_professii_yipk"
+            tools:layout="@layout/fragment_professii_yipk" />
+        <fragment
+            android:id="@+id/professiiZml"
+            android:name="com.pc.profnavykt.ProfessiiZml"
+            android:label="fragment_professii_zml"
+            tools:layout="@layout/fragment_professii_zml" />
+        <fragment
+            android:id="@+id/professiiLtt"
+            android:name="com.pc.profnavykt.ProfessiiLtt"
+            android:label="fragment_professii_ltt"
+            tools:layout="@layout/fragment_professii_ltt" />
+        <fragment
+            android:id="@+id/professiiYktd"
+            android:name="com.pc.profnavykt.ProfessiiYktd"
+            android:label="fragment_professii_yktd"
+            tools:layout="@layout/fragment_professii_yktd" />
+        <fragment
+            android:id="@+id/professiiYkst"
+            android:name="com.pc.profnavykt.ProfessiiYkst"
+            android:label="fragment_professii_ykst"
+            tools:layout="@layout/fragment_professii_ykst" />
+        <fragment
+            android:id="@+id/professiiNamt"
+            android:name="com.pc.profnavykt.ProfessiiNamt"
+            android:label="fragment_professii_namt"
+            tools:layout="@layout/fragment_professii_namt" />
+        <fragment
+            android:id="@+id/professiiYtts"
+            android:name="com.pc.profnavykt.ProfessiiYtts"
+            android:label="fragment_professii_ytts"
+            tools:layout="@layout/fragment_professii_ytts" />
+        <fragment
+            android:id="@+id/professiiNt"
+            android:name="com.pc.profnavykt.ProfessiiNt"
+            android:label="fragment_professii_nt"
+            tools:layout="@layout/fragment_professii_nt" />
+
+        <fragment
+            android:id="@+id/tt"
+            android:name="com.pc.profnavykt.Tt"
+            android:label="Tt" />
+        <fragment
+            android:id="@+id/ruor"
+            android:name="com.pc.profnavykt.Ruor"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/ybs"
+            android:name="com.pc.profnavykt.Ybs"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/ygk"
+            android:name="com.pc.profnavykt.Ygk"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/mrtk"
+            android:name="com.pc.profnavykt.Mrtk"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/yhdu"
+            android:name="com.pc.profnavykt.Yhdu"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/yki"
+            android:name="com.pc.profnavykt.Yki"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/ytek"
+            android:name="com.pc.profnavykt.Ytek"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/ymk"
+            android:name="com.pc.profnavykt.Ymk"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/ot"
+            android:name="com.pc.profnavykt.Ot"
+            android:label="Ot" />
+        <fragment
+            android:id="@+id/sit"
+            android:name="com.pc.profnavykt.Sit"
+            android:label="Sit" />
+        <fragment
+            android:id="@+id/ykit"
+            android:name="com.pc.profnavykt.Ykit"
+            android:label="@string/app_name" />
+        <fragment
+            android:id="@+id/sml"
+            android:name="com.pc.profnavykt.Sml"
+            android:label="Sml" />
+        <fragment
+            android:id="@+id/stk"
+            android:name="com.pc.profnavykt.Stk"
+            android:label="Stk" />
+    <fragment
+        android:id="@+id/s31_02_03"
+        android:name="com.pc.profnavykt.S31_02_03"
+        android:label="fragment_s31_02_03"
+        tools:layout="@layout/fragment_s31_02_03" />
+    <fragment
+        android:id="@+id/s34_02_01"
+        android:name="com.pc.profnavykt.S34_02_01"
+        android:label="fragment_s34_02_01"
+        tools:layout="@layout/fragment_s34_02_01" />
+    <fragment
+        android:id="@+id/yat"
+        android:name="com.pc.profnavykt.Yat"
+        android:label="yat"
+        tools:layout="@layout/yat" />
+    <fragment
+        android:id="@+id/professiiYat"
+        android:name="com.pc.profnavykt.ProfessiiYat"
+        android:label="fragment_professii_yat"
+        tools:layout="@layout/fragment_professii_yat" />
+    <fragment
+        android:id="@+id/s23_01_08"
+        android:name="com.pc.profnavykt.S23_01_08"
+        android:label="fragment_s23_01_08"
+        tools:layout="@layout/fragment_s23_01_08" />
+    <fragment
+        android:id="@+id/s23_01_06"
+        android:name="com.pc.profnavykt.S23_01_06"
+        android:label="fragment_s23_01_06"
+        tools:layout="@layout/fragment_s23_01_06" />
+    <fragment
+        android:id="@+id/s23_01_07"
+        android:name="com.pc.profnavykt.S23_01_07"
+        android:label="fragment_s23_01_07"
+        tools:layout="@layout/fragment_s23_01_07" />
+    <fragment
+        android:id="@+id/s23_01_01"
+        android:name="com.pc.profnavykt.S23_01_01"
+        android:label="fragment_s23_01_01"
+        tools:layout="@layout/fragment_s23_01_01" />
     <fragment
         android:id="@+id/ytts"
         android:name="com.pc.profnavykt.Ytts"

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--9. ГБПОУ РС(Я) "Арктический колледж народов Севера"»-->
-<!--    <string name="college_AKNS">9. ГБПОУ РС(Я) "Арктический колледж народов Севера" В г.Якутск» </string>
-    <string name="name_dir_AKNS">Антипина Елена Егоровна</string>-->
+<string name="AKNS">Арктический колледж народов Севера</string>
+<string name="college_AKNS">ГБПОУ РС(Я) "Арктический колледж народов Севера" В г.Якутск» </string>
+    <string name="name_dir_AKNS">Антипина Елена Егоровна</string>
     <string name="adress_AKNS">678830, Республика Саха (Якутия), Нижнеколымский район, п. Черский, ул. Молодежная, 38</string>
     <string name="phone_AKNS">"тел/факс: 8(41157) 25-123"</string>
     <string name="email_AKNS">cher_koledg1@cher.sakha.ru</string>

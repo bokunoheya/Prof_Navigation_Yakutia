@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--7. ГАПОУ РС(Я) "Якутский технологический техникум сервиса"-->
-    <string name="college_ITTS">7. ГАПОУ РС(Я) Якутский технологический техникум сервиса" В г.Якутск </string>
-    <string name="name_dir_ITTS">КОКОШ Ольга Александровна</string>
-    <string name="adress_ITTS">677004, Республика Саха (Якутия), г. Якутск, ул. 50 лет Советской Армии, 86/1</string>
-    <string name="phone_ITTS">" тел/факс: 8(4112) 44 91 56"</string>
-    <string name="email_ITTS">goupu_16@mail.ru</string>
-    <string name="site_ITTS">http://www.yktpromtech.ru/</string>
+    <string name="YTTS">Якутский технологический техникум сервиса</string>
+    <string name="college_YTTS">ГАПОУ РС(Я) Якутский технологический техникум сервиса" В г.Якутск </string>
+    <string name="name_dir_YTTS">КОКОШ Ольга Александровна</string>
+    <string name="adress_YTTS">677004, Республика Саха (Якутия), г. Якутск, ул. 50 лет Советской Армии, 86/1</string>
+    <string name="phone_YTTS">" тел/факс: 8(4112) 44 91 56"</string>
+    <string name="email_YTTS">goupu_16@mail.ru</string>
+    <string name="site_YTTS">http://www.yktpromtech.ru/</string>
     <!--Специальности-->
     <string name="s19_01_04">"Пекарь "</string>
     <string name="s19_02_10">"Технология продукции общественного питания "</string>

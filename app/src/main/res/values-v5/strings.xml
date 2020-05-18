@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--1. 4. ГАПОУ РС(Я) "Якутский автодорожный техникум"-->
-    <string name="college_IAT">1. 4. ГАПОУ РС(Я) Якутский автодорожный техникум" В г.Якутск</string>
-    <string name="name_dir_IAT">Попова Валентина Гаврильевна</string>
-    <string name="adress_IAT">677008, Республики Саха (Якутия), г. Якутск, Вилюйский тракт 5 км., корпус 1</string>
-    <string name="phone_IAT">" тел/факс: 8(41136) 36-94-42 "</string>
-    <string name="email_IAT">yaadt11@mail.ru</string>
-    <string name="site_IAT">http://yaadt.ru/</string>
+    <string name="YAT">Якутский автодорожный техникум</string>
+    <string name="college_YAT">1. 4. ГАПОУ РС(Я) Якутский автодорожный техникум" В г.Якутск</string>
+    <string name="name_dir_YAT">Попова Валентина Гаврильевна</string>
+    <string name="adress_YAT">677008, Республики Саха (Якутия), г. Якутск, Вилюйский тракт 5 км., корпус 1</string>
+    <string name="phone_YAT">" тел/факс: 8(41136) 36-94-42 "</string>
+    <string name="email_YAT">yaadt11@mail.ru</string>
+    <string name="site_YAT">http://yaadt.ru/</string>
     <!--Специальности-->
     <string name="s23_01_01">"Оператор транспортного терминала "</string>
     <string name="s23_01_06">"Машинист дорожных и строительных машин "</string>
@@ -16,10 +17,11 @@
     <string name="s23_02_07">"Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей "</string>
 
     <!--Квалификация-->
-    <string name="kv_text_s23_01_01">"Оператор транспортного терминала "</string>
-    <string name="kv_text_s23_01_06">"Машинист дорожных и строительных машин "</string>
-    <string name="kv_text_s23_01_08">"Слесарь по ремонту строительных машин "</string>
-    <string name="kv_text_s23_01_17">"Мастер по ремонту и обслуживанию автомобилей "</string>
+    <string name="kv_text_s23_01_01">Оператор транспортного терминала</string>
+    <string name="kv_text_s23_01_07">Машинист крана автомобильного</string>
+    <string name="kv_text_s23_01_06">Машинист дорожных и строительных машин</string>
+    <string name="kv_text_s23_01_08">Слесарь по ремонту строительных машин</string>
+    <string name="kv_text_s23_01_17">Мастер по ремонту и обслуживанию автомобилей</string>
 
     <!--срок обучения-->
     <string name="srok_3_10">"3 года  10 мес"</string>

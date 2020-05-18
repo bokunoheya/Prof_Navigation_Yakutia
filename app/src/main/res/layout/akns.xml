@@ -121,7 +121,7 @@
         android:layout_width="287dp"
         android:layout_height="181dp"
         android:layout_marginTop="12dp"
-        android:src="@drawable/f1"
+        android:src="@drawable/logo_akns"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />

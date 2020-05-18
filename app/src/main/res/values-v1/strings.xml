@@ -1,6 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--ГБПОУ РС (Я) «НЮРБИНСКИЙ ТЕХНИКУМ В с. Маар»-->
+    <string name="NuRT">Нюрбинский техникум</string>
+    <string name="college_NuRT">ГБПОУ РС (Я) «НЮРБИНСКИЙ ТЕХНИКУМ В с. Маар» </string>
+    <string name="name_dir_NuRT">БУТАКОВА ОКСАНА СТЕФАНОВНА</string>
+    <string name="adress_NuRT">678455, Республика Саха (Якутия), с. Маар, ул. Набережная, д.12</string>
+    <string name="phone_NuRT">" тел/факс: 8 (41134) 4-44-74"</string>
+    <string name="email_NuRT">nt_nurba@gov14.ru</string>
+    <string name="site_NuRT">https://kollegenyurba.ucoz.ru/</string>
+    <!--Специальности-->
+    <string name="s38_01_02">"Продавец, контролер-кассир"</string>
+    <string name="s35_01_14">"Мастер по техническому обслуживанию и ремонту машинно-тракторного парка"</string>
+    <string name="s21_01_10">"Ремонтник горного оборудования"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s08_01_17">Арматурщик Электросварщик ручной сварки</string>
+    <string name="kv_text_s38_01_02">Кассир торгового зала, Продавец</string>
 
+    <!--ГБПОУ РС (Я) «ОЛЕКМИНСКИЙ ТЕХНИКУМ В г. Олекминск»-->
+
+    <string name="OT">Олекминский техникум</string>
+    <string name="college_OT">ГБПОУ РС (Я) ОЛЕКМИНСКИЙ ТЕХНИКУМ В г. Олекминск</string>
+    <string name="name_dir_OT">СЕКТЯЕВ Сергей Степанович</string>
+    <string name="adress_OT">678103, Республика Саха (Якутия), г. Олекминск, ул. Гагарина, д.81</string>
+    <string name="phone_OT">" тел/факс: 8 (41138) 4-15-66"</string>
+    <string name="email_OT">ot_ollekminsk@gov14.ru</string>
+    <string name="site_OT">https://отмэсх.рф/</string>
+    <!--Специальности-->
+    <string name="s08_01_02">"Монтажник трубопроводов"</string>
+    <string name="s13_01_07">"Электромонтер по ремонту электросетей"</string>
+    <string name="s35_02_08">"Электрификация и автоматизация сельского хозяйства"</string>
+    <string name="s08_01_10">"Мастер жилищно-коммунального хозяйства"</string>
+    <string name="s13_01_04">"Слесарь по ремонту оборудования электростанций "</string>
+    <string name="s15_01_30">"Слесарь"</string>
+    <string name="s21_02_03">"Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ "</string>
+    <!--Квалификация-->
+    <string name="kv_text_s08_01_02">Монтажник наружных трубопроводов</string>
+    <string name="kv_text_s08_01_10">Электромонтажник по освещению и осветительным сетям-плотник</string>
+    <string name="kv_text_s13_01_04">Слесарь по ремонту оборудования тепловых сетей</string>
+    <string name="kv_text_s15_01_30">Слесарь-ремонтник</string>
+    <string name="kv_text_s21_02_03">Техник (18559 Слесарь-ремонтник)</string>
+
+
+    <!--ГБПОУ РС (Я) «ПОКРОВСКИЙ КОЛЛЕДЖ В г. Покровск»-->
+    <string name="college_PC">ГБПОУ РС (Я) «ПОКРОВСКИЙ КОЛЛЕДЖ В г. Покровск» </string>
+    <string name="name_dir_PC">ХАБАРОВ Владислав Гаврильевич</string>
+    <string name="adress_PC">678000, Республика Саха (Якутия), г. Покровск, ул. Братьев Ксенофонтовых, д.31</string>
+    <string name="phone_PC">" тел/факс: 8 (41144) 4-52-42"</string>
+    <string name="email_PC">pk_pokrovsk@gov14.ru</string>
+    <string name="site_PC">https://college-pokrovsk.ru/</string>
+    <!--Специальности-->
+    <string name="s09_02_07">"Информационные системы и программирование"</string>
+    <string name="s43_02_10">"Туризм"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s09_02_07">Разработчик веб и мультимедийных приложений</string>
+    <string name="kv_text_s43_02_10">Специалист по туризму</string>
+    <!--срок обучения-->
+    <string name="srok_1_10">"1 года 10 мес"</string>
+
+    <!--ГБПОУ РС (Я) «Верхоянский многопрофильный лицей В п. Батагай»-->
+    <string name="college_VML">ГБПОУ РС (Я) «Верхоянский многопрофильный лицей В п. Батагай» </string>
+    <string name="name_dir_VML">НИКИФОРОВА Римма Дмитриевна</string>
+    <string name="adress_VML">678500, Республика Саха (Якутия), п. Батагай, ул. Аммосова, д.40</string>
+    <string name="phone_VML">" тел/факс: 8 (41165) 2-04-45"</string>
+    <string name="email_VML">vmpl_vyansk@gov14.ru</string>
+    <string name="site_VML">https://pu32.ucoz.ru/</string>
+    <!--Специальности-->
+    <string name="s09_01_01">"Наладчик аппаратного и программного обеспечения"</string>
+    <string name="kv_text_s09_01_01">"Наладчик аппаратного и программного обеспечения"</string>
+
+
+    <!--ГБПОУ РС (Я) «ВИЛЮЙСКИЙ ТЕХНИКУМ В г. Вилюйск»-->
+    <string name="college_VT">ГБПОУ РС (Я) «ВИЛЮЙСКИЙ ТЕХНИКУМ В г. Вилюйск» </string>
+    <string name="name_dir_VT">АЛЕКСЕЕВ Иван Иванович</string>
+    <string name="adress_VT">678200, Республика Саха (Якутия), г. Ленск, ул. Мира, д.17</string>
+    <string name="phone_VT">" тел/факс: 8 (41132) 4-29-22"</string>
+    <string name="email_VT">vt_vilyuisk@gov14.ru</string>
+    <string name="site_vT">https://viltech.ru/</string>
+    <!--Специальности-->
+    <string name="s08_01_18">"Электромонтажник электрических сетей и электрооборудования"</string>
+    <string name="s18_01_28">"Оператор нефтепереработки"</string>
+    <string name="s21_01_01">"Оператор нефтяных и газовых скважин"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s08_01_18">Электромонтажник по распределительным устройствам и вторичным цепям</string>
+
+    <!--ГБПОУ РС (Я) «ЖИГАНСКИЙ МНОГОПРОФИЛЬНЫЙ ЛИЦЕЙ В с. Жиганск»-->
+    <string name="ZHML">Жиганский многопрофильный лицей</string>
+    <string name="college_ZHML">ГБПОУ РС (Я) «ЖИГАНСКИЙ МНОГОПРОФИЛЬНЫЙ ЛИЦЕЙ В с. Жиганск» </string>
+    <string name="name_dir_ZHML">СОКОЛЬНИКОВА Елизавета Александровна</string>
+    <string name="adress_ZHML">678330, Республика Саха (Якутия), с. Жиганск, ул. Октябрьская, д.30</string>
+    <string name="phone_ZHML">" тел/факс: 8 (41164) 2-17-85, факс: 2-19-97"</string>
+    <string name="email_ZHML">zhml_zhigansk@gov14.ru</string>
+    <string name="site_ZHML">https://zhigzhml.sakhaschool.ru/</string>
+    <!--Специальности-->
+    <string name="s08_01_14">"Монтажник санитарно-технических, вентиляционных систем и оборудования"</string>
+
+    <!--ГБПОУ РС (Я) «ЖАТАЙСКИЙ ТЕХНИКУМ В п. Жатайск»-->
+    <string name="ZHT">Жатайский техникум</string>
+    <string name="college_ZHT">ГБПОУ РС (Я) «ЖАТАЙСКИЙ ТЕХНИКУМ В п. Жатайск» </string>
+    <string name="name_dir_ZHT">МОРОЗОВА Алена Анатольевна</string>
+    <string name="adress_ZHT">678902, Республика Саха (Якутия), п. Жатайск, ул. Строда, д.7</string>
+    <string name="phone_ZHT">" тел/факс: 8 (4112) 42-64-07"</string>
+    <string name="email_ZHT">zht_zhatai@gov14.ru</string>
+    <string name="site_ZHT">https://zhataytekh.ru/</string>
+    <!--Специальности-->
+    <string name="s23_01_02">Докер - механизатор</string>
+    <string name="s26_02_01">Эксплуатация внутренних водных путей</string>
+    <string name="s26_01_01">Судостроитель - судоремнотник металлических судов</string>
+    <string name="s26_02_03">Судовождение</string>
+    <string name="s26_02_02">Судостроение</string>
+    <string name="s26_02_06">Эксплуатация судового электрооборудования и средств автоматики</string>
+    <string name="s26_02_05">Эксплуатация судовых энергетических установок</string>
+    <string name="s34_02_02">Медицинский массаж (для обучения лиц с ограниченными возможностями здоровья по зрению)</string>
+    <string name="s43_01_09">Повар, кондитер</string>
+    <string name="s34_01_02">Сестринское дело"</string>
+    <!--Квалификация-->
+    <string name="kv_text_s26_02_03">Электромонтер по ремонту и обслуживанию электрооборудования 3-4 разряда</string>
+    <string name="kv_text_s26_01_01">Сборщик корпусов металлических судов, сборщик-достройщик судовой</string>
+    <string name="kv_text_s34_02_02">Медицинская сестра по массажу/медицинский брат по массажу</string>
+    <string name="kv_text_s23_01_02">Механизатор (докер-механизатор)</string>
+    <string name="kv_text_s26_02_02">Техник (Электрик судовой, судокорпусник, ремонтник)</string>
+    <string name="kv_text_s26_02_06">Техник-электромеханик (Электрик судовой)</string>
+    <string name="kv_text_s26_02_01">Техник (Моторист (машинист), Слесарь-судоремонтник)</string>
+    <string name="kv_text_s43_01_09">Повар, кондитер</string>
+    <!--срок обучения-->
+    <string name="srok_2_10">"2 года 10 мес"</string>
+    <string name="srok_3_10">"3 года 10 мес"</string>
+    <string name="srok_10">"10 мес"</string>
+    <!--Количество мест-->
+
+
+    <!--ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ»-->
+    <string name="college_MRTK">ГАПОУ РС (Я) РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ</string>
+    <string name="name_dir_MRTK">БЕРЕЗОВОЙ  Владимир  Викторович</string>
+    <string name="adress_MRTK">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
+    <string name="phone_MRTK">" тел/факс: 8 (41136) 3-53-31"</string>
+    <string name="email_MRTK">rtkm_mirniy@gov14.ru</string>
+    <string name="site_MRTK">https://mrtk-edu.ru/</string>
+
+    <!--Специальности-->
+    <string name="s21_02_15">"Открытые горные работы "</string>
+    <string name="s13_02_01">"Теплоснабжение и теплотехническое оборудование"</string>
+    <string name="s23_02_03">"Техническое обслуживание и ремонт автомобильного транспорта"</string>
+    <string name="s18_01_02">"Лаборант-эколог"</string>
+
+    <!--Квалификация-->
+    <string name="kv_text_s15_01_15">Электрогазосварщик 3-4 раз,Электросварщик ручной сварки 2 разр</string>
+
+    <!--Количество мест-->
+    <string name="platnoe_m40">40</string>
+    <string name="platnoe_m10">10</string>
+    <string name="bujet_m25">25</string>
+
+    <!-- ГБПОУ РС(Я) «Якутский музыкальный колледж (училище) им. М.Н. Жиркова»-->
+    <string name="YMK">Якутский музыкальный колледж (училище) им. М.Н. Жиркова</string>
+    <string name="college_YMK">ГБПОУ РС(Я) Якутский музыкальный колледж (училище) им. М.Н. Жиркова</string>
+    <string name="adress_YMK">677027, Республика Саха (Якутия), г. Якутск, ул. Кирова, 23а</string>
+    <string name="phone_YMK">тел/факс: 8 (4112) 42-94-16</string>
+    <string name="email_YMK">ymuzk@gov14.ru</string>
+    <string name="site_YMK">http://yamuscoi.ru/</string>
+
+    <string name="s53_02_03">Инструментальное исполнительство (по видам)</string>
+    <string name="s53_02_04">Вокальное искусство</string>
+    <string name="s53_02_05">Сольное и хоровое народное пение</string>
+    <string name="s53_02_06">Хоровое дирижирование</string>
+    <string name="s53_02_07">Теория музыки</string>
+
+    <string name="kv_text_s53_02_03">Артист-инструменталист (концертмейстер), преподаватель</string>
+    <string name="kv_text_s53_02_03_srok_6">Артист-инструменталист (концертмейстер), преподаватель</string>
+    <string name="kv_text_s53_02_04">Артист-вокалист, преподаватель, руководитель народного коллектива</string>
+    <string name="kv_text_s53_02_05">Артист-вокалист, преподаватель, руководитель народного коллектива</string>
+    <string name="kv_text_s53_02_06">Дирижер хора, преподаватель</string>
+    <string name="kv_text_s53_02_07">Преподаватель, организатор музыкально-просветительской деятельности</string>
+    <string name="srok_6_10">6 лет 10 мес</string>
+
+    <!-- ГБПОУ РС(Я) «Якутское художественное училище (колледж) им. П.П. Романова»-->
+    <string name="YHDU">Якутское художественное училище (колледж) им. П.П. Романова</string>
+    <string name="college_YHDU">ГБПОУ РС(Я) Якутское художественное училище (колледж) им. П.П. Романова</string>
+    <string name="adress_YHDU">677027, Республика Саха (Якутия), г. Якутск, ул. Горького, 65</string>
+    <string name="phone_YHDU">тел/факс: 8 (4112) 42-82-14</string>
+    <string name="email_YHDU">izoyhu@gov14.ru</string>
+    <string name="site_YHDU">http://art-college.saha.muzkult.ru/</string>
+
+    <string name="s54_02_04">Реставрация </string>
+    <string name="s54_02_05">Живопись (по видам) </string>
+
+    <string name="kv_text_s54_02_04">Художник-реставратор</string>
+    <string name="kv_text_s54_02_05">Художник-живописец, преподаватель</string>
+
+    <!-- ГБПОУ РС(Я) «Якутский колледж культуры и искусств»-->
+    <string name="YKI">Якутский колледж культуры и искусств</string>
+    <string name="college_YKI">ГБПОУ РС(Я) Якутский колледж культуры и искусств</string>
+    <string name="adress_YKI">677009, Республика Саха (Якутия), г. Якутск, ул. Халтурина, 14/5</string>
+    <string name="phone_YKI">тел/факс: 8 (4112) 40-27-42</string>
+    <string name="email_YKI">yakkii@gov14.ru</string>
+    <string name="site_YKI">http://yakkii.ru/</string>
+
+    <string name="s51_02_01">Народное художественное творчество</string>
+    <string name="s51_02_02">Социально-культурная деятельность (по видам)</string>
+    <string name="s55_02_01">Театральная и аудиовизуальная техника</string>
+    <string name="s51_02_03">Библиотековедение</string>
+
+    <string name="kv_text_s51_02_01">Руководитель любительского творческого коллектива, преподаватель</string>
+    <string name="kv_text_s51_02_02">Менеджер социально-культурной деятельности, организатор социально-культурной деятельности</string>
+    <string name="kv_text_s55_02_01">Светорежиссура</string>
+    <string name="kv_text_s51_02_03">Библиотекарь</string>
+    <string name="srok_2">2 года</string>
+
+    <!-- ГБПОУ РС(Я) «Республиканское училище (колледж) олимпийского резерва им. Р.М. Дмитриева»-->
+    <string name="RUOR">Республиканское училище (колледж) олимпийского резерва им. Р.М. Дмитриева</string>
+    <string name="college_RUOR">ГБПОУ РС(Я) Республиканское училище (колледж) олимпийского резерва им. Р.М. Дмитриева</string>
+    <string name="adress_RUOR">677015, Республика Саха (Якутия), г. Якутск, ул. Семена Данилова, 4</string>
+    <string name="phone_RUOR">тел/факс: 8 (4112) 44-75-93</string>
+    <string name="email_RUOR">uor@gov14.ru</string>
+    <string name="site_RUOR">http://uor.ykt.ru/</string>
+
+    <string name="kv_text_s49_02_01">Педагог по физической культуре и спорту</string>
+
+    <!-- АНПОО «Якутский гуманитарный колледж»-->
+    <string name="YGK">Якутский гуманитарный колледж</string>
+    <string name="college_YGK">АНПОО Якутский гуманитарный колледж</string>
+    <string name="adress_YGK">677018, Республика Саха (Якутия), г. Якутск, ул. Дежнева, 16</string>
+    <string name="phone_YGK">тел/факс: 8 (4112) 36-09-88</string>
+    <string name="email_YGK">kolledzh2009@mail.ru</string>
+    <string name="site_YGK">гуманитарныйколледж.рф</string>
+
+    <!-- НПОУ «Якутский колледж инновационных технологий»-->
+    <string name="YKIT">Якутский колледж инновационных технологий</string>
+    <string name="college_YKIT">НПОУ Якутский колледж инновационных технологий</string>
+    <string name="adress_YKIT">677000, Республика Саха (Якутия), г. Якутск, 203-й микрорайон, ул. Ларионова, 4</string>
+    <string name="phone_YKIT">тел/факс: 8 (4112) 36-97-92</string>
+    <string name="email_YKIT">yakit10@mail.ru</string>
+    <string name="site_YKIT">https://www.yakit.ru/</string>
+
+    <string name="s10_02_01">Организация и технология защиты информации</string>
+    <string name="s38_02_03">Операционная деятельность в логистике</string>
+
+    <string name="kv_text_s10_02_01">Техник по защите информации</string>
+    <string name="kv_text_s38_02_03">Операционный логист</string>
+
+    <!-- ПОУ «Якутский торгово-экономический колледж потребительской кооперации»-->
+    <string name="YTEK">Якутский торгово-экономический колледж потребительской кооперации</string>
+    <string name="college_YTEK">ПОУ Якутский торгово-экономический колледж потребительской кооперации</string>
+    <string name="adress_YTEK">677007, Республика Саха (Якутия), г. Якутск, пр. Ленина, д.50</string>
+    <string name="phone_YTEK">тел/факс: 8 (4112) 36-22-91, 36-16-53</string>
+    <string name="email_YTEK">common@ytecpk.ru</string>
+    <string name="site_YTEK">https://www.ytecpk.ru/</string>
+
+    <string name="s38_02_05">Товароведение и экспертиза качества потребительских товаров</string>
+    <string name="s43_02_01">Товароведение и экспертиза качества потребительских товаров</string>
+    <string name="s43_02_15">Поварское и кондитерское дело</string>
+
+    <string name="kv_text_s38_02_05">Товаровед-эксперт (кассир, контролер, продавец)</string>
+    <string name="kv_text_s43_02_01">Менеджер</string>
+    <string name="kv_text_s43_02_15">Специалист по поварскому и кондитерскому делу</string>
+
+    <!-- ГБПОУ РС (Я) «АЛДАНСКИЙ ПОЛИТЕХНИЧЕСКИЙ ТЕХНИКУМ»-->
     <string name="college_APT">ГАПОУ РС (Я) АЛДАНСКИЙ ПОЛИТЕХНИЧЕСКИЙ ТЕХНИКУМ</string>
     <string name="adress_APT">678901 Республика Саха (Якутия),  г. Алдан, ул. Ленина, д. 36</string>
     <string name="phone_APT">"тел/факс: 8 (41145) 3-31-09, 3-57-89"</string>
@@ -24,5 +278,313 @@
 
     <string name="kv_text_s19_01_04">Пекарь-кондитер 3 разряда</string>
     <string name="kv_text_s19_02_03">Техник-технолог (16475 Пекарь-мастер)</string>
+
+    <string name="HOK">Харбалахский образовательный комплекс им. Н.И. Мординова – Амма-Аччыгыйа</string>
+
+    <string name="college_HOK">ГБПОУ РС(Я) Харбалахский образовательный комплекс им. Н.И. Мординова – Амма-Аччыгыйа</string>
+    <string name="adress_HOK">677666, Республика Саха (Якутия), Таттинский улус, с. Харбалах, ул. Амгинская, 1</string>
+    <string name="phone_HOK">тел/факс: 8 (4112) 2-44-97</string>
+    <string name="email_HOK">hok_harbalah@gov14.ru</string>
+    <string name="site_HOK">https://khok.siteedu.ru/</string>
+
+    <string name="s13_01_10">Мастер по ремонту и обслуживанию</string>
+    <string name="s20_01_01">Пожарный</string>
+
+    <string name="kv_text_s13_01_10">Электромонтер по ремонту и обслуживанию электрооборудования</string>
+    <string name="kv_text_s20_01_01">Пожарный</string>
+    <string name="kv_text_s21_01_08">Машинист бульдозера Машинист экскаватора</string>
+
+
+    <string name="NPK">Намский педагогический колледж им. И.Е.Винокурова</string>
+
+    <string name="college_NPK">ГАПОУ РС (Я) Намский педагогический колледж им. И.Е.Винокурова</string>
+    <string name="adress_NPK">678380, Республика Саха (Якутия), Намский улус, с. Намцы, ул. Студенческая, д.1</string>
+    <string name="phone_NPK">тел/факс: 8 (4112) 4-11-94</string>
+    <string name="email_NPK">npk_namtsy@gov14.ru</string>
+    <string name="site_NPK">https://namcollege.ru/</string>
+
+    <string name="s54_02_06">Изобразительное искусство и черчение</string>
+    <string name="s44_02_06">Профессиональное обучение (по отраслям): вычислительная техника</string>
+    <string name="s44_02_03">Педагогика дополнительного образования</string>
+    <string name="s44_02_01">Дошкольное образование</string>
+    <string name="s44_02_02">Преподавание в начальных классах</string>
+    <string name="s49_02_02">Адаптивная физическая культура</string>
+
+    <string name="kv_text_s54_02_06">Учитель изобразитешьного искусства и черчения</string>
+    <string name="kv_text_s44_02_06">Мастер профессионального обучения, техник</string>
+    <string name="kv_text_s44_02_03">Педагог дополнительного образования</string>
+    <string name="kv_text_s44_02_01">Воспитатель детей дошкольного возраста</string>
+    <string name="kv_text_s44_02_02">Учитель начальных классов</string>
+    <string name="kv_text_s49_02_02">Педагог по адаптивной физической культуре и спорту/Учитель адаптивной физической культуры</string>
+
+
+    <string name="VPK">Вилюйский педагогический колледж им. Н.Г.Чернышевского</string>
+
+    <string name="college_VPK">ГАПОУ РС (Я) Вилюйский педагогический колледж им. Н.Г.Чернышевского</string>
+    <string name="adress_VPK">678200, Вилюйский улус, г. Вилюйск, ул. Иряева. д.30</string>
+    <string name="phone_VPK">тел/факс: 8 (4112) 4-29-96</string>
+    <string name="email_VPK">pk_vilyisk@gov14.ru</string>
+    <string name="site_VPK">https://vilcollege.ru/</string>
+
+    <string name="s44_02_05">Коррекционная педагогика в начальном образовании</string>
+
+    <string name="kv_text_s44_02_05">Учитель начальных классов и начальных классов компенсирующего и коррекционно-развивающего образования</string>
+
+
+
+    <string name="YPK">Якутский педагогический колледж им. С.Ф.Гоголева</string>
+
+    <string name="college_YPK">ГБПОУ  РС (Я) Якутский педагогический колледж им. С.Ф.Гоголева</string>
+    <string name="adress_YPK">677000, Республика Саха (Якутия), г. Якутск, пр. Ленина, 5</string>
+    <string name="phone_YPK">тел/факс: 8 (4112) 44-42-02</string>
+    <string name="email_YPK">yapk@gov14.ru</string>
+    <string name="site_YPK">https://yapk.ru/</string>
+
+    <string name="s49_02_01">Физическая культура </string>
+
+    <string name="kv_text_s49_02_01_ypk">Учитель физической культуры</string>
+
+
+    <!-- ГБПОУ РС (Я) «Якутский медицинский  колледж»-->
+
+    <string name="YAMK">Якутский медицинский  колледж</string>
+
+    <string name="college_YAMK">ГБПОУ  РС (Я) Якутский медицинский  колледж</string>
+    <string name="adress_YAMK">677005, Республика Саха (Якутия), г. Якутск, ул. Лермонтова, 40</string>
+    <string name="phone_YAMK">тел/факс: 8 (4112) 22-65-26</string>
+    <string name="email_YAMK">ymedk@gov14.ru</string>
+    <string name="site_YAMK">https://ybmk.ykt.ru/</string>
+
+    <string name="s31_02_03">Лабораторная диагностика</string>
+
+    <string name="kv_text_s31_02_03">Медицинский лабораторный техник</string>
+
+    <!-- ГБПОУ РС (Я) «Нерюнгринский медицинский  колледж»-->
+
+    <string name="NMK">Нерюнгринский медицинский  колледж</string>
+
+    <string name="college_NMK">ГБПОУ  РС (Я) Нерюнгринский медицинский  колледж</string>
+    <string name="adress_NMK">678967, Республика Саха (Якутия), г. Нерюнгри, ул. Тимпонская, д.1а</string>
+    <string name="phone_NMK">тел/факс: 8 (4112) 6-01-46</string>
+    <string name="email_NMK">nmk_nerungri@gov14.ru</string>
+    <string name="site_NMK">https://nermedkolleg.ru/</string>
+
+    <!-- ГБПОУ РС (Я) «Якутский сельскохозяйственный техникум»-->
+
+    <string name="YSHT">Якутский сельскохозяйственный техникум</string>
+
+    <string name="college_YSHT">ГБПОУ  РС (Я) Нерюнгринский медицинский  колледж</string>
+    <string name="adress_YSHT">677000, Республика Саха (Якутия), г. Якутск, ул. Пояркова, 15</string>
+    <string name="phone_YSHT">тел/факс: 8 (4112) 34-11-35, 34-11-94</string>
+    <string name="email_YSHT">ysxt@gov14.ru</string>
+    <string name="site_YSHT">https://ysxt.ru/</string>
+
+    <string name="s19_02_07">Технология молока и молочных продуктов</string>
+    <string name="s21_02_04">Землеустройство</string>
+    <string name="s21_02_05">Земельно-имущественные отношения</string>
+    <string name="s35_02_01">Лесное и лесопарковое хозяйство</string>
+    <string name="s35_02_05">Агрономия</string>
+    <string name="s35_02_06">Технология производства и переработки сельскохозяйственной продукции</string>
+    <string name="s35_02_14">Охотоведение и звероводство</string>
+    <string name="s35_02_16">Эксплуатация и ремонт сельскохозяйственной техники и оборудования</string>
+    <string name="s36_02_01">Ветеринария</string>
+    <string name="s36_02_02">Зоотехния</string>
+    <string name="s35_01_13">Тракторист-машинист сельскохозяйственного производства</string>
+    <string name="s19_01_10">Мастер производства молочной продукции</string>
+
+
+    <string name="kv_text_s19_02_07">Техник-технолог (10786 Аппаратчик производства кисломолочных и детских молочных продуктов)</string>
+    <string name="kv_text_s21_02_04">Техник-землеустроитель (12192 Замерщик топогрофогеозедических и маркшейдерских работах)</string>
+    <string name="kv_text_s21_02_05">Специалист по земельно-имущественным отношениям</string>
+    <string name="kv_text_s35_02_01">Специалист лесного и лесопаркового хозяйства (11359 Вальщик леса, 19203 Тракторист)</string>
+    <string name="kv_text_s35_02_05">Агроном (19205 Тракторист-машинист сельскохозяйственного производства)</string>
+    <string name="kv_text_s35_02_06">Технолог (17282 Приемщик сельскохозяйственных продуктов и сырья, 15699 Оператор машинного доения)</string>
+    <string name="kv_text_s35_02_14">Охотовед (11939 Егерь)</string>
+    <string name="kv_text_s35_02_16">Техник-механик (19205 Тракторист- машинист сельскохозяйственного производства, 11442 Водитель автомобиля)</string>
+    <string name="kv_text_s36_02_01">Ветеринарный фельдшер (15830 Оператор по искусственному осеменению животных и птицы)</string>
+    <string name="kv_text_s36_02_02">Зоотехник (15699 Оператор машинного доения)</string>
+    <string name="kv_text_s35_01_13">Слесарь по ремонту с/х машин и оборудования</string>
+    <string name="kv_text_s19_01_10">Мастер производства цельномолочной и кисломолочной продукции</string>
+
+    <!-- ГБПОУ РС (Я) «Якутский коммунально-строительный техникум»-->
+    <string name="YKST">Якутский коммунально-строительный техникум</string>
+    <string name="college_YKST">ГБПОУ  РС (Я) Якутский коммунально-строительный техникум</string>
+    <string name="adress_YKST">677000, Республика Саха (Якутия), г. Якутск, ул. Очиченко, 6</string>
+    <string name="phone_YKST">тел/факс: 8 (4112) 47-42-31</string>
+    <string name="email_YKST">ykst@gov14.ru</string>
+    <string name="site_YKST">https://yakst.ru/</string>
+
+    <string name="s08_01_06">Мастер сухого строительства</string>
+    <string name="s08_01_07">Мастер общестроительных работ</string>
+    <string name="s08_01_09">Слесарь по строительно-монтажным работам</string>
+    <string name="s08_01_25">Мастер отделочных строительных и декоративных работ</string>
+    <string name="s08_02_01">Строительство и эксплуатация зданий и сооружений</string>
+    <string name="s08_02_08">Монтаж и эксплуатация оборудования и систем газоснабжения </string>
+    <string name="s08_01_26">Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства</string>
+    <string name="s13_02_02">Теплоснабжение и теплотехническое оборудование</string>
+
+    <string name="kv_text_s08_01_06">Маляр строительный, Монтажник каркасно-обшивных конструкций</string>
+    <string name="kv_text_s08_01_07">Каменщик, электросварщик ручной сварки</string>
+    <string name="kv_text_s08_01_09">Слесарь по сборке металлоконструкций, электрослесарь</string>
+    <string name="kv_text_s08_01_25">Штукатур "облицовщик-плиточник"</string>
+    <string name="kv_text_s08_02_01">Техник</string>
+    <string name="kv_text_s08_02_08">Техник (18554 Слесарь по эксплуатации и ремонту газового оборудования)</string>
+    <string name="kv_text_s08_01_26">Слесарь-сантехник, электромонтажник по освещению и осветительным сетям</string>
+    <string name="kv_text_s13_02_02">Техник-теплотехник</string>
+
+    <!-- ГБПОУ РС (Я) «Якутский коммунально-строительный техникум»-->
+    <string name="YKTD">Якутский колледж технологии и дизайна</string>
+    <string name="college_YKTD">ГБПОУ  РС (Я) Якутский колледж технологии и дизайна</string>
+    <string name="adress_YKTD">677000, Республика Саха (Якутия), г. Якутск, ул. Кирова, 32</string>
+    <string name="phone_YKTD">тел/факс: 8 (4112) 35-49-75, 43-39-52</string>
+    <string name="email_YKTD">yctd@gov14.ru</string>
+    <string name="site_YKTD">https://yctd.ru/</string>
+
+    <string name="s29_02_03">Конструирование, моделирование и технология  изделий из меха</string>
+    <string name="s29_02_04">Конструирование, моделирование и технология швейных изделий</string>
+    <string name="s39_02_01">Социальная работа</string>
+    <string name="s54_02_01">Дизайн (по отраслям)</string>
+    <string name="s54_02_02">Декоративно-прикладное искусство и народные промыслы</string>
+    <string name="s54_01_20">Графический дизайнер</string>
+
+    <string name="kv_text_s29_02_03">Технолог-конструктор (118437 Скорняк-раскройщик 2 разряда)</string>
+    <string name="kv_text_s29_02_04">Технолог-конструктор (16909 Портной)</string>
+    <string name="kv_text_s39_02_01">Специалист по социальной работе (26527 Социальный работник)</string>
+    <string name="kv_text_s54_02_01">Дизайнер (12565 Исполнитель художественно-оформительских работ, 18103 Садовник 1 разряда, 16909 Портной 2 разряда, 11811 Декоратор витрин 3-4 разряда, 19460 Фотограф 3 разряда)</string>
+    <string name="kv_text_s54_02_02">Художник-мастер, преподаватель</string>
+    <string name="kv_text_s54_01_20">Графический дизайнер</string>
+
+    <!-- ГБПОУ РС (Я) «Якутский индустриально-педагогический колледж»-->
+    <string name="YIPK">Якутский индустриально-педагогический колледж</string>
+    <string name="college_YIPK">ГБПОУ  РС (Я) Якутский индустриально-педагогический колледж</string>
+    <string name="adress_YIPK">677009, Республика Саха (Якутия), г. Якутск, ул. Дзержинского, 55</string>
+    <string name="phone_YIPK">тел/факс: 8 (4112) 43-96-45</string>
+    <string name="email_YIPK">yipk@gov14.ru</string>
+    <string name="site_YIPK">https://yipc.ya1.ru/</string>
+
+    <string name="s15_01_05">Сварщик (ручной и частично механизированной сварки (наплавки)</string>
+    <string name="s22_02_06">Сварочное производство</string>
+    <string name="s23_01_17">Мастер по ремонту и обслуживанию автомобилей</string>
+    <string name="s23_02_07">Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей</string>
+    <string name="s15_01_36">Дефектоскопист</string>
+
+    <string name="kv_text_s15_01_05">Сварщик ручной дуговой сварки плавящимся покрытым электродом Сварщик частично механизированной сварки плавлением</string>
+    <string name="kv_text_s22_02_06">Техник (19756 Газоэлектросварщик)</string>
+    <string name="kv_text_s23_01_17">Сварщик ручной дуговой сварки плавящимся покртым электродом Сварщик частично механизированной сварки  </string>
+    <string name="kv_text_s23_02_07">Техник (18511 Слесарь по ремонту автомобилей, 11442 Водитель автомобиля)</string>
+    <string name="kv_text_s15_01_36">Дефетоскопист по визуальному и измерительному контролю. Дефектоскопист по ультразвуковому контролю</string>
+
+    <!-- ГБПОУ РС (Я) «Чурапчинский колледж»-->
+    <string name="CK">Чурапчинский колледж</string>
+    <string name="college_CK">ГБПОУ  РС (Я) Чурапчинский колледж</string>
+    <string name="adress_CK">677009, Республика Саха (Якутия), Чурапчинский улус, с. Чурапча, ул. Нидьили, 4</string>
+    <string name="phone_CK">тел/факс: 8 (4112) 4-21-92, 4-13-60</string>
+    <string name="email_CK">chk_churapcha@gov14.ru</string>
+    <string name="site_CK">https://churcollege.ru/</string>
+
+    <string name="s13_02_07">Электроснабжение</string>
+    <string name="s20_02_04">Пожарная безопасность</string>
+
+    <string name="kv_text_s13_02_07">Техник (19867 Электромонтер по эксплуатации распределительных сетей)</string>
+    <string name="kv_text_s20_02_04">Техник (18535 Слесарь по ремонту оборудования тепловых сетей)</string>
+
+    <!-- ГБПОУ РС (Я) «Финансово-экономический колледж им. И.И. Фадеева»-->
+    <string name="FEK">Финансово-экономический колледж им. И.И. Фадеева</string>
+    <string name="college_FEK">ГБПОУ  РС (Я) Финансово-экономический колледж им. И.И. Фадеева</string>
+    <string name="adress_FEK">677009, Республика Саха (Якутия), г. Якутск, ул. Ойунского, 24</string>
+    <string name="phone_FEK">тел/факс: 8 (4112) 35-05-53</string>
+    <string name="email_FEK">yafek@gov14.ru</string>
+    <string name="site_FEK">https://yafek.com/</string>
+
+    <string name="s38_02_01">Экономика и бухгалтерский учет (по отраслям)</string>
+    <string name="s38_02_06">Финансы</string>
+    <string name="s38_02_07">Банковское дело</string>
+    <string name="kv_text_s38_02_01">Бухгалтер</string>
+    <string name="kv_text_s38_02_06">Финансист</string>
+    <string name="kv_text_s38_02_07">Специалист банковского дела</string>
+
+    <!-- ГБПОУ РС (Я) «Усть-Алданский техникум»-->
+    <string name="UAT">Усть-Алданский техникум</string>
+    <string name="college_UAT">ГБПОУ  РС (Я) Усть-Алданский техникум</string>
+    <string name="adress_UAT">677009, Республика Саха (Якутия), Усть-Алданский район, с. Хоногор, ул. Т. Татаринова, 84</string>
+    <string name="phone_UAT">тел/факс: 8 (4112) 35-05-53</string>
+    <string name="email_UAT">uat_borogontsy@gov14.ru</string>
+    <string name="site_UAT">https://uatykt.ru/</string>
+
+    <string name="s20_02_02">Защита в чрезвычайных ситуациях</string>
+    <string name="kv_text_s20_02_02">Техник-спасатель ( 16781 Пожарный, 11442 Водитель ТРС категории «С» 25)</string>
+
+    <!-- ГБПОУ РС (Я) «Транспортный техникум»-->
+    <string name="TT">Транспортный техникум</string>
+    <string name="college_TT">ГБПОУ  РС (Я) Транспортный техникум</string>
+    <string name="adress_TT">677009, Республика Саха (Якутия), Мегино-Кангаласский улус, пгт. нижний Бестях, ул. Ленина, 40/1</string>
+    <string name="phone_TT">тел/факс: 8 (4112) 4-74-57</string>
+    <string name="email_TT">tt_nbestyakh@gov14.ru</string>
+    <string name="site_TT">https://ttnb.ru/</string>
+
+    <string name="s08_02_10">Строительство железных дорог, путь и путевое хозяйство</string>
+    <string name="s23_02_01">Организация перевозок и управление на транспорте (железнодорожном)</string>
+    <string name="s23_02_06">Техническая эксплуатация подвижного состава железных дорог</string>
+
+    <string name="kv_text_s08_02_10">Техник (14668 Монтер пути, 15572 Оператор дефектоскопой тележки)</string>
+    <string name="kv_text_s23_02_01">Техник (18726 Составитель поездов, 17244 Приемосдатчик груза и багажа, 25354 Оператор при дежурном по станции)</string>
+    <string name="kv_text_s23_02_06">Техник (16269 Осмотрщик вагонов, 16878 Помощник машиниста тепловоза, 18540 Слесарь по ремонту подвижного состава)</string>
+
+    <!-- ГБПОУ РС (Я) «Тиксинский многопрофильный лицей»-->
+    <string name="TML">Тиксинский многопрофильный лицей</string>
+    <string name="college_TML">ГБПОУ  РС (Я) Тиксинский многопрофильный лицей</string>
+    <string name="adress_TML">677009, Республика Саха (Якутия), Булунский улус, п. Тикси, ул. Гагарина, д.6</string>
+    <string name="phone_TML">тел/факс: 8 (4112) 5-29-55, 5-30-69</string>
+    <string name="email_TML">tmpl_tiksi@gov14.ru</string>
+    <string name="site_TML">https://gboupu33.wixsite.com/licey</string>
+
+    <string name="s05_01_01">Гидрометнаблюдатель</string>
+    <string name="kv_text_s05_01_01">Гидрометнаблюдатель</string>
+
+    <!-- ГБПОУ РС (Я) «Сунтарский технологический колледж»-->
+    <string name="STK">Сунтарский технологический колледж</string>
+    <string name="college_STK">ГБПОУ  РС (Я) Сунтарский технологический колледж</string>
+    <string name="adress_STK">677009, Республика Саха (Якутия), Сунтарский район, с. Сунтар, ул. Папанина, 23</string>
+    <string name="phone_STK">тел/факс: 8 (4112) 2-20-60, 2-28-98</string>
+    <string name="email_STK">stk_suntar@gov14.ru</string>
+    <string name="site_STK">https://suntechcol.com</string>
+
+    <string name="s23_02_04">Техническая эксплуатация подъемно-транспортных, строительных, дорожных машин и оборудования (по отраслям)</string>
+    <string name="s15_01_20">Слесарь по контрольно-измерительным приборам и автоматике</string>
+    <string name="kv_text_s23_02_04">Техник</string>
+    <string name="kv_text_s15_01_20">Слесарь по контрольно-измерительным приборам и автоматике</string>
+
+    <!-- ГБПОУ РС (Я) «Светлинский индустриальный техникум»-->
+    <string name="SIT">Светлинский индустриальный техникум</string>
+    <string name="college_SIT">ГБПОУ  РС (Я) Светлинский индустриальный техникум</string>
+    <string name="adress_SIT">678196, Республика Саха (Якутия), Мирнинский район, п. Светлый, ул. Советская, 5</string>
+    <string name="phone_SIT">тел/факс: 8(41136)7-13-90</string>
+    <string name="email_SIT">mit@miritex.ru</string>
+    <string name="site_SIT">http://gou-spo-mit.ru/</string>
+
+    <!-- ГБПОУ РС (Я) «Сангарский многопрофильный лицей»-->
+    <string name="SML">Сангарский многопрофильный лицей</string>
+    <string name="college_SML">ГБПОУ  РС (Я) Сангарский многопрофильный лицей</string>
+    <string name="adress_SML">678196, Республика Саха (Якутия), Кобяйский район, п. Сангар, ул. Горбунова, 22</string>
+    <string name="phone_SML">тел/факс: 8(41136)2-14-01</string>
+    <string name="email_SML">smpl_sangar@gov14.ru</string>
+    <string name="site_SML">http://pu4.org.ru/</string>
+
+    <string name="s09_01_02">Наладчик компьютерных сетей</string>
+    <string name="kv_text_s09_01_02">Наладчик технологического оборудования</string>
+
+    <string name="college_UYTK">ГАПОУ  РС (Я) Южно-Якутский технологический колледж</string>
+    <string name="adress_UYTK">678960, Республика Саха (Якутия), Нерюнгринский район, г. Нерюнгри, ул. Кравченко, д.16/1</string>
+    <string name="phone_UYTK">тел/факс: 8(41147)4-02-41, 4-84-47</string>
+    <string name="email_UYTK">uytk_nerungri@gov14.ru</string>
+    <string name="site_UYTK">http://www.юятк.рф/</string>
+
+    <!--ГАПОУ  РС (Я) Якутский автодорожный техникум-->
+    <string name="YAT">Якутский автодорожный техникум</string>
+    <string name="college_YAT">ГАПОУ  РС (Я) Якутский автодорожный техникум</string>
+    <string name="adress_YAT">677008, Республика Саха (Якутия), г. Якутск, Вилюйский тракт 5 км, корп.1</string>
+    <string name="phone_YAT">тел/факс: 8(4112)36-94-58, 36-94-42</string>
+    <string name="email_YAT">yadt@gov14.ru</string>
+    <string name="site_YAT">http://yaadt.ru/</string>
 
 </resources>

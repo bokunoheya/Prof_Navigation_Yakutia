@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1042066543128",
+    "firebase_url": "https://prof-navigation-yakutia.firebaseio.com",
+    "project_id": "prof-navigation-yakutia",
+    "storage_bucket": "prof-navigation-yakutia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042066543128:android:92f4188be4a58478bb696d",
+        "android_client_info": {
+          "package_name": "com.pc.profnavykt2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042066543128-uiorejseo3gjbomjeji4gok1103bh5s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCYYa6xYHsiza6BBB4PSyfDLj5EBUEQQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042066543128-uiorejseo3gjbomjeji4gok1103bh5s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

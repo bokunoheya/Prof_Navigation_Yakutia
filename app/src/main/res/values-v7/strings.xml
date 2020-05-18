@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--1. 6. ГАПОУ РС (Я) "Якутский промышленный техникум им. Т.Г.Десяткина"»-->
-    <string name="college_IPT"> 6. ГАПОУ РС (Я) Якутский промышленный техникум им. Т.Г.Десяткина</string>
-    <string name="name_dir_IPT">Христофоров Станислав Робертович</string>
-    <string name="adress_IPT">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
-    <string name="phone_IPT">" тел/факс: 8(4112) 44 91 56"</string>
-    <string name="email_IPT">goupu_16@mail.ru</string>
-    <string name="site_IPT">http://www.yktpromtech.ru/</string>
+    <string name="YPT">Якутский промышленный техникум им. Т.Г.Десяткина</string>
+    <string name="college_YPT">ГАПОУ РС (Я) Якутский промышленный техникум им. Т.Г.Десяткина</string>
+    <string name="name_dir_YPT">Христофоров Станислав Робертович</string>
+    <string name="adress_YPT">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
+    <string name="phone_YPT">" тел/факс: 8(4112) 44 91 56"</string>
+    <string name="email_YPT">goupu_16@mail.ru</string>
+    <string name="site_YPT">http://www.yktpromtech.ru/</string>
     <!--Специальности-->
     <string name="s08_01_14">"Монтажник санитарно-технических, вентиляционных систем и оборудования "</string>
     <string name="s08_01_18">"Электромонтажник электрических сетей и электрооборудования"</string>

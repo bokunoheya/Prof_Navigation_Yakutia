@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    &lt;!&ndash;ГБПОУ РС (Я) «НАМСКИЙ ТЕХНИКУМ В селе Графский Берег»&ndash;&gt;
+
+    <string name="NamT">Намский техникум</string>
     <string name="college_NamT">ГБПОУ РС (Я) «НАМСКИЙ ТЕХНИКУМ В селе Графский Берег»</string>
     <string name="name_dir_NamT">ЖИРКОВ Ньургустан Михайлович</string>
     <string name="adress_NamT">678386, Республика Саха (Якутия), село Графский Берег, ул. Советская, д.20</string>
     <string name="phone_NamT">" тел/факс: 8 (41162) 2-30-41,2-30-92"</string>
     <string name="email_NamT">nt_namtsy@14gov.ru</string>
     <string name="site_NamT">https://namteh.3dn.ru/</string>
-    &lt;!&ndash;Специальности&ndash;&gt;
+
     <string name="s08_01_07">"Мастер общестроительных работ"</string>
     <string name="s22_02_06">"Сварочное производство "</string>
     <string name="s23_01_17">"Мастер по ремонту и обслуживанию автомобилей"</string>

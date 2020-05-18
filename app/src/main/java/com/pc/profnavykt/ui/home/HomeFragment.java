@@ -12,9 +12,12 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 
+import com.pc.profnavykt.BaseBackPressedListener;
+import com.pc.profnavykt.MainActivity;
 import com.pc.profnavykt.R;
 
 public class HomeFragment extends Fragment {
@@ -24,10 +27,15 @@ Button spis_uch;
 Button professii;
     Button next;
 //Button specialnosti;
+    int count=0;
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
+        FragmentActivity activity = getActivity();                                                // Отмена перехода назад
+        ((MainActivity)activity).setOnBackPressedListener(new BaseBackPressedListener(activity)); //
+
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         final View root = inflater.inflate(R.layout.fragment_home, container, false);

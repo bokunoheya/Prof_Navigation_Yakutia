@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:theme="@style/buttonStyle2"
     tools:context="com.pc.profnavykt.ui.SocGarant" >
 
     <ScrollView
@@ -17,35 +18,39 @@
 
             <Button
                 android:id="@+id/button16"
-                style="@style/soc_gar"
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/block_opacity_p"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
                 android:text="@string/soc_gar_detyam_sir" />
 
             <Button
                 android:id="@+id/button11"
-                style="@style/soc_gar"
+                android:paddingLeft="100dp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
+                android:paddingRight="10dp"
                 android:background="@drawable/block_opacity_b"
                 android:text="@string/gov_ac_st" />
 
             <Button
                 android:id="@+id/button14"
-                style="@style/soc_gar"
+                android:paddingLeft="100dp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
+                android:paddingRight="10dp"
                 android:background="@drawable/block_opacity_o"
                 android:text="@string/mery_soc_pod" />
 
             <Button
                 android:id="@+id/button15"
-                style="@style/soc_gar"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
@@ -54,7 +59,9 @@
 
             <Button
                 android:id="@+id/button13"
-                style="@style/soc_gar"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_r"
