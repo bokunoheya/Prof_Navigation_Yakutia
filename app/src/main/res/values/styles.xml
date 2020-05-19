@@ -77,6 +77,12 @@
         <item name="android:textAlignment">textStart</item>
 
     </style>
+
+    <style name="buttonStyle4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:paddingLeft">100dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="app_name_start">
         <item name="android:textSize">23sp</item>
         <item name="android:textStyle">bold</item>

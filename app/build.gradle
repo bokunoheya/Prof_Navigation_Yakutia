@@ -6,12 +6,11 @@ android {
     buildToolsVersion "29.0.3"
     viewBinding.enabled = true
     defaultConfig {
-        applicationId "com.pc.profnavykt2"
+        applicationId "com.pc.profnavykt3"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -21,7 +20,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {

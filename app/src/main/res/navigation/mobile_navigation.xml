@@ -1240,4 +1240,9 @@
         android:name="com.pc.profnavykt.Ytts"
         android:label="ytts"
         tools:layout="@layout/ytts" />
+    <fragment
+        android:id="@+id/s34_02_01_colleges"
+        android:name="com.pc.profnavykt.S34_02_01_colleges"
+        android:label="s34_02_01_colleges"
+        tools:layout="@layout/s34_02_01_colleges" />
 </navigation>

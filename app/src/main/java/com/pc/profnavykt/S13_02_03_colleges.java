@@ -62,7 +62,7 @@ public class S13_02_03_colleges extends Fragment {
         View root= inflater.inflate(R.layout.s13_02_03_colleges, container, false);
         Button but1= root.findViewById(R.id.but1);
         Button but2= root.findViewById(R.id.but2);
-        but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.stk));
+        but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.sit));
         but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
         return root;
     }

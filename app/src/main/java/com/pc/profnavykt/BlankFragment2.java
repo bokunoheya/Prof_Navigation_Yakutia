@@ -70,6 +70,28 @@ public class BlankFragment2 extends Fragment {
         but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08_colleges));
         Button but4= root.findViewById(R.id.but4) ;
         but4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03_colleges));
+        Button but5= root.findViewById(R.id.but5) ;
+        but5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s23_01_17_colleges));
+        Button but6= root.findViewById(R.id.but6) ;
+        but6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_15_colleges));
+        Button but7= root.findViewById(R.id.but7) ;
+        but7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_01_colleges));
+        Button but8= root.findViewById(R.id.but8) ;
+        but8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_07_colleges));
+        Button but9= root.findViewById(R.id.but9) ;
+        but9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_21_colleges));
+        Button but10= root.findViewById(R.id.but10) ;
+        but10.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_01_colleges));
+        Button but11= root.findViewById(R.id.but11) ;
+        but11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_04_colleges));
+        Button but12= root.findViewById(R.id.but12) ;
+        but12.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_05_colleges));
+        Button but13= root.findViewById(R.id.but13) ;
+        but13.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_01_colleges));
+        Button but14= root.findViewById(R.id.but14) ;
+        but14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_02_colleges));
+        Button but15= root.findViewById(R.id.but15) ;
+        but15.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s34_02_01_colleges));
         return root;
     }
 }

@@ -128,7 +128,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but8"
+                    android:id="@+id/but7"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_b"
@@ -145,7 +145,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but9"
+                    android:id="@+id/but8"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_r"
@@ -162,7 +162,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but10"
+                    android:id="@+id/but9"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_p"
@@ -179,7 +179,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but11"
+                    android:id="@+id/but10"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_g"
@@ -196,7 +196,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but12"
+                    android:id="@+id/but11"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_b"
@@ -212,7 +212,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but13"
+                android:id="@+id/but12"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_o"
@@ -229,7 +229,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but14"
+                    android:id="@+id/but13"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_r"
@@ -246,7 +246,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but15"
+                    android:id="@+id/but14"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_p"
@@ -263,7 +263,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but16"
+                    android:id="@+id/but15"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_g"
@@ -280,7 +280,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but17"
+                    android:id="@+id/but16"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_b"
@@ -297,7 +297,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but18"
+                    android:id="@+id/but17"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_o"
@@ -314,7 +314,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but19"
+                    android:id="@+id/but18"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_r"
@@ -331,7 +331,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but20"
+                    android:id="@+id/but19"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_p"
@@ -348,7 +348,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but21"
+                    android:id="@+id/but20"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_g"
@@ -364,7 +364,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but22"
+                android:id="@+id/but21"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_b"
@@ -381,7 +381,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but23"
+                    android:id="@+id/but22"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_o"
@@ -397,7 +397,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but24"
+                android:id="@+id/but23"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_r"
@@ -414,7 +414,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but25"
+                    android:id="@+id/but24"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_p"
@@ -431,7 +431,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but26"
+                    android:id="@+id/but25"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_g"
@@ -448,7 +448,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/but27"
+                    android:id="@+id/but26"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_opacity_b"
@@ -464,7 +464,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but28"
+                android:id="@+id/but27"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_o"
@@ -480,7 +480,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but29"
+                android:id="@+id/but28"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_r"
@@ -496,7 +496,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but30"
+                android:id="@+id/but29"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_p"
@@ -512,7 +512,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/but31"
+                android:id="@+id/but30"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/block_opacity_g"
