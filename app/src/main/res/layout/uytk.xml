@@ -120,7 +120,7 @@
         android:layout_width="287dp"
         android:layout_height="181dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/logo_yktd"
+        android:src="@drawable/logo_uytk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />

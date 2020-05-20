@@ -428,107 +428,107 @@
             android:label="@string/soc_gar_detyam_sir"
             tools:layout="@layout/fragment_soc_gar_child" />
 
-        <fragment
-            android:id="@+id/yamk"
-            android:name="com.pc.profnavykt.Yamk"
-            android:label="yamk"
-            tools:layout="@layout/yamk" />
-        <fragment
-            android:id="@+id/ggt"
-            android:name="com.pc.profnavykt.Ggt"
-            android:label="ggt"
-            tools:layout="@layout/ggt" />
-        <fragment
-            android:id="@+id/nt"
-            android:name="com.pc.profnavykt.Nt"
-            android:label="nt"
-            tools:layout="@layout/nt" />
-        <fragment
-            android:id="@+id/namt"
-            android:name="com.pc.profnavykt.Namt"
-            android:label="namt"
-            tools:layout="@layout/namt" />
-        <fragment
-            android:id="@+id/ltt"
-            android:name="com.pc.profnavykt.Ltt"
-            android:label="ltt"
-            tools:layout="@layout/ltt" />
-        <fragment
-            android:id="@+id/nmk"
-            android:name="com.pc.profnavykt.Nmk"
-            android:label="nmk"
-            tools:layout="@layout/nmk" />
-        <fragment
-            android:id="@+id/yktd"
-            android:name="com.pc.profnavykt.Yktd"
-            android:label="yktd"
-            tools:layout="@layout/yktd" />
-        <fragment
-            android:id="@+id/pc"
-            android:name="com.pc.profnavykt.Pc"
-            android:label="pc"
-            tools:layout="@layout/pc" />
-        <fragment
-            android:id="@+id/vpk"
-            android:name="com.pc.profnavykt.Vpk"
-            android:label="@string/app_name"
-            tools:layout="@layout/vpk" />
-        <fragment
-            android:id="@+id/npk"
-            android:name="com.pc.profnavykt.Npk"
-            android:label="@string/app_name"
-            tools:layout="@layout/npk" />
-        <fragment
-            android:id="@+id/hok"
-            android:name="com.pc.profnavykt.Hok"
-            android:label="@string/app_name"
-            tools:layout="@layout/hok" />
-        <fragment
-            android:id="@+id/zml"
-            android:name="com.pc.profnavykt.Zml"
-            android:label="zml"
-            tools:layout="@layout/zml" />
-        <fragment
-            android:id="@+id/tml"
-            android:name="com.pc.profnavykt.Tml"
-            android:label="tml"
-            tools:layout="@layout/tml" />
-        <fragment
-            android:id="@+id/ypk"
-            android:name="com.pc.profnavykt.Ypk"
-            android:label="@string/app_name"
-            tools:layout="@layout/ypk" />
-        <fragment
-            android:id="@+id/yipk"
-            android:name="com.pc.profnavykt.Yipk"
-            android:label="yipk"
-            tools:layout="@layout/yipk" />
-        <fragment
-            android:id="@+id/uytk"
-            android:name="com.pc.profnavykt.Uytk"
-            android:label="uytk"
-            tools:layout="@layout/uytk" />
-        <fragment
-            android:id="@+id/ck"
-            android:name="com.pc.profnavykt.Ck"
-            android:label="ck"
-            tools:layout="@layout/ck" />
-        <fragment
-            android:id="@+id/zt"
-            android:name="com.pc.profnavykt.Zt"
-            android:label="zt"
-            tools:layout="@layout/zt" />
+    <fragment
+        android:id="@+id/yamk"
+        android:name="com.pc.profnavykt.Yamk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/yamk" />
+    <fragment
+        android:id="@+id/ggt"
+        android:name="com.pc.profnavykt.Ggt"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/ggt" />
+    <fragment
+        android:id="@+id/nt"
+        android:name="com.pc.profnavykt.Nt"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/nt" />
+    <fragment
+        android:id="@+id/namt"
+        android:name="com.pc.profnavykt.Namt"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/namt" />
+    <fragment
+        android:id="@+id/ltt"
+        android:name="com.pc.profnavykt.Ltt"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/ltt" />
+    <fragment
+        android:id="@+id/nmk"
+        android:name="com.pc.profnavykt.Nmk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/nmk" />
+    <fragment
+        android:id="@+id/yktd"
+        android:name="com.pc.profnavykt.Yktd"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/yktd" />
+    <fragment
+        android:id="@+id/pc"
+        android:name="com.pc.profnavykt.Pc"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/pc" />
+    <fragment
+        android:id="@+id/vpk"
+        android:name="com.pc.profnavykt.Vpk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/vpk" />
+    <fragment
+        android:id="@+id/npk"
+        android:name="com.pc.profnavykt.Npk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/npk" />
+    <fragment
+        android:id="@+id/hok"
+        android:name="com.pc.profnavykt.Hok"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/hok" />
+    <fragment
+        android:id="@+id/zml"
+        android:name="com.pc.profnavykt.Zml"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/zml" />
+    <fragment
+        android:id="@+id/tml"
+        android:name="com.pc.profnavykt.Tml"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/tml" />
+    <fragment
+        android:id="@+id/ypk"
+        android:name="com.pc.profnavykt.Ypk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/ypk" />
+    <fragment
+        android:id="@+id/yipk"
+        android:name="com.pc.profnavykt.Yipk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/yipk" />
+    <fragment
+        android:id="@+id/uytk"
+        android:name="com.pc.profnavykt.Uytk"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/uytk" />
+    <fragment
+        android:id="@+id/ck"
+        android:name="com.pc.profnavykt.Ck"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/ck" />
+    <fragment
+        android:id="@+id/zt"
+        android:name="com.pc.profnavykt.Zt"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/zt" />
 
-        <fragment
-            android:id="@+id/ykst"
-            android:name="com.pc.profnavykt.Ykst"
-            android:label="ykst"
-            tools:layout="@layout/ykst" />
-        <fragment
-            android:id="@+id/fek"
-            android:name="com.pc.profnavykt.Fek"
-            android:label="fek"
-            tools:layout="@layout/fek" />
+    <fragment
+        android:id="@+id/ykst"
+        android:name="com.pc.profnavykt.Ykst"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/ykst" />
+    <fragment
+        android:id="@+id/fek"
+        android:name="com.pc.profnavykt.Fek"
+        android:label="@string/app_name_v2"
+        tools:layout="@layout/fek" />
 
 
         <fragment
@@ -1139,62 +1139,62 @@
             android:label="fragment_professii_nt"
             tools:layout="@layout/fragment_professii_nt" />
 
-        <fragment
-            android:id="@+id/tt"
-            android:name="com.pc.profnavykt.Tt"
-            android:label="Tt" />
-        <fragment
-            android:id="@+id/ruor"
-            android:name="com.pc.profnavykt.Ruor"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/ybs"
-            android:name="com.pc.profnavykt.Ybs"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/ygk"
-            android:name="com.pc.profnavykt.Ygk"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/mrtk"
-            android:name="com.pc.profnavykt.Mrtk"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/yhdu"
-            android:name="com.pc.profnavykt.Yhdu"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/yki"
-            android:name="com.pc.profnavykt.Yki"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/ytek"
-            android:name="com.pc.profnavykt.Ytek"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/ymk"
-            android:name="com.pc.profnavykt.Ymk"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/ot"
-            android:name="com.pc.profnavykt.Ot"
-            android:label="Ot" />
-        <fragment
-            android:id="@+id/sit"
-            android:name="com.pc.profnavykt.Sit"
-            android:label="Sit" />
-        <fragment
-            android:id="@+id/ykit"
-            android:name="com.pc.profnavykt.Ykit"
-            android:label="@string/app_name" />
-        <fragment
-            android:id="@+id/sml"
-            android:name="com.pc.profnavykt.Sml"
-            android:label="Sml" />
-        <fragment
-            android:id="@+id/stk"
-            android:name="com.pc.profnavykt.Stk"
-            android:label="Stk" />
+    <fragment
+        android:id="@+id/tt"
+        android:name="com.pc.profnavykt.Tt"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ruor"
+        android:name="com.pc.profnavykt.Ruor"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ybs"
+        android:name="com.pc.profnavykt.Ybs"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ygk"
+        android:name="com.pc.profnavykt.Ygk"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/mrtk"
+        android:name="com.pc.profnavykt.Mrtk"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/yhdu"
+        android:name="com.pc.profnavykt.Yhdu"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/yki"
+        android:name="com.pc.profnavykt.Yki"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ytek"
+        android:name="com.pc.profnavykt.Ytek"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ymk"
+        android:name="com.pc.profnavykt.Ymk"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ot"
+        android:name="com.pc.profnavykt.Ot"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/sit"
+        android:name="com.pc.profnavykt.Sit"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/ykit"
+        android:name="com.pc.profnavykt.Ykit"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/sml"
+        android:name="com.pc.profnavykt.Sml"
+        android:label="@string/app_name_v2" />
+    <fragment
+        android:id="@+id/stk"
+        android:name="com.pc.profnavykt.Stk"
+        android:label="@string/app_name_v2" />
     <fragment
         android:id="@+id/s31_02_03"
         android:name="com.pc.profnavykt.S31_02_03"
@@ -1208,7 +1208,7 @@
     <fragment
         android:id="@+id/yat"
         android:name="com.pc.profnavykt.Yat"
-        android:label="yat"
+        android:label="@string/app_name_v2"
         tools:layout="@layout/yat" />
     <fragment
         android:id="@+id/professiiYat"
@@ -1238,7 +1238,7 @@
     <fragment
         android:id="@+id/ytts"
         android:name="com.pc.profnavykt.Ytts"
-        android:label="ytts"
+        android:label="@string/app_name_v2"
         tools:layout="@layout/ytts" />
     <fragment
         android:id="@+id/s34_02_01_colleges"

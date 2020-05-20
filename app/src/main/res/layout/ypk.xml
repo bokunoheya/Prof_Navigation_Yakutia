@@ -35,7 +35,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
-        android:text="@string/adress_YTEK"
+        android:text="@string/adress_YPK"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:text="@string/phone_YTEK"
+        android:text="@string/phone_YPK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:text="@string/email_YTEK"
+        android:text="@string/email_YPK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -99,7 +99,7 @@
         android:layout_width="249dp"
         android:layout_height="94dp"
         android:layout_marginTop="16dp"
-        android:text="@string/college_YTEK"
+        android:text="@string/YPK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:autoLink="web"
-        android:text="@string/site_YTEK"
+        android:text="@string/site_YPK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -120,7 +120,7 @@
         android:layout_width="287dp"
         android:layout_height="181dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/logo_ytek"
+        android:src="@drawable/logo_ypk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />

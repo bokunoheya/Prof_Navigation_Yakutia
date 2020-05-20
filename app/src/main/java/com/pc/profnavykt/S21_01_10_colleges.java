@@ -65,8 +65,8 @@ public class S21_01_10_colleges extends Fragment {
         Button but2= root.findViewById(R.id.but2);
         Button but3= root.findViewById(R.id.but3);
         but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.apt));
-        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.uytk));
+        but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.mrtk));
+        but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.uytk));
         return root;
     }
 }
