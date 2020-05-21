@@ -586,5 +586,14 @@
     <string name="phone_YAT">тел/факс: 8(4112)36-94-58, 36-94-42</string>
     <string name="email_YAT">yadt@gov14.ru</string>
     <string name="site_YAT">http://yaadt.ru/</string>
+    <!--ГБПОУ РС(Я) "Республиканский техникум-интернат профессиональной и медико-социальной реабилитации инвалидов-->
+    <string name="RTI">Республиканский техникум-интернат профессиональной и медико-социальной реабилитации инвалидов</string>
+    <string name="college_RTI">ГБПОУ РС(Я) "Республиканский техникум-интернат профессиональной и медико-социальной реабилитации инвалидов</string>
+    <string name="adress_RTI">677008, Республика Саха (Якутия), г. Якутск, Вилюйский тракт 5 км, корп.1</string>
+    <string name="phone_RTI">тел/факс: 8(4112)36-94-58, 36-94-42</string>
+    <string name="email_RTI">yadt@gov14.ru</string>
+    <string name="site_RTI">http://yaadt.ru/</string>
+    <string name="s43_01_02">Парикмахер</string>
+    <string name="kv_text_s43_01_02">Парикмахер</string>
 
 </resources>

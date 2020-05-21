@@ -26,7 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/block_opacity_r"
+                    android:background="@drawable/block_i19"
                     android:text="@string/s19_01_04"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
@@ -44,7 +44,7 @@
                     android:id="@+id/but2"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_o"
+                    android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
                     android:src="@drawable/punkt2"
                     android:paddingRight="10dp"
@@ -63,7 +63,7 @@
                     android:id="@+id/but3"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_b"
+                    android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s21_01_08"
@@ -80,7 +80,7 @@
                     android:id="@+id/but4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_g"
+                    android:background="@drawable/block_i13"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s13_02_03"
@@ -97,7 +97,7 @@
                     android:id="@+id/but5"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_p"
+                    android:background="@drawable/block_i23"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s23_01_17"
@@ -114,7 +114,7 @@
                     android:id="@+id/but6"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_r"
+                    android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s21_02_15"
@@ -131,7 +131,7 @@
                     android:id="@+id/but7"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_b"
+                    android:background="@drawable/block_i35"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s35_01_01"
@@ -148,7 +148,7 @@
                     android:id="@+id/but8"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_r"
+                    android:background="@drawable/block_i13"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s13__01_07"
@@ -165,7 +165,7 @@
                     android:id="@+id/but9"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_p"
+                    android:background="@drawable/block_i35"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s35_01_21"
@@ -182,7 +182,7 @@
                     android:id="@+id/but10"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_g"
+                    android:background="@drawable/block_i53"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s53_02_01"
@@ -199,7 +199,7 @@
                     android:id="@+id/but11"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_b"
+                    android:background="@drawable/block_i44"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s44_02_04"
@@ -215,7 +215,7 @@
                 android:id="@+id/but12"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_o"
+                android:background="@drawable/block_i44"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s44_02_05"
@@ -232,7 +232,7 @@
                     android:id="@+id/but13"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_r"
+                    android:background="@drawable/block_i34"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s31_02_01"
@@ -249,7 +249,7 @@
                     android:id="@+id/but14"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_p"
+                    android:background="@drawable/block_i34"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s31_02_02"
@@ -266,7 +266,7 @@
                     android:id="@+id/but15"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_g"
+                    android:background="@drawable/block_i34"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s34_02_01"
@@ -283,7 +283,7 @@
                     android:id="@+id/but16"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_b"
+                    android:background="@drawable/block_i15"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s15_01_05"
@@ -300,7 +300,7 @@
                     android:id="@+id/but17"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_o"
+                    android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s21_01_13"
@@ -317,7 +317,7 @@
                     android:id="@+id/but18"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_r"
+                    android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s21_01_16"
@@ -334,7 +334,7 @@
                     android:id="@+id/but19"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_p"
+                    android:background="@drawable/block_i20"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s20_01_01"
@@ -351,7 +351,7 @@
                     android:id="@+id/but20"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_g"
+                    android:background="@drawable/block_i54"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s54_02_06"
@@ -367,7 +367,7 @@
                 android:id="@+id/but21"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_b"
+                android:background="@drawable/block_i44"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s44_02_06"
@@ -384,7 +384,7 @@
                     android:id="@+id/but22"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_o"
+                    android:background="@drawable/block_i44"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s44_02_03"
@@ -400,7 +400,7 @@
                 android:id="@+id/but23"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_r"
+                android:background="@drawable/block_i44"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s44_02_01"
@@ -417,7 +417,7 @@
                     android:id="@+id/but24"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_p"
+                    android:background="@drawable/block_i44"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s44_02_02"
@@ -434,7 +434,7 @@
                     android:id="@+id/but25"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_g"
+                    android:background="@drawable/block_i49"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s49_02_02"
@@ -451,7 +451,7 @@
                     android:id="@+id/but26"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_b"
+                    android:background="@drawable/block_i44"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s44_02_05"
@@ -467,7 +467,7 @@
                 android:id="@+id/but27"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_o"
+                android:background="@drawable/block_i49"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s49_02_01"
@@ -483,7 +483,7 @@
                 android:id="@+id/but28"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_r"
+                android:background="@drawable/block_i19"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s19_02_03"
@@ -499,7 +499,7 @@
                 android:id="@+id/but29"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_p"
+                android:background="@drawable/block_i38"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s38_02_05"
@@ -507,7 +507,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>            <androidx.constraintlayout.widget.ConstraintLayout
+        </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -515,7 +516,7 @@
                 android:id="@+id/but30"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/block_opacity_g"
+                android:background="@drawable/block_i43"
                 android:paddingLeft="100dp"
                 android:paddingRight="10dp"
                 android:text="@string/s43_02_01"
@@ -524,7 +525,374 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but31"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_01_09"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but32"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_01_07"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but33"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_02_13"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but34"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_02_15"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but35"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_02_14"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but36"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_02_10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but37"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i43"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s43_01_02"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but38"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_02_11"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but39"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_01_10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but40"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_02_03"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but41"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_01_04"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but42"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_02_02"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but43"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s13_02_07"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/but44"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="@drawable/block_i15"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:text="@string/s15_01_05"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but45"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_25"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but46"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_02_07"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but47"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_13"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but48"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_20"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but49"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_19"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but50"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_02_14"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but51"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_26"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but52"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_30"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but53"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_36"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
 

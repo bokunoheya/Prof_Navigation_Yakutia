@@ -1245,4 +1245,9 @@
         android:name="com.pc.profnavykt.S34_02_01_colleges"
         android:label="s34_02_01_colleges"
         tools:layout="@layout/s34_02_01_colleges" />
+    <fragment
+        android:id="@+id/s18_01_05"
+        android:name="com.pc.profnavykt.S18_01_05"
+        android:label="fragment_s18_01_05"
+        tools:layout="@layout/fragment_s18_01_05" />
 </navigation>

@@ -64,21 +64,22 @@ public class ProfessiiApt extends Fragment {
         View root= inflater.inflate(R.layout.fragment_professii_apt, container, false);
         Button button1=root.findViewById(R.id.button1);
         button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_11));
-
         Button button2=root.findViewById(R.id.button2);
         button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
-
         Button button3=root.findViewById(R.id.button3);
-        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
-
-      Button button4=root.findViewById(R.id.button4);
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s18_01_05));
+        Button button4=root.findViewById(R.id.button4);
         button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_14));
-
         Button button5=root.findViewById(R.id.button5);
         button5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08));
-
-        Button b_s21_01_08=root.findViewById(R.id.button6);
-        b_s21_01_08.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03));
+        Button button6=root.findViewById(R.id.button6);
+        button6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03));
+        Button button7=root.findViewById(R.id.button7);
+        button7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_10));
+        Button button8=root.findViewById(R.id.button8);
+        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_02_15));
+        Button button9=root.findViewById(R.id.button9);
+        button9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s23_01_17));
         return root;
     }
 }

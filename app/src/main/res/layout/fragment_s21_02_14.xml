@@ -11,7 +11,7 @@
         style="@style/TextApp3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/s15_01_05" />
+        android:text="@string/s21_02_14" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
 
-                android:text="@string/kv_text_21_02_14" />
+                android:text="@string/kv_text_s21_02_14" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
