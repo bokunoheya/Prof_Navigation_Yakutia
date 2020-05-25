@@ -91,6 +91,82 @@ public class BlankFragment2 extends Fragment {
         but14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_02_colleges));
         Button but15= root.findViewById(R.id.but15) ;
         but15.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s34_02_01_colleges));
+        Button but16= root.findViewById(R.id.but16) ;
+/*        but16.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05_colleges));
+        Button but17= root.findViewById(R.id.but17) ;
+        but17.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_13_colleges));
+        Button but18= root.findViewById(R.id.but18) ;
+        but18.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_16_colleges));
+        Button but19= root.findViewById(R.id.but19) ;
+        but19.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s20_01_01_colleges));*/
+        Button but20= root.findViewById(R.id.but20) ;
+        but20.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_06_colleges));
+        Button but21= root.findViewById(R.id.but21) ;
+        but21.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_06_colleges));
+        Button but22= root.findViewById(R.id.but22) ;
+        but22.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_03_colleges));
+        Button but23= root.findViewById(R.id.but23) ;
+        but23.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_01_colleges));
+        Button but24= root.findViewById(R.id.but24) ;
+        but24.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_02_colleges));
+        Button but25= root.findViewById(R.id.but25) ;
+        but25.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s49_02_02_colleges));
+        Button but26= root.findViewById(R.id.but26) ;
+        but26.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_05_colleges));
+        Button but27= root.findViewById(R.id.but27) ;
+        but27.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s49_02_01_colleges));
+      /*  Button but28= root.findViewById(R.id.but28) ;
+        but28.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s19_02_03_colleges));*/
+        Button but29= root.findViewById(R.id.but29) ;
+        but29.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s38_02_05_colleges));
+        Button but30= root.findViewById(R.id.but30) ;
+        but30.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_01_colleges));
+        Button but31= root.findViewById(R.id.but31) ;
+        but31.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_09_colleges));
+        Button but32= root.findViewById(R.id.but32) ;
+        but32.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_07_colleges));
+        Button but33= root.findViewById(R.id.but33) ;
+        but33.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_13_colleges));
+        Button but34= root.findViewById(R.id.but34) ;
+        but34.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_15_colleges));
+        Button but35= root.findViewById(R.id.but35) ;
+        but35.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_14_colleges));
+        Button but36= root.findViewById(R.id.but36) ;
+        but36.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_10_colleges));
+        Button but37= root.findViewById(R.id.but37) ;
+        but37.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_02_colleges));
+/*        Button but38= root.findViewById(R.id.but38) ;
+        but38.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_11_colleges));//
+        Button but39= root.findViewById(R.id.but39) ;
+        but39.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_10_colleges));*/
+        Button but40= root.findViewById(R.id.but40) ;
+        but40.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_03_colleges));
+/*      Button but41= root.findViewById(R.id.but41) ;
+        but41.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_04_colleges));
+        Button but42= root.findViewById(R.id.but42) ;
+        but42.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_02_colleges));
+        Button but43= root.findViewById(R.id.but43) ;
+        but43.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_07_colleges));
+        Button but44= root.findViewById(R.id.but44) ;
+        but44.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05_colleges));
+        Button but45= root.findViewById(R.id.but45) ;
+        but45.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_25_colleges));
+        Button but46= root.findViewById(R.id.but46) ;
+        but46.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_02_07_colleges));
+        Button but47= root.findViewById(R.id.but47) ;
+        but47.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_13_colleges));
+        Button but48= root.findViewById(R.id.but48) ;
+        but48.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_20_colleges));
+        Button but49= root.findViewById(R.id.but49) ;
+        but49.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_19_colleges));
+        Button but50= root.findViewById(R.id.but50) ;
+        but50.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_02_14_colleges));
+        Button but51= root.findViewById(R.id.but51) ;
+        but51.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_26_colleges));
+        Button but52= root.findViewById(R.id.but52) ;
+        but52.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_30_colleges));
+        Button but53= root.findViewById(R.id.but53) ;
+        but53.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_36_colleges));*/
         return root;
     }
 }

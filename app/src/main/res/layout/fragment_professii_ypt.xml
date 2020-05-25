@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/buttonStyle2"
+    tools:context="com.pc.profnavykt.ProfessiiYpt" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@style/buttonStyle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/s08_01_14"
+                    android:paddingLeft="100dp"
+                    android:background="@drawable/block_i13"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:text="@string/s08_01_18"
+                    android:paddingLeft="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/buttonStyle1"
+                    android:text="@string/s13_01_03"
+                    android:paddingLeft="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:text="@string/s15_01_05"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i21"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s15_01_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i21"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_i13"
+                android:text="@string/s29_01_28"
+                />
+
+            <Button
+                android:id="@+id/button7"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_i21"
+                android:text="@string/s43_01_07"
+                />
+
+            <Button
+                android:id="@+id/button8"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_i21"
+                android:text="@string/s35_01_14"
+                />
+
+            <Button
+                android:id="@+id/button9"
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/block_i23"
+                android:text="@string/s54_01_02"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

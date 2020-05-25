@@ -34,7 +34,7 @@
 
     <style name="UpBarText">
         <item name="android:textSize">18sp</item>
-        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAlignment">center</item>
 
     </style>
 

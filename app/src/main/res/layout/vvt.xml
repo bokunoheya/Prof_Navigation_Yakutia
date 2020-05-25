@@ -33,7 +33,7 @@
         android:id="@+id/textView3"
         android:layout_width="218dp"
         android:layout_height="72dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="@dimen/marginStart2"
         android:layout_marginTop="20dp"
 
         android:text="@string/adress_AKNS"
@@ -48,7 +48,7 @@
         android:layout_marginTop="12dp"
         android:text="@string/phone_AKNS"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -56,7 +56,7 @@
         android:id="@+id/imageView6"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="16dp"
         android:src="@drawable/email"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
         android:layout_marginTop="24dp"
         android:text="@string/email_AKNS"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -78,7 +78,7 @@
         android:id="@+id/imageView5"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="28dp"
         android:src="@drawable/adress"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +88,7 @@
         android:id="@+id/imageView7"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="16dp"
         android:src="@drawable/phone"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +109,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="@dimen/marginBottom"
         android:autoLink="web"
         android:text="@string/site_AKNS"
         app:layout_constraintBottom_toBottomOf="parent"

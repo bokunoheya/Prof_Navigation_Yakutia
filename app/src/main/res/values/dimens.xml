@@ -13,4 +13,8 @@
     <dimen name="buttonHeight">100dp</dimen>
     <dimen name="logo_list">100dp</dimen>
     <dimen name="height_line_image">25dp</dimen>
+    <dimen name="marginStart">50dp</dimen>
+    <dimen name="marginBottom">8dp</dimen>
+    <dimen name="marginStart2">16dp</dimen>
+    <dimen name="marginTop">32</dimen>
 </resources>

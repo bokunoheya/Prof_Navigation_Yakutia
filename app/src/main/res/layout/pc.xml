@@ -34,7 +34,7 @@
         android:id="@+id/textView3"
         android:layout_width="218dp"
         android:layout_height="72dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="@dimen/marginStart2"
         android:layout_marginTop="20dp"
 
         android:text="@string/adress_PC"
@@ -49,7 +49,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/phone_PC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -61,7 +61,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/email_PC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -69,7 +69,7 @@
         android:id="@+id/imageView5"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="28dp"
         android:src="@drawable/adress"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
         android:id="@+id/imageView6"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="16dp"
         android:src="@drawable/email"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,7 +89,7 @@
         android:id="@+id/imageView7"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="@dimen/marginStart"
         android:layout_marginTop="16dp"
         android:src="@drawable/phone"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,23 +118,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:src="@drawable/end_line"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:autoLink="web"
         android:text="@string/site_PC"
-        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

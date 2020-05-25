@@ -125,6 +125,7 @@
     <!--срок обучения-->
     <string name="srok_2_10">"2 года 10 мес"</string>
     <string name="srok_3_10">"3 года 10 мес"</string>
+    <string name="srok_3_6">"3 года 6 мес"</string>
     <string name="srok_10">"10 мес"</string>
     <!--Количество мест-->
 
@@ -373,7 +374,7 @@
 
     <string name="YSHT">Якутский сельскохозяйственный техникум</string>
 
-    <string name="college_YSHT">ГБПОУ  РС (Я) Нерюнгринский медицинский  колледж</string>
+    <string name="college_YSHT">ГБПОУ  РС (Я) Якутский сельскохозяйственный техникум</string>
     <string name="adress_YSHT">677000, Республика Саха (Якутия), г. Якутск, ул. Пояркова, 15</string>
     <string name="phone_YSHT">тел/факс: 8 (4112) 34-11-35, 34-11-94</string>
     <string name="email_YSHT">ysxt@gov14.ru</string>
@@ -595,5 +596,6 @@
     <string name="site_RTI">http://yaadt.ru/</string>
     <string name="s43_01_02">Парикмахер</string>
     <string name="kv_text_s43_01_02">Парикмахер</string>
-
+    <string name="s13_01_03">Электрослесарь по ремонту оборудования электростанций</string>
+    <string name="kv_text_s13_01_03">Электрослесарь по ремонту электрических машин 3 разряд, Электрослесарь по ремонту оборудования электростанций 3 разряд</string>
 </resources>

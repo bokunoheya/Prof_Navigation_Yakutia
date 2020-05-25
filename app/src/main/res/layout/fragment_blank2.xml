@@ -640,6 +640,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <Button
                     android:id="@+id/but38"
                     android:layout_width="match_parent"
@@ -648,6 +649,7 @@
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s13_02_11"
+                    android:textSize="12sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -888,6 +890,70 @@
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
                     android:text="@string/s15_01_36"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but54"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s18_01_05"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but55"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s18_01_27"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but56"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s18_01_29"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/but57"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s18_01_33"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
