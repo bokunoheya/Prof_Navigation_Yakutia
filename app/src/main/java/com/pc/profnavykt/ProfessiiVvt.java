@@ -61,9 +61,12 @@ public class ProfessiiVvt extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_vvt, container, false);
-        Button s13_02_11=root.findViewById(R.id.button1);
-        s13_02_11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s52_02_01));
-
+        Button button1=root.findViewById(R.id.button1);
+        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s20_02_04));
+        Button button2=root.findViewById(R.id.button2);
+        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s23_01_17));
+        Button button3=root.findViewById(R.id.button3);
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_01));
         return root;
     }
 }

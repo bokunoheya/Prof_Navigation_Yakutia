@@ -16,5 +16,5 @@
     <dimen name="marginStart">50dp</dimen>
     <dimen name="marginBottom">8dp</dimen>
     <dimen name="marginStart2">16dp</dimen>
-    <dimen name="marginTop">32</dimen>
+    <dimen name="marginTop">32dp</dimen>
 </resources>

@@ -59,8 +59,6 @@ public class Zt extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.zt, container, false);
-      /*  Button info=root.findViewById(R.id.info_button);
-        info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));*/
         Button professii=root.findViewById(R.id.professii_button);
         professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiZt));
         return root;
