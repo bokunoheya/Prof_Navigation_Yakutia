@@ -64,6 +64,8 @@ public class S34_02_01_colleges extends Fragment {
         but1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.amk));
         Button but2= root.findViewById(R.id.but2);
         but2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.yamk));
+        Button but3= root.findViewById(R.id.but3);
+        but3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nmk));
 
         return root;
     }

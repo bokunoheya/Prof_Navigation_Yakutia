@@ -60,19 +60,25 @@ public class ProfessiiYpt extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root= inflater.inflate(R.layout.fragment_professii_yktd, container, false);
-        Button button1=root.findViewById(R.id.button1);
-        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s29_02_03));
+        View root= inflater.inflate(R.layout.fragment_professii_ypt, container, false);
+/*        Button button1=root.findViewById(R.id.button1);
+        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s08_01_14));
         Button button2=root.findViewById(R.id.button2);
-        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s29_02_04));
+        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s08_01_18));
         Button button3=root.findViewById(R.id.button3);
-        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s39_02_01));
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_03));*/
         Button button4=root.findViewById(R.id.button4);
-        button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_01));
-        Button button5=root.findViewById(R.id.button5);
-        button5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_02));
+        button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
+     /*   Button button5=root.findViewById(R.id.button5);
+        button5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_26));
         Button button6=root.findViewById(R.id.button6);
-        button6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_01_20));
+        button6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s29_01_28));*/
+        Button button7=root.findViewById(R.id.button7);
+        button7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_07));
+    /*    Button button8=root.findViewById(R.id.button8);
+        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_14));
+        Button button9=root.findViewById(R.id.button9);
+        button9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_01_02));*/
         return root;
     }
 }

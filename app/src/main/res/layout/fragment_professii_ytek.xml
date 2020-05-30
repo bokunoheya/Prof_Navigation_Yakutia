@@ -22,18 +22,19 @@
 
                 <Button
                     android:id="@+id/button1"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+
                     android:layout_marginTop="10dp"
-                    android:text="@string/s19_02_03"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
                     android:background="@drawable/block_i19"
+                    android:text="@string/s19_02_03"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,18 +43,17 @@
 
                 <Button
                     android:id="@+id/button2"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s38_02_05"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
+
                     android:background="@drawable/block_i38"
+                    android:text="@string/s38_02_05"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -62,18 +62,19 @@
 
                 <Button
                     android:id="@+id/b_s23_01_06"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s43_02_01"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
+
                     android:background="@drawable/block_i43"
+                    android:text="@string/s43_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -84,16 +85,17 @@
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s43_02_15"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
                     android:background="@drawable/block_i43"
+
+                    android:text="@string/s43_02_15"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintVertical_bias="0.0"
+                    style="@style/buttonStyle4" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
  <!--___________________________________________________________________-->
             <!--___________________________________________________________________-->

@@ -39,23 +39,23 @@
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
-                    android:layout_height="36dp"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="64dp"
                     android:text="@string/kv"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView26"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
 
+                android:layout_marginBottom="20dp"
                 android:text="@string/kv_text_s15_01_05" />
 
 
@@ -88,10 +88,11 @@
 
             <TextView
                 android:id="@+id/textView28"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
 
+                android:layout_marginBottom="20dp"
                 android:text="@string/lvl_text" />
 
 
@@ -125,10 +126,11 @@
 
             <TextView
                 android:id="@+id/textView30"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
 
+                android:layout_marginBottom="20dp"
                 android:text="@string/srok_2_10" />
 
 
@@ -161,10 +163,11 @@
 
             <TextView
                 android:id="@+id/textView32"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
 
+                android:layout_marginBottom="20dp"
                 android:text="@string/ooo9" />
 
 
@@ -197,6 +200,7 @@
 
             <TextView
                 android:id="@+id/textView34"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/m25" />

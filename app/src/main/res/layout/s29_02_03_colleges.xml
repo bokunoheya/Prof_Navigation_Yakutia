@@ -29,7 +29,7 @@
             android:id="@+id/textView1"
             android:layout_width="54dp"
             android:layout_height="98dp"
-            android:text="@string/mest_25"
+            android:text="@string/mest_13"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/but1"

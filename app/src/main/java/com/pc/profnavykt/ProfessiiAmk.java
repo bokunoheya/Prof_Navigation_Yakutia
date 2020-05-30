@@ -61,14 +61,14 @@ public class ProfessiiAmk extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_amk, container, false);
-        Button s13_02_11=root.findViewById(R.id.button1);
-        s13_02_11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_01));
+        Button s31_02_01=root.findViewById(R.id.button1);
+        s31_02_01.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_01));
 
-        Button s15_01_05=root.findViewById(R.id.button2);
-        s15_01_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_02));
+        Button s31_02_02=root.findViewById(R.id.button2);
+        s31_02_02.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s31_02_02));
 
-//        Button s18_01_33=root.findViewById(R.id.button3);
-//        s18_01_33.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s34_02_01));
+        Button s34_02_01=root.findViewById(R.id.button3);
+        s34_02_01.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s34_02_01));
 
         return root;
     }

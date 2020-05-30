@@ -180,7 +180,7 @@
     <string name="kv_text_s21_01_08">Машинист бульдозера (III (IV) разряд), Машинист экскаватора (IV разряд)</string>
     <string name="srok_10">"10 мес "</string>
 
-    <string name="AKNS_mini">Арктический колледж народов севера</string>
+    <string name="AKNS_mini">Арктический колледж народов Cевера</string>
     <string name="AMK_mini">Алданский медицинский колледж</string>
     <string name="VVT_mini">Верхневилюйский техникум</string>
     <string name="AKNS">ГБПОУ РС(Я) Арктический колледж народов севера</string>
@@ -231,8 +231,23 @@
     <string name="uznat">Узнать</string>
     <string name="hints">Подсказка</string>
     <string name="hint_test">Как выбрать профессию, чтобы в будущем приносила не только деньгт, но и удовольствие? Эти тесты помогут тебе определить твои способности.</string>
-    <string name="mest_25">25 мест</string>сырья
+    <string name="mest_25">25 мест</string>
     <string name="s18_01_33">Лаборант по контролю качества , реактивов, промежуточных продуктов, готовой продукции, отходов производства (по отраслям)</string>
     <string name="kv_text_s18_01_33">Лаборант химического анализа, пробоотборщик</string>
 
+
+    <string name="mest_10">10 мест</string>
+    <string name="mest_12">12 мест</string>
+    <string name="mest_13">13 мест</string>
+    <string name="mest_15">15 мест</string>
+    <string name="mest_20">20 мест</string>
+    <string name="mest_30">30 мест</string>
+    <string name="mest_35">35 мест</string>
+    <string name="mest_40">40 мест</string>
+    <string name="mest_45">45 мест</string>
+    <string name="mest_50">50 мест</string>
+    <string name="mest_75">75 мест</string>
+    <string name="mest_105">105 мест</string>
+    <string name="mest_125">125 мест</string>
+    <string name="mest_335">335 мест</string>
 </resources>

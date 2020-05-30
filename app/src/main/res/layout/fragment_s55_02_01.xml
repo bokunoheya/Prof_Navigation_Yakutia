@@ -55,6 +55,7 @@
 
             <TextView
                 android:id="@+id/textView26"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/kv_text_s55_02_01" />
@@ -88,6 +89,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
+                style="@style/spec_t"
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -123,6 +125,7 @@
 
             <TextView
                 android:id="@+id/textView30"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/srok_2" />
@@ -144,6 +147,7 @@
 
                 <TextView
                     android:id="@+id/textView31"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -157,6 +161,7 @@
 
             <TextView
                 android:id="@+id/textView32"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zsoo11" />
@@ -191,6 +196,7 @@
 
             <TextView
                 android:id="@+id/textView34"
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/budjet_m15" />

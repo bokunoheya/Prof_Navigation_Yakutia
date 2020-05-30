@@ -23,8 +23,7 @@
                 <Button
                     android:id="@+id/button1"
                     android:text="@string/s35_01_01"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:layout_marginTop="10dp"
@@ -44,8 +43,7 @@
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:text="@string/s13__01_07"
                     android:background="@drawable/block_i13"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -59,10 +57,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
-                    android:id="@+id/b_s23_01_06"
+                    android:id="@+id/button3"
                     android:text="@string/s35_01_21"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i35"

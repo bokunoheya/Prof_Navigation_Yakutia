@@ -63,7 +63,7 @@ public class Mrtk extends Fragment {
        /* Button info=root.findViewById(R.id.info_button);
         info.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment3));*/
         Button professii=root.findViewById(R.id.professii_button);
-        professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiApt));
+        professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.professiiMrtk));
         return root;
     }
 }

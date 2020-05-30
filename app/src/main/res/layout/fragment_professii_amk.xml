@@ -24,8 +24,7 @@
                     android:id="@+id/button1"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:text="@string/s31_02_01"
                     android:background="@drawable/block_i34"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -45,8 +44,7 @@
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i34"
                     android:text="@string/s31_02_02"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -59,12 +57,11 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/b_s23_01_06"
+                    android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:text="@string/s34_02_01"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:background="@drawable/block_i34"
 
                     app:layout_constraintBottom_toBottomOf="parent"

@@ -22,40 +22,19 @@
 
                 <Button
                     android:id="@+id/button1"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/block_opacity_o"
+                    android:background="@drawable/block_i19"
+                    android:text="@string/s05_01_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="2dp"
-                    android:src="@drawable/mlh"
-                    android:visibility="invisible"
-                    app:layout_constraintBottom_toBottomOf="@+id/button1"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/button1"
-                    app:layout_constraintVertical_bias="0.543" />
-
-                <TextView
-                    android:id="@+id/textView1"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s05_01_01"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/button1"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/imageView1"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -64,39 +43,17 @@
 
                 <Button
                     android:id="@+id/button2"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_opacity_r"
+
+                    android:background="@drawable/block_i9"
+                    android:text="@string/s09_01_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="2dp"
-                    android:src="@drawable/em"
-                    android:visibility="invisible"
-                    app:layout_constraintBottom_toBottomOf="@+id/button2"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/button2" />
-
-                <TextView
-                    android:id="@+id/textView2"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s09_01_01"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2"
-                    app:layout_constraintTop_toTopOf="@+id/button2"
-                    app:layout_constraintVertical_bias="0.508" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 

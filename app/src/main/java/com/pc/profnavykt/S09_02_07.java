@@ -25,6 +25,11 @@ public class S09_02_07 extends Fragment {
 
     public S09_02_07() {
         // Required empty public constructor
+        int o9;
+        if(ProfessiiYkse.i==1){
+            o9=25;
+            ProfessiiYkse.i=0;
+        }
     }
 
     /**
@@ -33,7 +38,7 @@ public class S09_02_07 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment S13_02_03.
+     * @return A new instance of fragment S09_02_07.
      */
     // TODO: Rename and change types and number of parameters
     public static S09_02_07 newInstance(String param1, String param2) {

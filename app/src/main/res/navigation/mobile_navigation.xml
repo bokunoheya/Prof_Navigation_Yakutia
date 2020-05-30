@@ -400,7 +400,7 @@
         android:label="s38_02_07_colleges"
         tools:layout="@layout/s38_02_07_colleges" />
     <fragment
-        android:id="@+id/s38_02_05_colleges"
+        android:id="@+id/s38_02_06_colleges"
         android:name="com.pc.profnavykt.S38_02_06_colleges"
         android:label="s38_02_06_colleges"
         tools:layout="@layout/s38_02_06_colleges" />
@@ -628,12 +628,7 @@
             android:name="com.pc.profnavykt.S15_01_30"
             android:label="fragment_s15_01_30"
             tools:layout="@layout/fragment_s15_01_30" />
-        <activity
-            android:id="@+id/s38_02_06"
-            android:name="com.pc.profnavykt.S38_02_06"
-            android:label="fragment_s38_02_06"
-            tools:layout="@layout/fragment_s38_02_06" />
-        <activity
+    <activity
             android:id="@+id/s38_02_07"
             android:name="com.pc.profnavykt.S38_02_07"
             android:label="fragment_s38_02_07"
@@ -1342,6 +1337,16 @@
         android:label="s05_01_01_colleges"
         tools:layout="@layout/s05_01_01_colleges" />
     <fragment
+        android:id="@+id/s19_02_07_colleges"
+        android:name="com.pc.profnavykt.S19_02_07_colleges"
+        android:label="s19_02_07_colleges"
+        tools:layout="@layout/s19_02_07_colleges" />
+    <fragment
+        android:id="@+id/s08_02_01_colleges"
+        android:name="com.pc.profnavykt.S08_02_01_colleges"
+        android:label="s08_02_01_colleges"
+        tools:layout="@layout/s08_02_01_colleges" />
+    <fragment
         android:id="@+id/s21_02_18_colleges"
         android:name="com.pc.profnavykt.S21_02_18_colleges"
         android:label="s21_02_18_colleges"
@@ -1632,7 +1637,7 @@
         android:label="s38_02_03_colleges"
         tools:layout="@layout/s38_02_03_colleges" />
     <fragment
-        android:id="@+id/s38_02_05_colleges2"
+        android:id="@+id/s38_02_05_colleges"
         android:name="com.pc.profnavykt.S38_02_05_colleges"
         android:label="s38_02_05_colleges"
         tools:layout="@layout/s38_02_05_colleges" />
@@ -1646,4 +1651,440 @@
         android:name="com.pc.profnavykt.Ypt"
         android:label="ypt"
         tools:layout="@layout/ypt" />
+    <fragment
+        android:id="@+id/s09_02_07_colleges"
+        android:name="com.pc.profnavykt.S09_02_07_colleges"
+        android:label="S09_02_07_colleges" />
+    <fragment
+        android:id="@+id/s13_01_10_colleges"
+        android:name="com.pc.profnavykt.S13_01_10_colleges"
+        android:label="S13_01_10_colleges" />
+    <fragment
+        android:id="@+id/s19_02_03_colleges"
+        android:name="com.pc.profnavykt.S19_02_03_colleges"
+        android:label="S19_02_03_colleges" />
+    <fragment
+        android:id="@+id/s19_02_03_colleges2"
+        android:name="com.pc.profnavykt.S19_02_03_colleges"
+        android:label="S19_02_03_colleges" />
+    <fragment
+        android:id="@+id/professiiYkse"
+        android:name="com.pc.profnavykt.ProfessiiYkse"
+        android:label="fragment_professii_ykse"
+        tools:layout="@layout/fragment_professii_ykse" />
+    <fragment
+        android:id="@+id/s09_02_06"
+        android:name="com.pc.profnavykt.S09_02_06"
+        android:label="fragment_s09_02_06"
+        tools:layout="@layout/fragment_s09_02_06" />
+    <fragment
+        android:id="@+id/s11_02_02"
+        android:name="com.pc.profnavykt.S11_02_02"
+        android:label="fragment_s11_02_02"
+        tools:layout="@layout/fragment_s11_02_02" />
+    <fragment
+        android:id="@+id/s11_02_06"
+        android:name="com.pc.profnavykt.S11_02_06"
+        android:label="fragment_s11_02_06"
+        tools:layout="@layout/fragment_s11_02_06" />
+    <fragment
+        android:id="@+id/s11_02_15"
+        android:name="com.pc.profnavykt.S11_02_15"
+        android:label="fragment_s11_02_15"
+        tools:layout="@layout/fragment_s11_02_15" />
+    <fragment
+        android:id="@+id/s11_02_10"
+        android:name="com.pc.profnavykt.S11_02_10"
+        android:label="fragment_s11_02_10"
+        tools:layout="@layout/fragment_s11_02_10" />
+    <fragment
+        android:id="@+id/s13_01_10_colleges2"
+        android:name="com.pc.profnavykt.S13_01_10_colleges"
+        android:label="s19_02_03_colleges"
+        tools:layout="@layout/s19_02_03_colleges" />
+    <fragment
+        android:id="@+id/s09_02_07_colleges2"
+        android:name="com.pc.profnavykt.S09_02_07_colleges"
+        android:label="s09_02_07_colleges"
+        tools:layout="@layout/s09_02_07_colleges" />
+    <fragment
+        android:id="@+id/ykse"
+        android:name="com.pc.profnavykt.Ykse"
+        android:label="ykse"
+        tools:layout="@layout/ykse" />
+    <fragment
+        android:id="@+id/professiiMrtk"
+        android:name="com.pc.profnavykt.ProfessiiMrtk"
+        android:label="ProfessiiMrtk" />
+    <fragment
+        android:id="@+id/s15_01_13"
+        android:name="com.pc.profnavykt.S15_01_13"
+        android:label="fragment_s15_01_13"
+        tools:layout="@layout/fragment_s15_01_13" />
+    <fragment
+        android:id="@+id/s15_01_25"
+        android:name="com.pc.profnavykt.S15_01_25"
+        android:label="fragment_s15_01_25"
+        tools:layout="@layout/fragment_s15_01_25" />
+    <fragment
+        android:id="@+id/s15_02_07"
+        android:name="com.pc.profnavykt.S15_02_07"
+        android:label="fragment_s15_02_07"
+        tools:layout="@layout/fragment_s15_02_07" />
+    <fragment
+        android:id="@+id/s21_02_01"
+        android:name="com.pc.profnavykt.S21_02_01"
+        android:label="fragment_s21_02_01"
+        tools:layout="@layout/fragment_s21_02_01" />
+    <fragment
+        android:id="@+id/professiiVml"
+        android:name="com.pc.profnavykt.ProfessiiVml"
+        android:label="fragment_professii_vml"
+        tools:layout="@layout/fragment_professii_vml" />
+    <fragment
+        android:id="@+id/s08_01_06_colleges"
+        android:name="com.pc.profnavykt.S08_01_06_colleges"
+        android:label="s08_01_06_colleges"
+        tools:layout="@layout/s08_01_06_colleges" />
+    <fragment
+        android:id="@+id/s08_01_10_colleges"
+        android:name="com.pc.profnavykt.S08_01_10_colleges"
+        android:label="s08_01_10_colleges"
+        tools:layout="@layout/s08_01_10_colleges" />
+    <fragment
+        android:id="@+id/s08_01_26_colleges"
+        android:name="com.pc.profnavykt.S08_01_26_colleges"
+        android:label="s08_01_26_colleges"
+        tools:layout="@layout/s08_01_26_colleges" />
+    <fragment
+        android:id="@+id/s08_02_05_colleges"
+        android:name="com.pc.profnavykt.S08_02_05_colleges"
+        android:label="s08_02_05_colleges"
+        tools:layout="@layout/s08_02_05_colleges" />
+    <fragment
+        android:id="@+id/s08_02_10_colleges"
+        android:name="com.pc.profnavykt.S08_02_10_colleges"
+        android:label="s08_02_10_colleges"
+        tools:layout="@layout/s08_02_10_colleges" />
+    <fragment
+        android:id="@+id/s09_01_01_colleges"
+        android:name="com.pc.profnavykt.S09_01_01_colleges"
+        android:label="s09_01_01_colleges"
+        tools:layout="@layout/s09_01_01_colleges" />
+    <fragment
+        android:id="@+id/s09_01_02_colleges"
+        android:name="com.pc.profnavykt.S09_01_02_colleges"
+        android:label="s09_01_02_colleges"
+        tools:layout="@layout/s09_01_02_colleges" />
+    <fragment
+        android:id="@+id/vml"
+        android:name="com.pc.profnavykt.Vml"
+        android:label="vml"
+        tools:layout="@layout/vml" />
+    <fragment
+        android:id="@+id/s13_02_11_colleges"
+        android:name="com.pc.profnavykt.S13_02_11_colleges"
+        android:label="s13_02_11_colleges"
+        tools:layout="@layout/s13_02_11_colleges" />
+    <fragment
+        android:id="@+id/s13_01_03_colleges"
+        android:name="com.pc.profnavykt.S13_01_03_colleges"
+        android:label="s13_01_03_colleges"
+        tools:layout="@layout/s13_01_03_colleges" />
+    <fragment
+        android:id="@+id/s13_01_05_colleges"
+        android:name="com.pc.profnavykt.S13_01_05_colleges"
+        android:label="s13_01_05_colleges"
+        tools:layout="@layout/s13_01_05_colleges" />
+    <fragment
+        android:id="@+id/s35_01_15_colleges"
+        android:name="com.pc.profnavykt.S35_01_15_colleges"
+        android:label="s35_01_15_colleges"
+        tools:layout="@layout/s35_01_15_colleges" />
+    <fragment
+        android:id="@+id/s08_01_18_colleges"
+        android:name="com.pc.profnavykt.S08_01_18_colleges"
+        android:label="S08_01_18_colleges" />
+    <fragment
+        android:id="@+id/professiiVt"
+        android:name="com.pc.profnavykt.ProfessiiVt"
+        android:label="fragment_professii_vt"
+        tools:layout="@layout/fragment_professii_vt" />
+    <fragment
+        android:id="@+id/s08_01_18"
+        android:name="com.pc.profnavykt.S08_01_18"
+        android:label="fragment_s08_01_18"
+        tools:layout="@layout/fragment_s08_01_18" />
+    <fragment
+        android:id="@+id/vt"
+        android:name="com.pc.profnavykt.Vt"
+        android:label="vt"
+        tools:layout="@layout/vt" />
+    <fragment
+        android:id="@+id/s35_01_13_colleges"
+        android:name="com.pc.profnavykt.S35_01_13_colleges"
+        android:label="s35_01_13_colleges"
+        tools:layout="@layout/s35_01_13_colleges" />
+    <fragment
+        android:id="@+id/s38_02_06"
+        android:name="com.pc.profnavykt.S38_02_06"
+        android:label="fragment_s38_02_06"
+        tools:layout="@layout/fragment_s38_02_06" />
+    <fragment
+        android:id="@+id/s35_02_06_colleges"
+        android:name="com.pc.profnavykt.S35_02_06_colleges"
+        android:label="s35_02_06_colleges"
+        tools:layout="@layout/s35_02_06_colleges" />
+    <fragment
+        android:id="@+id/s11_02_02_colleges"
+        android:name="com.pc.profnavykt.S11_02_02_colleges"
+        android:label="S11_02_02_colleges" />
+    <fragment
+        android:id="@+id/s26_02_02_colleges"
+        android:name="com.pc.profnavykt.S26_02_02_colleges"
+        android:label="s26_02_02_colleges"
+        tools:layout="@layout/s26_02_02_colleges" />
+    <fragment
+        android:id="@+id/s21_01_16_colleges"
+        android:name="com.pc.profnavykt.S21_01_16_colleges"
+        android:label="s21_01_16_colleges"
+        tools:layout="@layout/s21_01_16_colleges" />
+    <fragment
+        android:id="@+id/s15_01_05_colleges"
+        android:name="com.pc.profnavykt.S15_01_05_colleges"
+        android:label="s15_01_05_colleges"
+        tools:layout="@layout/s15_01_05_colleges" />
+    <fragment
+        android:id="@+id/s20_01_01_colleges"
+        android:name="com.pc.profnavykt.S20_01_01_colleges"
+        android:label="s20_01_01_colleges"
+        tools:layout="@layout/s20_01_01_colleges" />
+    <fragment
+        android:id="@+id/s13_01_04_colleges"
+        android:name="com.pc.profnavykt.S13_01_04_colleges"
+        android:label="s13_01_04_colleges"
+        tools:layout="@layout/s13_01_04_colleges" />
+    <fragment
+        android:id="@+id/s13_02_02_colleges"
+        android:name="com.pc.profnavykt.S13_02_02_colleges"
+        android:label="s13_02_02_colleges"
+        tools:layout="@layout/s13_02_02_colleges" />
+    <fragment
+        android:id="@+id/s13_02_07_colleges"
+        android:name="com.pc.profnavykt.S13_02_07_colleges"
+        android:label="s13_02_07_colleges"
+        tools:layout="@layout/s13_02_07_colleges" />
+    <fragment
+        android:id="@+id/s15_01_25_colleges"
+        android:name="com.pc.profnavykt.S15_01_25_colleges"
+        android:label="s15_01_25_colleges"
+        tools:layout="@layout/s15_01_25_colleges" />
+    <fragment
+        android:id="@+id/s15_01_13_colleges"
+        android:name="com.pc.profnavykt.S15_01_13_colleges"
+        android:label="s15_01_13_colleges"
+        tools:layout="@layout/s15_01_13_colleges" />
+    <fragment
+        android:id="@+id/s15_01_20_colleges"
+        android:name="com.pc.profnavykt.S15_01_20_colleges"
+        android:label="s15_01_20_colleges"
+        tools:layout="@layout/s15_01_20_colleges" />
+    <fragment
+        android:id="@+id/s15_01_19_colleges"
+        android:name="com.pc.profnavykt.S15_01_19_colleges"
+        android:label="S15_01_19_colleges" />
+    <fragment
+        android:id="@+id/s15_02_14_colleges"
+        android:name="com.pc.profnavykt.S15_02_14_colleges"
+        android:label="s15_02_14_colleges"
+        tools:layout="@layout/s15_02_14_colleges" />
+    <fragment
+        android:id="@+id/s15_01_26_colleges"
+        android:name="com.pc.profnavykt.S15_01_26_colleges"
+        android:label="s15_01_26_colleges"
+        tools:layout="@layout/s15_01_26_colleges" />
+    <fragment
+        android:id="@+id/s15_01_36_colleges"
+        android:name="com.pc.profnavykt.S15_01_36_colleges"
+        android:label="s15_01_36_colleges"
+        tools:layout="@layout/s15_01_36_colleges" />
+    <fragment
+        android:id="@+id/s18_01_27_colleges"
+        android:name="com.pc.profnavykt.S18_01_27_colleges"
+        android:label="s18_01_27_colleges"
+        tools:layout="@layout/s18_01_27_colleges" />
+    <fragment
+        android:id="@+id/s18_01_29_colleges"
+        android:name="com.pc.profnavykt.S18_01_29_colleges"
+        android:label="s18_01_29_colleges"
+        tools:layout="@layout/s18_01_29_colleges" />
+    <fragment
+        android:id="@+id/s18_01_33_colleges"
+        android:name="com.pc.profnavykt.S18_01_33_colleges"
+        android:label="s18_01_33_colleges"
+        tools:layout="@layout/s18_01_33_colleges" />
+    <fragment
+        android:id="@+id/s15_02_07_colleges"
+        android:name="com.pc.profnavykt.S15_02_07_colleges"
+        android:label="s15_02_07_colleges"
+        tools:layout="@layout/s15_02_07_colleges" />
+    <fragment
+        android:id="@+id/s21_01_13_colleges"
+        android:name="com.pc.profnavykt.S21_01_13_colleges"
+        android:label="s21_01_13_colleges"
+        tools:layout="@layout/s21_01_13_colleges" />
+    <fragment
+        android:id="@+id/s35_02_05_colleges"
+        android:name="com.pc.profnavykt.S35_02_05_colleges"
+        android:label="s35_02_05_colleges"
+        tools:layout="@layout/s35_02_05_colleges" />
+    <fragment
+        android:id="@+id/s36_02_01_colleges"
+        android:name="com.pc.profnavykt.S36_02_01_colleges"
+        android:label="s36_02_01_colleges"
+        tools:layout="@layout/s36_02_01_colleges" />
+    <fragment
+        android:id="@+id/s21_02_13_colleges"
+        android:name="com.pc.profnavykt.S21_02_13_colleges"
+        android:label="s21_02_13_colleges"
+        tools:layout="@layout/s21_02_13_colleges" />
+    <fragment
+        android:id="@+id/s20_02_02_colleges"
+        android:name="com.pc.profnavykt.S20_02_02_colleges"
+        android:label="s20_02_02_colleges"
+        tools:layout="@layout/s20_02_02_colleges" />
+    <fragment
+        android:id="@+id/s21_02_04_colleges"
+        android:name="com.pc.profnavykt.S21_02_04_colleges"
+        android:label="s21_02_04_colleges"
+        tools:layout="@layout/s21_02_04_colleges" />
+    <fragment
+        android:id="@+id/s21_02_05_colleges"
+        android:name="com.pc.profnavykt.S21_02_05_colleges"
+        android:label="s21_02_05_colleges"
+        tools:layout="@layout/s21_02_05_colleges" />
+    <fragment
+        android:id="@+id/s36_02_02_colleges"
+        android:name="com.pc.profnavykt.S36_02_02_colleges"
+        android:label="s36_02_02_colleges"
+        tools:layout="@layout/s36_02_02_colleges" />
+    <fragment
+        android:id="@+id/s11_02_15_colleges"
+        android:name="com.pc.profnavykt.S11_02_15_colleges"
+        android:label="s11_02_15_colleges"
+        tools:layout="@layout/s11_02_15_colleges" />
+    <fragment
+        android:id="@+id/s38_02_04_colleges"
+        android:name="com.pc.profnavykt.S38_02_04_colleges"
+        android:label="s38_02_04_colleges"
+        tools:layout="@layout/s38_02_04_colleges" />
+    <fragment
+        android:id="@+id/s21_02_14_colleges"
+        android:name="com.pc.profnavykt.S21_02_14_colleges"
+        android:label="s21_02_14_colleges"
+        tools:layout="@layout/s21_02_14_colleges" />
+    <fragment
+        android:id="@+id/s35_02_01_colleges"
+        android:name="com.pc.profnavykt.S35_02_01_colleges"
+        android:label="s35_02_01_colleges"
+        tools:layout="@layout/s35_02_01_colleges" />
+    <fragment
+        android:id="@+id/s08_01_07_colleges"
+        android:name="com.pc.profnavykt.S08_01_07_colleges"
+        android:label="s08_01_07_colleges"
+        tools:layout="@layout/s08_01_07_colleges" />
+    <fragment
+        android:id="@+id/s08_01_25_colleges"
+        android:name="com.pc.profnavykt.S08_01_25_colleges"
+        android:label="s08_01_25_colleges"
+        tools:layout="@layout/s08_01_25_colleges" />
+    <fragment
+        android:id="@+id/s19_01_10_colleges"
+        android:name="com.pc.profnavykt.S19_01_10_colleges"
+        android:label="s19_01_10_colleges"
+        tools:layout="@layout/s19_01_10_colleges" />
+    <fragment
+        android:id="@+id/s35_01_14_colleges"
+        android:name="com.pc.profnavykt.S35_01_14_colleges"
+        android:label="s35_01_14_colleges"
+        tools:layout="@layout/s35_01_14_colleges" />
+    <fragment
+        android:id="@+id/s08_02_08_colleges"
+        android:name="com.pc.profnavykt.S08_02_08_colleges"
+        android:label="s08_02_08_colleges"
+        tools:layout="@layout/s08_02_08_colleges" />
+    <fragment
+        android:id="@+id/s23_01_06_colleges"
+        android:name="com.pc.profnavykt.S23_01_06_colleges"
+        android:label="s23_01_06_colleges"
+        tools:layout="@layout/s23_01_06_colleges" />
+    <fragment
+        android:id="@+id/s08_01_02_colleges"
+        android:name="com.pc.profnavykt.S08_01_02_colleges"
+        android:label="S08_01_02_colleges" />
+    <fragment
+        android:id="@+id/s08_01_14_colleges"
+        android:name="com.pc.profnavykt.S08_01_14_colleges"
+        android:label="s08_01_02_colleges"
+        tools:layout="@layout/s08_01_02_colleges" />
+    <fragment
+        android:id="@+id/s10_02_01_colleges"
+        android:name="com.pc.profnavykt.S10_02_01_colleges"
+        android:label="s10_02_01_colleges"
+        tools:layout="@layout/s10_02_01_colleges" />
+    <fragment
+        android:id="@+id/s10_02_05_colleges"
+        android:name="com.pc.profnavykt.S10_02_05_colleges"
+        android:label="s10_02_05_colleges"
+        tools:layout="@layout/s10_02_05_colleges" />
+    <fragment
+        android:id="@+id/s29_01_28_colleges"
+        android:name="com.pc.profnavykt.S29_01_28_colleges"
+        android:label="s29_01_28_colleges"
+        tools:layout="@layout/s29_01_28_colleges" />
+    <fragment
+        android:id="@+id/s35_02_14_colleges"
+        android:name="com.pc.profnavykt.S35_02_14_colleges"
+        android:label="s35_02_14_colleges"
+        tools:layout="@layout/s35_02_14_colleges" />
+    <fragment
+        android:id="@+id/s11_02_10_colleges"
+        android:name="com.pc.profnavykt.S11_02_10_colleges"
+        android:label="s11_02_10_colleges"
+        tools:layout="@layout/s11_02_10_colleges" />
+    <fragment
+        android:id="@+id/s20_02_04_colleges"
+        android:name="com.pc.profnavykt.S20_02_04_colleges"
+        android:label="s20_02_04_colleges"
+        tools:layout="@layout/s20_02_04_colleges" />
+    <fragment
+        android:id="@+id/s21_02_01_colleges"
+        android:name="com.pc.profnavykt.S21_02_01_colleges"
+        android:label="s21_02_01_colleges"
+        tools:layout="@layout/s21_02_01_colleges" />
+    <fragment
+        android:id="@+id/s21_02_17_colleges"
+        android:name="com.pc.profnavykt.S21_02_17_colleges"
+        android:label="s21_02_17_colleges"
+        tools:layout="@layout/s21_02_17_colleges" />
+    <fragment
+        android:id="@+id/s38_01_02_colleges"
+        android:name="com.pc.profnavykt.S38_01_02_colleges"
+        android:label="s38_01_02_colleges"
+        tools:layout="@layout/s38_01_02_colleges" />
+    <fragment
+        android:id="@+id/s08_01_09_colleges"
+        android:name="com.pc.profnavykt.S08_01_09_colleges"
+        android:label="s08_01_09_colleges"
+        tools:layout="@layout/s08_01_09_colleges" />
+    <fragment
+        android:id="@+id/s09_02_06_colleges"
+        android:name="com.pc.profnavykt.S09_02_06_colleges"
+        android:label="s09_02_06_colleges"
+        tools:layout="@layout/s09_02_06_colleges" />
+    <fragment
+        android:id="@+id/s21_02_03_colleges"
+        android:name="com.pc.profnavykt.S21_02_03_colleges"
+        android:label="s21_02_03_colleges"
+        tools:layout="@layout/s21_02_03_colleges" />
 </navigation>

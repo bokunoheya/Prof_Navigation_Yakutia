@@ -22,19 +22,18 @@
 
                 <Button
                     android:id="@+id/button1"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+
                     android:layout_marginTop="10dp"
-                    android:text="@string/s10_02_01"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
                     android:background="@drawable/block_i10"
+                    android:text="@string/s10_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -43,12 +42,12 @@
 
                 <Button
                     android:id="@+id/button2"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s38_02_03"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="100dp"
+
                     android:background="@drawable/block_i38"
+                    android:text="@string/s38_02_03"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"

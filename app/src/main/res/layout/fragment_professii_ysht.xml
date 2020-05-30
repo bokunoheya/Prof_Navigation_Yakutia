@@ -23,13 +23,13 @@
 
                 <Button
                     android:id="@+id/button1"
-                    style="@style/buttonStyle1"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:layout_marginTop="10dp"
-                    android:text="@string/s19_02_07"
-                    android:paddingLeft="100dp"
                     android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:text="@string/s19_02_07"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -45,11 +45,12 @@
 
                 <Button
                     android:id="@+id/button2"
-                    android:text="@string/s21_02_04"
-                    android:paddingLeft="100dp"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i15"
+                    android:paddingLeft="100dp"
+                    android:text="@string/s21_02_04"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -61,14 +62,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp">
+
                 <Button
                     android:id="@+id/button3"
-                    style="@style/buttonStyle1"
-                    android:text="@string/s21_02_05"
-                    android:paddingLeft="100dp"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i18"
+                    android:paddingLeft="100dp"
+                    android:text="@string/s21_02_05"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -84,12 +86,13 @@
 
                 <Button
                     android:id="@+id/button4"
-                    android:text="@string/s35_02_01"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i21"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s35_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -104,12 +107,13 @@
 
                 <Button
                     android:id="@+id/button5"
-                    android:paddingLeft="100dp"
-                    android:paddingRight="10dp"
-                    android:text="@string/s35_02_06"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i21"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s35_02_06"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -120,47 +124,47 @@
 
             <Button
                 android:id="@+id/button6"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/block_i13"
-                android:text="@string/s35_02_14"
-                />
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:text="@string/s35_02_14" />
 
             <Button
                 android:id="@+id/button7"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/block_i21"
-                android:text="@string/s35_02_16"
-                />
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:text="@string/s35_02_16" />
 
             <Button
                 android:id="@+id/button8"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/block_i21"
-                android:text="@string/s36_02_01"
-                />
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:text="@string/s36_02_01" />
 
             <Button
                 android:id="@+id/button9"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/block_i23"
-                android:text="@string/s36_02_02"
-                />
+                android:paddingLeft="100dp"
+                android:paddingRight="10dp"
+                android:text="@string/s36_02_02" />
         </LinearLayout>
     </ScrollView>
 

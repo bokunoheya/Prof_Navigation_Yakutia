@@ -25,34 +25,14 @@
                     android:id="@+id/b_s10_02_05"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:text="@string/s10_02_05"
+                    android:background="@drawable/block_i10"
+                    style="@style/buttonStyle4"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/im_s10_02_05"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="2dp"
-                    android:src="@drawable/gor"
-                    app:layout_constraintBottom_toBottomOf="@+id/button1"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s10_02_05"
-                    app:layout_constraintVertical_bias="0.543" />
-
-                <TextView
-                    android:id="@+id/t_s10_02_05"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s10_02_05"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s10_02_05"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/im_s10_02_05"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -64,66 +44,28 @@
                     android:id="@+id/b_s09_02_06"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:text="@string/s09_02_06"
+                    android:background="@drawable/block_i9"
+                    style="@style/buttonStyle4"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/im_s09_02_06"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="2dp"
-                    android:src="@drawable/sv"
-                    app:layout_constraintBottom_toBottomOf="@+id/b_s09_02_06"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s09_02_06" />
-
-                <TextView
-                    android:id="@+id/t_s23_01_08"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s09_02_06"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toEndOf="@+id/im_s09_02_06"
-                    app:layout_constraintTop_toTopOf="@+id/b_s09_02_06"
-                    app:layout_constraintVertical_bias="0.508" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageView
-                    android:id="@+id/im_s09_02_07_s2"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:src="@drawable/lab"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s09_02_07_s2" />
-
-                <TextView
-                    android:id="@+id/t_s09_02_07_s2"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s09_02_07_s2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s09_02_07_s2"
-                    app:layout_constraintStart_toEndOf="@+id/im_s09_02_07_s2"
-                    app:layout_constraintTop_toTopOf="parent" />
-
                 <Button
                     android:id="@+id/b_s09_02_07_s2"
                     android:layout_width="match_parent"
+                    android:text="@string/s09_02_07_s2"
+                    android:background="@drawable/block_i9"
+                    style="@style/buttonStyle4"
+
                     android:layout_height="@dimen/heightList"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -138,34 +80,17 @@
 
                 <Button
                     android:id="@+id/b_s11_02_15"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i11"
+
+                    android:text="@string/s11_02_15"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/im_s11_02_15"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:src="@drawable/mark"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/b_s11_02_15"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/t_s11_02_15"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s11_02_15"
-                    app:layout_constraintBottom_toBottomOf="@+id/b_s11_02_15"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s11_02_15"
-                    app:layout_constraintStart_toEndOf="@+id/im_s11_02_15"
-                    app:layout_constraintTop_toTopOf="@+id/b_s11_02_15" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -174,34 +99,18 @@
 
                 <Button
                     android:id="@+id/b_s11_02_02"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i11"
+
+                    android:text="@string/s11_02_02"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:id="@+id/im_s11_02_02"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:src="@drawable/mash"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s11_02_02" />
-
-                <TextView
-                    android:id="@+id/t_s11_02_02"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s11_02_02"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s11_02_02"
-                    app:layout_constraintStart_toEndOf="@+id/im_s11_02_02"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -211,62 +120,60 @@
                     android:id="@+id/b_s09_02_07"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_i23"
+                    android:text="@string/s23_01_01"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/im_s23_01_01"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:src="@drawable/mash"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s23_01_01" />
-
-                <TextView
-                    android:id="@+id/t_s23_01_01"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s23_01_01"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s23_01_01"
-                    app:layout_constraintStart_toEndOf="@+id/im_s23_01_01"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/buttonStyle4" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <Button
                 android:id="@+id/b_"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
+
+                android:background="@drawable/block_i13"
                 android:text="@string/s13_02_03" />
 
             <Button
                 android:id="@+id/button7"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
+
+                android:background="@drawable/block_i21"
                 android:text="@string/s21_01_10" />
 
             <Button
                 android:id="@+id/button8"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
+
                 android:layout_height="@dimen/heightList"
+                android:background="@drawable/block_i21"
                 android:text="@string/s21_02_15" />
 
             <Button
                 android:id="@+id/button9"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
+
+                android:background="@drawable/block_i23"
                 android:text="@string/s23_02_07" />
 
             <Button
                 android:id="@+id/button10"
+                style="@style/buttonStyle4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
+
+                android:background="@drawable/block_i23"
                 android:text="@string/s23_01_17" />
         </LinearLayout>
     </ScrollView>

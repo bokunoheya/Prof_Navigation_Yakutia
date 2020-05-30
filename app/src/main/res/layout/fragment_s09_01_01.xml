@@ -159,7 +159,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/zsoo11" />
+                android:text="@string/ooo9" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -193,7 +193,7 @@
                 android:id="@+id/textView34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m15" />
+                android:text="@string/budjet_m12" />
 
         </LinearLayout>
     </ScrollView>
