@@ -9,19 +9,18 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/but1"
+            style="@style/buttonStyle4"
             android:layout_width="match_parent"
             android:layout_height="@dimen/heightList"
             android:layout_marginTop="10dp"
             android:background="@drawable/block_opacity_r"
-  style="@style/buttonStyle4"
             android:text="@string/YTTS"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
@@ -29,15 +28,15 @@
         <TextView
             android:id="@+id/textView1"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="wrap_content"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/but1"
-            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintHorizontal_bias="0.076"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.204" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
