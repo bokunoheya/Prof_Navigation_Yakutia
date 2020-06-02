@@ -94,7 +94,7 @@ Button professii;
         }
 /*}*/
 /*Тест{*/
-        final SharedPreferences preferences3 = this.getActivity().getSharedPreferences("pref3", Context.MODE_PRIVATE);
+     /*   final SharedPreferences preferences3 = this.getActivity().getSharedPreferences("pref3", Context.MODE_PRIVATE);
         if (preferences3.getBoolean("is_start_5", false) != true) { // получить true/false по ключу 'is_start' (если null, то false)
             test.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -105,9 +105,8 @@ Button professii;
             });
         }else{
             test.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
-        }
+        }*/
 /*}*/
         return root;
     }
-
 }

@@ -27,6 +27,7 @@
             android:orientation="vertical" >
 
             <LinearLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -74,12 +75,14 @@
 
             <TextView
                 android:id="@+id/textView26"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="@string/kv_text_s39_02_01" />
 
             <LinearLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -121,12 +124,14 @@
 
             <TextView
                 android:id="@+id/textView28"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="@string/lvl_text" />
 
             <LinearLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -168,12 +173,14 @@
 
             <TextView
                 android:id="@+id/textView30"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="@string/srok_2_10" />
 
             <LinearLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -215,12 +222,14 @@
 
             <TextView
                 android:id="@+id/textView32"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="@string/ooo9" />
 
             <LinearLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -262,6 +271,7 @@
 
             <TextView
                 android:id="@+id/textView34"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/m25" />

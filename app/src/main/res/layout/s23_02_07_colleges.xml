@@ -19,7 +19,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/C1"
                 android:layout_width="match_parent"
-                android:layout_height="120dp">
+                android:layout_height="110dp">
 
                 <Button
                     android:id="@+id/but1"
@@ -29,7 +29,7 @@
                     android:background="@drawable/block_opacity_r"
                     android:paddingLeft="100dp"
                     android:paddingRight="10dp"
-                    android:text="@string/APT_mini"
+                    android:text="@string/APT"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -54,7 +54,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/C2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList">
+                android:layout_height="110dp">
 
                 <Button
                     android:id="@+id/but2"
@@ -88,7 +88,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/C3"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList">
+                android:layout_height="110dp">
 
                 <Button
                     android:id="@+id/but3"
@@ -122,7 +122,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/C4"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList">
+                android:layout_height="110dp">
 
                 <Button
                     android:id="@+id/but4"

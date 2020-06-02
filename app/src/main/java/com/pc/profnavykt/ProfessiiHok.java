@@ -66,7 +66,7 @@ public class ProfessiiHok extends Fragment {
         Button s54_02_02=root.findViewById(R.id.button2);
         s54_02_02.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s20_01_01));
         Button s54_02_04=root.findViewById(R.id.b_s23_01_06);
-        s54_02_04.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s20_01_08));
+        s54_02_04.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08));
         return root;
     }
 }

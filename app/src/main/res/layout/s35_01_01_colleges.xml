@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="@dimen/heightList3">
 
         <Button
             android:id="@+id/but1"
@@ -43,7 +43,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/heightList">
+        android:layout_height="@dimen/heightList3">
 
         <Button
             android:id="@+id/but2"
@@ -52,7 +52,7 @@
             android:background="@drawable/block_opacity_r"
             android:paddingLeft="100dp"
             android:paddingRight="10dp"
-            android:text="@string/VVT_mini"
+            android:text="@string/VVT"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

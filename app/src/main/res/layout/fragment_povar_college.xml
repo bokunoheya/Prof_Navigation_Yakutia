@@ -18,7 +18,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/ykst" />
 
             <Button
@@ -26,7 +26,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/ykse" />
 
             <Button
@@ -34,7 +34,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/CC" />
 
             <Button
@@ -42,7 +42,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/ysht" />
 
             <Button
@@ -50,7 +50,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/yipk" />
 
             <Button
@@ -58,7 +58,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
-                android:background="@drawable/punkt2"
+
                 android:text="@string/CD" />
         </LinearLayout>
     </ScrollView>

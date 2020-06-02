@@ -2,11 +2,19 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\ASUS\\prof.jks')
+            storePassword 'fast1997'
+            keyAlias = 'prof'
+            keyPassword 'fast1997'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     viewBinding.enabled = true
     defaultConfig {
-        applicationId "com.pc.profnavykt"
+        applicationId "com.pc.profnavykt2"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1

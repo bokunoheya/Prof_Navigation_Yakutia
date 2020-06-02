@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <Button
+   <Button
         android:id="@+id/button2"
         style="@style/TextApp"
         android:layout_width="@dimen/shirina_main"
         android:layout_height="73dp"
-        android:background="@drawable/block_round_color"
+        android:background="@drawable/block_full_p"
         android:paddingLeft="70dp"
         android:text="@string/Test"
         android:textAlignment="textStart"
@@ -27,40 +27,39 @@
         style="@style/TextApp"
         android:layout_width="@dimen/shirina_main"
         android:layout_height="73dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/block_full_p"
         android:paddingLeft="70dp"
         android:text="@string/menu_slideshow"
-        android:textAlignment="textStart"
-        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo_im" />
+        app:layout_constraintTop_toBottomOf="@+id/logo_im"
+        app:layout_constraintVertical_bias="0.154" />
 
     <Button
         android:id="@+id/professii"
         style="@style/TextApp"
         android:layout_width="@dimen/shirina_main"
         android:layout_height="73dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/block_full_p"
-        android:paddingLeft="70dp"
+        android:paddingLeft="45dp"
         android:text="@string/professii"
-        android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spis_uch"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/profile"
         style="@style/TextApp"
         android:layout_width="@dimen/shirina_main"
         android:layout_height="73dp"
-        android:background="@drawable/block_round_color_blue"
+        android:background="@drawable/block_full_p"
         android:paddingLeft="70dp"
         android:text="@string/menu_gallery"
         android:textAlignment="textStart"
@@ -73,9 +72,9 @@
     <ImageView
         android:id="@+id/logo_im"
         android:layout_width="417dp"
-        android:layout_height="307dp"
-        android:layout_marginTop="44dp"
-        android:src="@drawable/logo_main3"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/new_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2" />

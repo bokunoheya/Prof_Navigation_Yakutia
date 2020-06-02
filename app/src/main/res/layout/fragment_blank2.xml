@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/buttonStyle2"
     tools:context="com.pc.profnavykt.BlankFragment2">
 
     <ScrollView
@@ -15,7 +14,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:theme="@style/buttonStyle2"
+            >
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -24,7 +25,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     style="@style/buttonStyle4"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/block_i19"
                     android:text="@string/s15_02_07"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -1406,7 +1406,7 @@
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i21"
                     android:paddingLeft="100dp"
-                    android:src="@drawable/punkt2"
+                    style="@style/buttonStyle4"
                     android:paddingRight="10dp"
                     android:text="@string/s21_01_10"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -1424,7 +1424,7 @@
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i54"
                     android:paddingLeft="100dp"
-                    android:src="@drawable/punkt2"
+                    style="@style/buttonStyle4"
                     android:paddingRight="10dp"
                     android:text="@string/s54_02_04"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -1442,7 +1442,7 @@
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i22"
                     android:paddingLeft="100dp"
-                    android:src="@drawable/punkt2"
+                    style="@style/buttonStyle4"
                     android:paddingRight="10dp"
                     android:text="@string/s22_02_06"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -2311,14 +2311,15 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                >
                 <Button
                     android:id="@+id/but43"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i13"
                    style="@style/buttonStyle4"
-                    android:layout_marginBottom="10dp"
                     android:text="@string/s13_02_07"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

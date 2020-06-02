@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="@dimen/heightList3">
 
         <Button
             android:id="@+id/but1"
@@ -30,7 +30,7 @@
         <TextView
             android:id="@+id/textView1"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="@dimen/heightList3">
 
         <Button
             android:id="@+id/but2"
@@ -63,15 +63,15 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_15"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/but2"
-            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintHorizontal_bias="0.073"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="5.0" />
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

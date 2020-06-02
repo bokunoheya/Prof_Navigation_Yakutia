@@ -111,6 +111,24 @@ public class SlideshowFragment extends Fragment {
         button38.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.vt));
         Button  button39= root.findViewById(R.id.button39)       ;
         button39.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.vml));
+        Button  button40= root.findViewById(R.id.button40)       ;
+        button40.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nmk));
+        Button  button41= root.findViewById(R.id.button41)       ;
+        button41.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.npk));
+        Button  button42= root.findViewById(R.id.button42)       ;
+        button42.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.rti));
+        Button  button43= root.findViewById(R.id.button43)       ;
+        button43.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.uat));
+        Button  button44= root.findViewById(R.id.button44)       ;
+        button44.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.uytk));
+        Button  button45= root.findViewById(R.id.button45)       ;
+        button45.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.yat));
+        Button  button46= root.findViewById(R.id.button46)       ;
+        button46.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ykse));
+        Button  button48= root.findViewById(R.id.button48)       ;
+        button48.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ypt));
+        Button  button49= root.findViewById(R.id.button49)       ;
+        button49.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ysht));
        // Toolbar toolbar = root.findViewById(R.id.toolbar);
         /*toolbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03DAC5")));*/
      //   toolbar = ((MainActivity)getActivity()).getSupportActionBar(toolbar);

@@ -25,10 +25,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -56,10 +57,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -80,17 +82,18 @@
             android:background="@drawable/block_opacity_r"
             android:paddingLeft="100dp"
             android:paddingRight="10dp"
-            android:text="@string/MRTK_mini"
+            android:text="@string/MRTK"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"

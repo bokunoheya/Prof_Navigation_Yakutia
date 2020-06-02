@@ -47,13 +47,13 @@
     <string name="nazvanie">Название</string>
 
     <!--Наименование учреждений полное-->
-    <string name="APT">ГАПОУ РС (Я) "Алданский политехнический техникум"</string>
-    <string name="MRTK">ГАПОУ РС (Я) "Региональный технический колледж в г. Мирном"</string>
+    <string name="college_APT">ГАПОУ РС (Я) "Алданский политехнический техникум"</string>
+    <string name="college_MRTK">ГАПОУ РС (Я) "Региональный технический колледж в г. Мирном"</string>
     <string name="UYTK">ГАПОУ РС(Я) \"Южно-Якутский технологический колледж\"</string>
 
     <!--Наименование учреждений сокращенное-->
-    <string name="APT_mini">Алданский политехнический техникум</string>
-    <string name="MRTK_mini">Региональный технический колледж в г. Мирном</string>
+    <string name="APT">Алданский политехнический техникум</string>
+    <string name="MRTK">Региональный технический колледж</string>
     <string name="UYTK_mini">Южно-Якутский технологический колледж</string>
     <string name="PC_mini">Покровский колледж</string>
     <string name="ysht">Якутский сельскохозяйственный техникум</string>
@@ -65,7 +65,7 @@
     <string name="pokrovsk">Покровский колледж</string>
 
     <!--ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ»-->
-    <string name="college_MRTK">ГАПОУ РС (Я) «РЕГИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ В г. МИРНОМ» </string>
+
     <string name="name_dir_MRTK">БЕРЕЗОВОЙ  Владимир  Викторович</string>
     <string name="adress_MRTK">678170, Республика Саха (Якутия),  г. Мирный, ул. Ленина, д.1</string>
     <string name="phone_MRTK">"тел/факс: 8 (41136) 3-53-31"</string>
@@ -182,10 +182,10 @@
 
     <string name="AKNS_mini">Арктический колледж народов Cевера</string>
     <string name="AMK_mini">Алданский медицинский колледж</string>
-    <string name="VVT_mini">Верхневилюйский техникум</string>
+    <string name="VVT">Верхневилюйский техникум</string>
     <string name="AKNS">ГБПОУ РС(Я) Арктический колледж народов севера</string>
     <string name="AMK">ГБПОУ РС(Я) Алданский медицинский колледж</string>
-    <string name="VVT">ГБПОУ РС(Я) Верхневилюйский техникум</string>
+    <string name="college_VVT">ГБПОУ РС(Я) Верхневилюйский техникум</string>
 
     <string name="adress_AKNS">678230, Республика Саха (Якутия), Нижнеколымский район, п. Черский, ул. Молодежная, 38</string>
     <string name="phone_AKNS">тел/факс: 8 (41157) 2-51-23</string>
@@ -196,9 +196,9 @@
     <string name="email_VVT">vvt_vervil@gov14.ru</string>
     <string name="site_VVT">http://vvproftex10.ru/</string>
     <string name="adress_AMK">678902, Республика Саха (Якутия), г. Алдан, ул. Быкова, д. 21</string>
-    <string name="phone_AKM">тел/факс: 8 (41145) 3-73-07, 3-75-19</string>
-    <string name="email_AKM">amk_aldan@gov14.ru</string>
-    <string name="site_AKM">http://aldanmedcollege.ru/</string>
+    <string name="phone_AMK">тел/факс: 8 (41145) 3-73-07, 3-75-19</string>
+    <string name="email_AMK">amk_aldan@gov14.ru</string>
+    <string name="site_AMK">http://aldanmedcollege.ru/</string>
     <string name="s35_01_01">"Мастер по лесному хозяйству "</string>
     <string name="s13__01_07">"Электромонтер по ремонту электросетей "</string>
     <string name="s35_01_21">"Оленевод-механизатор "</string>

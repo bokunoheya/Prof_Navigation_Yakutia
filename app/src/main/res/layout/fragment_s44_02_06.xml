@@ -25,19 +25,20 @@
             android:orientation="vertical" >
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
-                    android:src="@drawable/round_small_yellow" />
+                    android:src="@drawable/round_small_yellow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView1"
@@ -54,45 +55,49 @@
 
             <TextView
                 android:id="@+id/textView26"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/kv_text_s44_02_06" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
-                    android:src="@drawable/round_small_blue" />
+                    android:src="@drawable/round_small_blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView27"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="64dp"
-                    android:text="@string/lvl" />
+                    android:text="@string/lvl"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView28"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/minus" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp">
@@ -122,74 +127,79 @@
 
             <TextView
                 android:id="@+id/textView30"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/srok_4_10" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
-                    android:src="@drawable/round_small_orange" />
+                    android:src="@drawable/round_small_orange"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView31"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView4"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="64dp"
-                    android:text="@string/mesta" />
+                    android:text="@string/mesta"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView4"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView32"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ooo9" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
-                    android:src="@drawable/round_small_yellow" />
+                    android:src="@drawable/round_small_yellow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView33"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView5"
-                    app:layout_constraintTop_toTopOf="parent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="64dp"
-                    android:text="@string/kol_vo" />
+                    android:text="@string/kol_vo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView34"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/budjet_m25" />

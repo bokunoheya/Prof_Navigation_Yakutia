@@ -67,7 +67,6 @@ public class ProfessiiPc extends Fragment {
         button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s10_02_01));
         Button button3=root.findViewById(R.id.button3);
         button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_02_10));
-        Button button4=root.findViewById(R.id.button4);
 
         return root;
     }

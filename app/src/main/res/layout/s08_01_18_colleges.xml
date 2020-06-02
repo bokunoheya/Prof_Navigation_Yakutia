@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="110dp">
 
         <Button
             android:id="@+id/but1"
@@ -30,7 +30,7 @@
         <TextView
             android:id="@+id/textView1"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="110dp">
 
         <Button
             android:id="@+id/but2"
@@ -63,7 +63,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="54dp"
-            android:layout_height="98dp"
+            android:layout_height="@dimen/heightList"
             android:text="@string/mest_25"
             android:theme="@style/Spec_Text1"
             app:layout_constraintBottom_toBottomOf="parent"

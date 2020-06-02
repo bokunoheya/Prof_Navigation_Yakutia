@@ -14,20 +14,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="144dp"
+        android:layout_width="match_parent"
         android:layout_height="105dp"
         android:layout_gravity="center"
         android:contentDescription="@string/nav_header_desc"
-        app:srcCompat="@drawable/logo_main2" />
-
-    <TextView
-        style="@style/TextApp1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nav_header_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        app:srcCompat="@drawable/new_logo_text" />
 
     <TextView
         android:id="@+id/textView"
