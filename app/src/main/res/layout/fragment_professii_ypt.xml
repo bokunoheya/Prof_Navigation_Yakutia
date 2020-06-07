@@ -18,15 +18,13 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                android:layout_height="match_parent">
 
                 <Button
                     android:id="@+id/button1"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/block_i8"
                     android:paddingLeft="100dp"
                     android:text="@string/s08_01_14"

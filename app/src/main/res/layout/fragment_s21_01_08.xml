@@ -4,16 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S21_02_01">
+    tools:context="com.pc.profnavykt.S21_01_08" >
 
     <TextView
-        android:id="@+id/textView24"
-        style="@style/TextApp3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/s21_02_01" />
+        android:id="@+id/textView49"
+        style="@style/TextApp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/s21_01_08"
+        android:visibility="visible" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,13 +21,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp">
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView18"
@@ -48,7 +46,7 @@
                     android:text="@string/kv"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -58,13 +56,14 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/kv_text_s21_02_01" />
+
+                android:layout_marginBottom="20dp"
+                android:text="@string/kv_text_s21_01_08" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp">
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -94,13 +93,15 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp"
                 android:text="@string/lvl_text" />
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp">
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -130,13 +131,14 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/srok_3_10" />
+
+                android:layout_marginBottom="20dp"
+                android:text="@string/srok_10" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp">
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -166,16 +168,18 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ooo9" />
+
+                android:layout_marginBottom="20dp"
+                android:text="@string/soo11" />
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp">
+                android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView1"
+                    android:id="@+id/imageView5"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="16dp"
@@ -185,14 +189,14 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView1"
+                    android:id="@+id/textView33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="64dp"
                     android:text="@string/kol_vo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView1"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -202,7 +206,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m25" />
+                android:text="@string/m25" />
 
         </LinearLayout>
     </ScrollView>

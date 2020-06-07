@@ -25,7 +25,6 @@
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-
                     android:layout_marginTop="10dp"
                     android:background="@drawable/block_i53"
                     android:text="@string/s53_02_03"
@@ -48,26 +47,6 @@
                     android:layout_height="@dimen/heightList"
 
                     android:background="@drawable/block_i53"
-                    android:text="@string/s53_02_03"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/b_s23_01_06"
-                    style="@style/buttonStyle4"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList"
-
-                    android:background="@drawable/block_i53"
                     android:text="@string/s53_02_04"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +62,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/button3"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
@@ -104,7 +83,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/b_s15_01_19"
+                    android:id="@+id/button4"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
@@ -125,7 +104,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/b_s23_01_01"
+                    android:id="@+id/button5"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
                     android:background="@drawable/block_i53"

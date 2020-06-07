@@ -74,11 +74,13 @@ public class ProfessiiZt extends Fragment {
         Button button6=root.findViewById(R.id.button6);
         button6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s23_01_02));
         Button button7=root.findViewById(R.id.button7);
-        button7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s26_02_06));
+        button7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s26_02_02));
         Button button8=root.findViewById(R.id.button8);
-        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s26_02_01));
+        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s26_02_06));
         Button button9=root.findViewById(R.id.button9);
-        button9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_09));
+        button9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s26_02_01));
+        Button button10=root.findViewById(R.id.button10);
+        button10.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_09));
           return root;
     }
 }

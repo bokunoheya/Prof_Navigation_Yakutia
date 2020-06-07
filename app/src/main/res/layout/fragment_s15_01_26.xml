@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S21_02_01">
+    tools:context="com.pc.profnavykt.S15_01_26">
 
     <TextView
         android:id="@+id/textView24"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/s21_02_01" />
+        android:text="@string/s15_01_26" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/kv_text_s21_02_01" />
+                android:text="@string/kv_text_s15_01_26" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -130,7 +130,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/srok_3_10" />
+                android:text="@string/srok_2_10" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"

@@ -65,7 +65,7 @@ public class ProfessiiYhdu extends Fragment {
         s54_02_01.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_01));
         Button s54_02_02=root.findViewById(R.id.button2);
         s54_02_02.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_02));
-        Button s54_02_04=root.findViewById(R.id.b_s23_01_06);
+        Button s54_02_04=root.findViewById(R.id.button3);
         s54_02_04.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_04));
         Button s54_02_05=root.findViewById(R.id.button4);
         s54_02_05.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s54_02_05));

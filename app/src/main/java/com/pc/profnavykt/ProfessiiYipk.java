@@ -75,8 +75,8 @@ public class ProfessiiYipk extends Fragment {
         button6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s29_02_04));
         Button button7=root.findViewById(R.id.button7);
         button7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s44_02_06));
-        Button button8=root.findViewById(R.id.button8);
-        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_02));
+      /*  Button button8=root.findViewById(R.id.button8);
+        button8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_02_02));*/
         return root;
     }
 }

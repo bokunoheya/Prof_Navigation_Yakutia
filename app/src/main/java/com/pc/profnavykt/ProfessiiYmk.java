@@ -62,8 +62,15 @@ public class ProfessiiYmk extends Fragment {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_ymk, container, false);
         Button s13_02_11=root.findViewById(R.id.button1);
-        s13_02_11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s35_01_01));
-
+        s13_02_11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_03));
+        Button button2=root.findViewById(R.id.button2);
+        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_04));
+        Button button3=root.findViewById(R.id.button3);
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_05));
+        Button button4=root.findViewById(R.id.button4);
+        button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_06));
+        Button button5=root.findViewById(R.id.button5);
+        button5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s53_02_07));
         return root;
     }
 }

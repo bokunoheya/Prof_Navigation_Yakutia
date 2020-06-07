@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
-    tools:context="com.pc.profnavykt.S08_01_07">
+    tools:context="com.pc.profnavykt.S08_01_14">
 
     <TextView
         android:id="@+id/textView24"
@@ -15,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="18dp"
         android:gravity="center"
-        android:text="@string/s08_01_07" />
+        android:text="@string/s08_01_14" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -79,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="@string/kv_text_s08_01_07" />
+                android:text="@string/kv_text_s08_01_14" />
 
             <LinearLayout
                 style="@style/spec_t"

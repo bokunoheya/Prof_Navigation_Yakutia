@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link S20_01_08#newInstance} factory method to
+ * Use the {@link S29_01_28#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class S20_01_08 extends Fragment {
+public class S29_01_28 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -23,7 +23,7 @@ public class S20_01_08 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public S20_01_08() {
+    public S29_01_28() {
         // Required empty public constructor
     }
 
@@ -36,8 +36,8 @@ public class S20_01_08 extends Fragment {
      * @return A new instance of fragment S13_02_03.
      */
     // TODO: Rename and change types and number of parameters
-    public static S20_01_08 newInstance(String param1, String param2) {
-        S20_01_08 fragment = new S20_01_08();
+    public static S29_01_28 newInstance(String param1, String param2) {
+        S29_01_28 fragment = new S29_01_28();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -58,7 +58,7 @@ public class S20_01_08 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_s20_01_08, container, false);
+        return inflater.inflate(R.layout.fragment_s29_01_28, container, false);
 
     }
 }

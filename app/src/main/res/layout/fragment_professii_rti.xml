@@ -22,12 +22,13 @@
 
                 <Button
                     android:id="@+id/button1"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s39_02_01"
 
                     android:layout_marginTop="10dp"
                     android:background="@drawable/block_i39"
+                    android:text="@string/s39_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -42,11 +43,12 @@
 
                 <Button
                     android:id="@+id/button2"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s38_02_01"
 
                     android:background="@drawable/block_i38"
+                    android:text="@string/s38_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -58,13 +60,15 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <Button
                     android:id="@+id/button3"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s21_02_05"
 
                     android:background="@drawable/block_i21"
+                    android:text="@string/s21_02_05"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -79,11 +83,12 @@
 
                 <Button
                     android:id="@+id/button4"
+                    style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s43_01_02"
 
                     android:background="@drawable/block_i43"
+                    android:text="@string/s43_01_02"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -95,13 +100,15 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <Button
                     android:id="@+id/button5"
+                    style="@style/buttonStyle4End"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:text="@string/s51_02_02"
 
                     android:background="@drawable/block_i51"
+                    android:text="@string/s51_02_02"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"

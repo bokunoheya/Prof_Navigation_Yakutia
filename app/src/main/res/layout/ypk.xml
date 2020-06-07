@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:gravity="center|center_horizontal"
-                android:text="@string/YPT" />
+                android:text="@string/YPK" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -35,7 +35,7 @@
                 android:layout_height="181dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/logo_ypt" />
+                android:src="@drawable/logo_ypk" />
 
             <Button
                 android:id="@+id/professii_button"
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="12dp"
-                    android:text="@string/phone_YPT"
+                    android:text="@string/phone_YPK"
                     app:layout_constraintEnd_toEndOf="parent"
 
                     app:layout_constraintHorizontal_bias="0"
@@ -96,7 +96,7 @@
                     android:layout_height="72dp"
                     android:layout_marginStart="@dimen/marginStart2"
                     android:layout_marginTop="16dp"
-                    android:text="@string/adress_YPT"
+                    android:text="@string/adress_YPK"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
@@ -108,7 +108,7 @@
                     android:layout_height="0dp"
                     android:autoLink="web"
                     android:gravity="center"
-                    android:text="@string/site_YPT"
+                    android:text="@string/site_YPK"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.137"

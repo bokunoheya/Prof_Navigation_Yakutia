@@ -28,9 +28,6 @@ public class SlideshowFragment extends Fragment {
     Button button11;
     Button button12;
     Button button13;
-
-
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 

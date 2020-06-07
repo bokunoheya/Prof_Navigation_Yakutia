@@ -62,7 +62,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/b_s23_01_06"
+                    android:id="@+id/button3"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"

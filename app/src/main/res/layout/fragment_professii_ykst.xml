@@ -167,7 +167,7 @@
 
                 <Button
                     android:id="@+id/button8"
-                    style="@style/buttonStyle4"
+                    style="@style/buttonStyle4End"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
 
