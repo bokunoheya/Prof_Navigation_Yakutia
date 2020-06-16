@@ -2125,4 +2125,9 @@
         android:name="com.pc.profnavykt.S54_01_02"
         android:label="fragment_s54_01_02"
         tools:layout="@layout/fragment_s54_01_02" />
+    <fragment
+        android:id="@+id/aboutPc"
+        android:name="com.pc.profnavykt.AboutPc"
+        android:label="@string/about_pc"
+        tools:layout="@layout/fragment_about_pc" />
 </navigation>

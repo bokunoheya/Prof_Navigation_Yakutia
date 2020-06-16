@@ -18,7 +18,7 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
-    protected OnBackPressedListener onBackPressedListener;
+   // protected OnBackPressedListener onBackPressedListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // Write a message to the database
@@ -66,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-/*    @Override
+    @Override
     public void onBackPressed() {
-        Toast.makeText(this, "Так переход назад не возможен, нажмите на верхне-левое меню", Toast.LENGTH_SHORT).show();
-    }*/
-@Override                                                                                   // Обработка перехода Назад
+        Toast.makeText(this, "Так переход назад не возможен, нажмите на верхне-левое стрелку", Toast.LENGTH_SHORT).show();
+    }
+/*@Override                                                                                   // Обработка перехода Назад
 public void onBackPressed() {                                                               //
     if (onBackPressedListener != null)                                                      //
         onBackPressedListener.doBack();                                                     //
@@ -82,6 +82,6 @@ public void onBackPressed() {                                                   
     }                                                                                       //
     public void setOnBackPressedListener(OnBackPressedListener onBackPressedListener) {     //
         this.onBackPressedListener = onBackPressedListener;                                 //
-    }//
+    }//*/
 
 }

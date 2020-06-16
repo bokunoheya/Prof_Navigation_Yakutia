@@ -6,6 +6,8 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
+    <string name="about_info">Разработано студантами ГБПОУ РС(Я) "Покровский колледж"</string>
+
 
     <string name="menu_home">Главное меню</string>
     <string name="menu_gallery">Профиль</string>
@@ -115,7 +117,6 @@
     <string name="app_name_v2">Проф навигатор Якутии</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="kv">Квалификация</string>
     <string name="kv_text">Техник                 19848 Электромонтёр по обслуживанию электрооборудования электростанций</string>
     <string name="lvl_text">Базовый</string>
@@ -250,4 +251,5 @@
     <string name="mest_105">105 мест</string>
     <string name="mest_125">125 мест</string>
     <string name="mest_335">335 мест</string>
+    <string name="about_pc">О нас</string>
 </resources>

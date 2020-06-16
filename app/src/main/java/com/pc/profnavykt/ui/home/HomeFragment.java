@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -16,13 +17,14 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 
-import com.pc.profnavykt.BaseBackPressedListener;
+//import com.pc.profnavykt.BaseBackPressedListener;
 import com.pc.profnavykt.MainActivity;
 import com.pc.profnavykt.R;
 
 public class HomeFragment extends Fragment {
 Button test;
 Button profile;
+ImageButton about_pc;
 Button spis_uch;
 Button professii;
     Button next;
@@ -33,8 +35,8 @@ Button professii;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        FragmentActivity activity = getActivity();                                                // Отмена перехода назад
-        ((MainActivity)activity).setOnBackPressedListener(new BaseBackPressedListener(activity)); //
+/*        FragmentActivity activity = getActivity();                                                // Отмена перехода назад
+        ((MainActivity)activity).setOnBackPressedListener(new BaseBackPressedListener(activity)); //*/
 
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
@@ -43,6 +45,7 @@ Button professii;
         profile= root.findViewById(R.id.profile);
         spis_uch= root.findViewById(R.id.spis_uch);
         professii= root.findViewById(R.id.professii);
+        about_pc=root.findViewById(R.id.about_pc);
         //specialnosti= root.findViewById(R.id.specialnosti);
        // test.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
         profile.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_gallery));
@@ -94,7 +97,7 @@ Button professii;
         }
 /*}*/
 /*Тест{*/
-     /*   final SharedPreferences preferences3 = this.getActivity().getSharedPreferences("pref3", Context.MODE_PRIVATE);
+        final SharedPreferences preferences3 = this.getActivity().getSharedPreferences("pref3", Context.MODE_PRIVATE);
         if (preferences3.getBoolean("is_start_5", false) != true) { // получить true/false по ключу 'is_start' (если null, то false)
             test.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -105,8 +108,10 @@ Button professii;
             });
         }else{
             test.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
-        }*/
+        }
 /*}*/
+        about_pc.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.aboutPc));
+
         return root;
     }
 }

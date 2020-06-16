@@ -25,8 +25,6 @@
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/block_i10"
                     android:text="@string/s10_02_01"
                     app:layout_constraintBottom_toBottomOf="parent"
