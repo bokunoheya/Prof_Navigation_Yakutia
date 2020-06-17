@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
@@ -44,7 +45,12 @@ public class S05_01_01 extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+TextView upText;
+TextView kv;
+TextView lvl;
+TextView srok;
+TextView formEd;
+TextView mesto;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +64,24 @@ public class S05_01_01 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_s05_01_01, container, false);
+        View root= inflater.inflate(R.layout.fragment_s05_01_01, container, false);
+        upText=root.findViewById(R.id.textView24);
+        kv=root.findViewById(R.id.textView26);
+        lvl=root.findViewById(R.id.textView28);
+        srok=root.findViewById(R.id.textView30);
+        formEd=root.findViewById(R.id.textView32);
+        mesto=root.findViewById(R.id.textView34);
+if(ProfessiiNt.activity==1){
+    upText.setText(R.string.s38_01_02);
+    kv.setText(R.string.kv_text_s38_01_02);
+    lvl.setText(R.string.minus);
+    srok.setText(R.string.srok_10);
+    formEd.setText(R.string.soo11);
+    mesto.setText(R.string.m25);
+    ProfessiiNt.activity=0;
+}
 
+
+return root;
     }
 }

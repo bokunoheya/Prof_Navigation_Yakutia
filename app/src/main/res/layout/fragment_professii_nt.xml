@@ -27,8 +27,8 @@
                     android:layout_height="@dimen/heightList"
 
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/block_i15"
-                    android:text="@string/s15_01_05"
+                    android:background="@drawable/block_i8"
+                    android:text="@string/s08_01_07"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -46,8 +46,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
 
-                    android:background="@drawable/block_i8"
-                    android:text="@string/s08_01_07"
+                    android:background="@drawable/block_i21"
+                    android:text="@string/s21_01_08"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -65,8 +65,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
 
-                    android:background="@drawable/block_i43"
-                    android:text="@string/s43_01_09"
+                    android:background="@drawable/block_i38"
+                    android:text="@string/s38_01_02"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -77,23 +77,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/button4"
-                    style="@style/buttonStyle4"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList"
-
-                    android:background="@drawable/block_i23"
-                    android:text="@string/s23_01_17"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
     </ScrollView>

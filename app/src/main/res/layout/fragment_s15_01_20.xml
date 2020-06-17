@@ -202,7 +202,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m15" />
+                android:text="@string/budjet_m25" />
 
         </LinearLayout>
     </ScrollView>

@@ -25,10 +25,10 @@
             android:orientation="vertical" >
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/border">
+                android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView18"
@@ -55,16 +55,16 @@
 
             <TextView
                 android:id="@+id/textView26"
-                style="@style/spec_t"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/kv_text_s05_01_01" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/border">
+                android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -91,16 +91,16 @@
 
             <TextView
                 android:id="@+id/textView28"
-                style="@style/spec_t"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/minus" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/border">
+                android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -127,16 +127,16 @@
 
             <TextView
                 android:id="@+id/textView30"
-                style="@style/spec_t"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/srok_10" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/border">
+                android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -163,16 +163,16 @@
 
             <TextView
                 android:id="@+id/textView32"
-                style="@style/spec_t"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zsoo11" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/spec_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/border">
+                android:layout_marginTop="20dp">
 
                 <ImageView
                     android:id="@+id/imageView1"
@@ -199,7 +199,7 @@
 
             <TextView
                 android:id="@+id/textView34"
-                style="@style/spec_t"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/budjet_m12" />

@@ -167,7 +167,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/zsoo11" />
+                android:text="@string/soo11" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -203,7 +203,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m15" />
+                android:text="@string/budjet_m25" />
 
         </LinearLayout>
     </ScrollView>

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
@@ -44,7 +45,7 @@ public class S23_02_04 extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+TextView textView;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +59,11 @@ public class S23_02_04 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_s23_02_04, container, false);
-
+        View root= inflater.inflate(R.layout.fragment_s23_02_04, container, false);
+ /*       textView=root.findViewById(R.id.textView32);
+if (ProfessiiStk.activity==1){
+    textView.setText(R.string.ooo9);
+}*/
+return root;
     }
 }

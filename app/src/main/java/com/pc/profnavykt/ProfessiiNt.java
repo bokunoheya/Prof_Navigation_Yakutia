@@ -20,7 +20,7 @@ public class ProfessiiNt extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
+    public static int activity=0;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -62,13 +62,12 @@ public class ProfessiiNt extends Fragment {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_professii_nt, container, false);
         Button button1=root.findViewById(R.id.button1);
-        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s15_01_05));
+        button1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s08_01_07));
         Button button2=root.findViewById(R.id.button2);
-        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s08_01_07));
+        button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s21_01_08));
+        activity=1;
         Button button3=root.findViewById(R.id.button3);
-        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s43_01_09));
-        Button button4=root.findViewById(R.id.button4);
-        button4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s23_01_17));
+        button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s05_01_01));//38_01_02 истинный код специальности
 
         return root;
     }
