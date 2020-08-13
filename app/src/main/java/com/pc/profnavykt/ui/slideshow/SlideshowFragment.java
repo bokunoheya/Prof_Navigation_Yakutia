@@ -1,18 +1,23 @@
 package com.pc.profnavykt.ui.slideshow;
 
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ScrollView;
 
 import com.pc.profnavykt.R;
 
 import androidx.annotation.NonNull;
+import androidx.core.view.accessibility.AccessibilityViewCommand;
 import androidx.fragment.app.Fragment;
 
 import androidx.navigation.Navigation;
+
+import static android.content.Context.MODE_PRIVATE;
 
 public class SlideshowFragment extends Fragment {
     Button button1;
@@ -28,6 +33,8 @@ public class SlideshowFragment extends Fragment {
     Button button11;
     Button button12;
     Button button13;
+    SharedPreferences sPref;
+    int y=400;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
@@ -60,7 +67,7 @@ public class SlideshowFragment extends Fragment {
         button13.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.ybs));
         Button  button14= root.findViewById(R.id.button14)       ;
         button14.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.hok));
-        Button  button15= root.findViewById(R.id.button15)       ;
+        Button  button15= root.findViewById(R.id.button41)       ;
         button15.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.npk));
         Button  button16= root.findViewById(R.id.button16)       ;
         button16.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.vpk));
@@ -110,8 +117,6 @@ public class SlideshowFragment extends Fragment {
         button39.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.vml));
         Button  button40= root.findViewById(R.id.button40)       ;
         button40.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nmk));
-        Button  button41= root.findViewById(R.id.button41)       ;
-        button41.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.npk));
         Button  button42= root.findViewById(R.id.button42)       ;
         button42.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.rti));
         Button  button43= root.findViewById(R.id.button43)       ;
@@ -139,8 +144,20 @@ public class SlideshowFragment extends Fragment {
         });
 */
 
-        return root;
 
+
+          final ScrollView scrollView=root.findViewById(R.id.scroll); // сохранение позиции, также есть в BlankFragment2
+          scrollView.post(new Runnable() {
+              @Override
+              public void run() {
+                  scrollView.scrollTo(0, scrollView.getScrollY());
+              }
+          });
+
+
+        return root;
     }
+
+
 
 }

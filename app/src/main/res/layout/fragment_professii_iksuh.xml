@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="@style/buttonStyle1"
-    tools:context="com.pc.profnavykt.ProfessiiApt" >
+    tools:context="com.pc.profnavykt.CollegesProfessii.ProfessiiApt" >
 
     <ScrollView
         android:layout_width="match_parent"

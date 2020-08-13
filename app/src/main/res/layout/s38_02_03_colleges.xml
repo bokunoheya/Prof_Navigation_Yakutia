@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="@style/buttonStyle2"
-    tools:context="com.pc.profnavykt.S38_02_03_colleges" >
+    tools:context="com.pc.profnavykt.ProfessiiList.S38_02_03_colleges" >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -9,11 +9,19 @@
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <ScrollView
+
+        android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipChildren="true"
         android:clipToPadding="true"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:nestedScrollingEnabled="true"
+        android:overScrollMode="ifContentScrolls"
         android:saveEnabled="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,8 +41,8 @@
                     android:id="@+id/button4"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList2"
-                    android:background="@drawable/block_amk2"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_amk"
                     android:text="@string/AMK_mini"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -52,8 +60,8 @@
                     android:id="@+id/button1"
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList2"
-                    android:background="@drawable/block_apt2"
+                    android:layout_height="@dimen/heightList"
+                    android:background="@drawable/block_apt"
                     android:clickable="true"
                     android:text="@string/APT"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -640,7 +648,6 @@
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-                    android:layout_marginBottom="10dp"
                     android:background="@drawable/block_ykit"
                     android:text="@string/YKIT"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -649,23 +656,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <!--_________________________________________________________________ -->
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/button15"
-                    style="@style/buttonStyle4"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList"
-                    android:background="@drawable/block_npk"
-                    android:text="@string/NPK"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-            <!--_________________________________________________________________ -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">

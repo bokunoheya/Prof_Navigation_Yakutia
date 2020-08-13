@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Uytk">
+    tools:context=".CollegesName.Uytk">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_height="181dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/logo_ymusk" />
+                android:src="@drawable/logo_uytk" />
 
             <Button
                 android:id="@+id/professii_button"

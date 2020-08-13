@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ScrollView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +60,7 @@ public class BlankFragment2 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_blank2, container, false);
         Button but1= root.findViewById(R.id.but1) ;
@@ -370,7 +372,13 @@ public class BlankFragment2 extends Fragment {
         Button but155= root.findViewById(R.id.but155) ;
         but155.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.s13_01_03_colleges));
 
-
+        final ScrollView scrollView=root.findViewById(R.id.scroll);
+        scrollView.post(new Runnable() {
+            @Override
+            public void run() {
+                scrollView.scrollTo(0, scrollView.getScrollY());
+            }
+        });
         return root;
     }
 }

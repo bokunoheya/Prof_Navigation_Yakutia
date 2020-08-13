@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="@style/buttonStyle2"
-    tools:context="com.pc.profnavykt.ProfessiiUytk" >
+    tools:context="com.pc.profnavykt.CollegesProfessii.ProfessiiUytk" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                     style="@style/buttonStyle4"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/heightList"
-
+android:textSize="12dp"
                     android:background="@drawable/block_i13"
                     android:text="@string/s13_02_11"
                     app:layout_constraintBottom_toBottomOf="parent"

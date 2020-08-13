@@ -41,7 +41,7 @@
     <string name="name_dir_PC">ХАБАРОВ  Владислав  Гаврильевич</string>
     <string name="dolznost">Директор</string>
     <string name="college_PC">ГБПОУ РС (Я) «ПОКРОВСКИЙ КОЛЛЕДЖ»</string>
-    <string name="site_PC">http://college-pokrovsk.ru/</string>
+    <string name="site_PC">http://college-pokrovsk.ru</string>
 
     <string name="points">Прох. балл</string>
     <string name="place">Бюдж. места</string>
@@ -118,28 +118,33 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="kv">Квалификация</string>
-    <string name="kv_text">Техник                 19848 Электромонтёр по обслуживанию электрооборудования электростанций</string>
+    <string name="kv_text">Техник 19848 Электромонтёр по обслуживанию электрооборудования электростанций</string>
     <string name="lvl_text">Базовый</string>
     <string name="lvl">Уровень (для ППССЗ)</string>
+    <string name="lvl_ppkris">Уровень (ППКРиС)</string>
     <string name="srok">Срок обучения</string>
     <string name="srok_s13_02_03">3 года 10 мес</string>
     <string name="mesta">Форма обучения</string>
 
     <string name="ooo9">Очно, основное общее образование (на базе 9 кл.)</string>
-    <string name="soo11">"Очное, среднее общее образование (на базе 11 кл.) "</string>
-    <string name="zsoo11">"Заочное, среднее общее образование (на базе 11 кл.) "</string>
+    <string name="zoo9">Заочное, основное общее образование (на базе 9 кл.)</string>
+    <string name="soo11">Очное, среднее общее образование (на базе 11 кл.)</string>
+    <string name="zsoo11">Заочное, среднее общее образование (на базе 11 кл.)</string>
 
     <string name="kol_vo">Количество</string>
 
     <string name="m25">25</string>
+    <string name="m50">50</string>
+    <string name="m0">-</string>
     <string name="budjet_m12">Бюджет: 12</string>
+    <string name="budjet_m40">Бюджет: 40</string>
     <string name="platnoe_m3">Платное: 3</string>
     <string name="budjet_m8">Бюджет: 8</string>
     <string name="platnoe_m5">Платное: 5</string>
     <string name="budjet_m15">Бюджет: 15</string>
+    <string name="budjet_m10">Бюджет: 10</string>
     <string name="platnoe_m2">Платное: 2</string>
     <string name="budjet_m5">Бюджет: 5</string>
-
     <string name="budjet_m37">Бюджет: 37</string>
     <string name="budjet_m20">Бюджет: 20</string>
     <string name="budjet_m7">Бюджет: 7</string>
@@ -147,6 +152,13 @@
     <string name="budjet_m3">Бюджет: 3</string>
     <string name="budjet_m30">Бюджет: 30</string>
     <string name="budjet_m25">Бюджет: 25</string>
+    <string name="budjet_m100">Бюджет: 100</string>
+    <string name="com_osn_m3">Коммерческая основа: 3</string>
+    <string name="com_osn_m5">Коммерческая основа: 5</string>
+    <string name="com_osn_m10">Коммерческая основа: 10</string>
+    <string name="com_osn_m15">Коммерческая основа: 15</string>
+    <string name="com_osn_m20">Коммерческая основа: 20</string>
+    <string name="com_osn_m25">Коммерческая основа: 25</string>
 
     <string name="platnoe_m25">Платное: 25</string>
 
@@ -179,7 +191,7 @@
     <string name="kv_text_21_02_14">"Горный техник-маркшейдер.                                11711 Горнорабочий на маркшейдерских работах "</string>
 
     <string name="kv_text_s21_01_08">Машинист бульдозера (III (IV) разряд), Машинист экскаватора (IV разряд)</string>
-    <string name="srok_10">"10 мес "</string>
+    <string name="srok_10">10 мес</string>
 
     <string name="AKNS_mini">Арктический колледж народов Cевера</string>
     <string name="AMK_mini">Алданский медицинский колледж</string>
@@ -252,4 +264,8 @@
     <string name="mest_125">125 мест</string>
     <string name="mest_335">335 мест</string>
     <string name="about_pc">О нас</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="version">v.1.0.1</string>
 </resources>

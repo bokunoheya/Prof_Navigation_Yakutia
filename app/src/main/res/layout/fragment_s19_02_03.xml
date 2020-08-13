@@ -4,16 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S19_02_03">
+    tools:context="com.pc.profnavykt.ProfessiiCode.S19_02_03">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/upText"
         style="@style/TextApp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/s19_02_03" />
+        />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginBottom="20dp"
-                android:text="@string/kv_text_s19_02_03" />
+              />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginBottom="20dp"
-                android:text="@string/minus" />
+                />
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginBottom="20dp"
-                android:text="@string/srok_2_10" />
+                 />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -171,7 +171,7 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginBottom="20dp"
-                android:text="@string/soo11" />
+                 />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -206,14 +206,14 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m25" />
+                 />
 
             <TextView
                 android:id="@+id/textView60"
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/platnoe_m5" />
+              />
 
 
         </LinearLayout>

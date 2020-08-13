@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="@style/buttonStyle2"
-    tools:context="com.pc.profnavykt.ProfessiiYgk" >
+    tools:context="com.pc.profnavykt.CollegesProfessii.ProfessiiYgk" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,8 +26,6 @@
                     android:layout_height="@dimen/heightList"
                     android:text="@string/s38_02_01"
                     style="@style/buttonStyle4"
-
-                    android:layout_marginTop="10dp"
                     android:background="@drawable/block_i38"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +35,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+        <!--    <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -55,56 +53,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-           <!-- <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/im_s23_02_07"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:src="@drawable/om"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/b_s23_02_07" />
-
-                <Button
-                    android:id="@+id/b_s23_02_07"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/heightList"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
-
-                <TextView
-                    android:id="@+id/t_s23_02_07"
-                    style="@style/buttonStyle1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:elevation="3dp"
-                    android:text="@string/s23_02_07"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="@+id/b_s23_02_07"
-                    app:layout_constraintStart_toEndOf="@+id/im_s23_02_07"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
-            <!--___________________________________________________________________-->
 
         </LinearLayout>
     </ScrollView>

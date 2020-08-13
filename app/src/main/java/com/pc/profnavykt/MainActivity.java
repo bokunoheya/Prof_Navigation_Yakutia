@@ -1,5 +1,6 @@
 package com.pc.profnavykt;
 
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.Toast;
@@ -7,6 +8,8 @@ import android.widget.Toast;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.pc.profnavykt.ProfessiiCode.S05_01_01;
+//import com.pc.profnavykt.databinding.FragmentProfessiiNtBinding;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -15,8 +18,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 public class MainActivity extends AppCompatActivity {
+    public static String item;
     private AppBarConfiguration mAppBarConfiguration;
    // protected OnBackPressedListener onBackPressedListener;
     @Override
@@ -28,8 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar); //установка label
         setSupportActionBar(toolbar);
+        S05_01_01.tts= toolbar; //Наследуемое в S05_01_01
      //   toolbar.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),R.color.green));
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -48,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 .setContentText("This is highlighting the Home button")
                 .hideOnTouchOutside()
                 .build();*/
+
     }
 
     @Override
@@ -83,5 +88,6 @@ public void onBackPressed() {                                                   
     public void setOnBackPressedListener(OnBackPressedListener onBackPressedListener) {     //
         this.onBackPressedListener = onBackPressedListener;                                 //
     }//*/
+
 
 }

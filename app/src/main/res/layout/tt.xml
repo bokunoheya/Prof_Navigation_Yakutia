@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tt">
+    tools:context=".CollegesName.Tt">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="218dp"
+                    android:layout_width="0dp"
                     android:layout_height="72dp"
                     android:layout_marginStart="@dimen/marginStart2"
                     android:layout_marginTop="16dp"

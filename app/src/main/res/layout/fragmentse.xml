@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S21_01_10_colleges">
+    tools:context="com.pc.profnavykt.ProfessiiList.S21_01_10_colleges">
 
     <TableLayout
         android:layout_width="400dp"

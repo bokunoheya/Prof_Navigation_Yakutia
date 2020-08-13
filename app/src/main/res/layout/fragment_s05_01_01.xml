@@ -4,16 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S05_01_01">
+    tools:context="com.pc.profnavykt.ProfessiiCode.S05_01_01">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/upText"
         style="@style/TextApp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/s05_01_01" />
+        />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/kv_text_s05_01_01" />
+                 />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -94,7 +94,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/minus" />
+                 />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -130,7 +130,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/srok_10" />
+              />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -166,7 +166,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/zsoo11" />
+                />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -202,7 +202,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m12" />
+                 />
 
         </LinearLayout>
     </ScrollView>

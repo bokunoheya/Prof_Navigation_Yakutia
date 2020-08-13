@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="@style/buttonStyle2"
-    tools:context="com.pc.profnavykt.ProfessiiYsht" >
+    tools:context="com.pc.profnavykt.CollegesProfessii.ProfessiiYsht" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                >
 
                 <Button
                     android:id="@+id/button1"
@@ -41,7 +41,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                >
 
                 <Button
                     android:id="@+id/button2"
@@ -61,7 +61,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                >
 
                 <Button
                     android:id="@+id/button3"
@@ -82,7 +82,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                >
 
                 <Button
                     android:id="@+id/button4"
@@ -103,7 +103,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp">
+                >
 
                 <Button
                     android:id="@+id/button5"
@@ -122,49 +122,92 @@
                     app:layout_constraintVertical_bias="0.0" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <Button
-                android:id="@+id/button6"
-                style="@style/buttonStyle4"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/block_i13"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
-                android:text="@string/s35_02_14" />
+                android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/button7"
-                style="@style/buttonStyle4"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/block_i21"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
-                android:text="@string/s35_02_16" />
+                <Button
+                    android:id="@+id/button6"
+                    style="@style/buttonStyle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
 
-            <Button
-                android:id="@+id/button8"
-                style="@style/buttonStyle4"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/block_i21"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
-                android:text="@string/s36_02_01" />
+                    android:background="@drawable/block_i13"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s35_02_14"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <Button
-                android:id="@+id/button9"
-                style="@style/buttonStyle4End"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/block_i23"
-                android:paddingLeft="100dp"
-                android:paddingRight="10dp"
-                android:text="@string/s36_02_02" />
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button7"
+                    style="@style/buttonStyle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+
+                    android:background="@drawable/block_i21"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s35_02_16"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/buttonStyle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+
+                    android:background="@drawable/block_i21"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s36_02_01"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button9"
+                    style="@style/buttonStyle4End"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+
+                    android:background="@drawable/block_i23"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/s36_02_02"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
 

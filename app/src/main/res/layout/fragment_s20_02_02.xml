@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S20_02_02">
+    tools:context="com.pc.profnavykt.ProfessiiCode.S20_02_02">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/upText"
         style="@style/TextApp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginBottom="20dp"
-                android:text="@string/ooo9" />
+                android:text="@string/soo11" />
 
 
             <androidx.constraintlayout.widget.ConstraintLayout

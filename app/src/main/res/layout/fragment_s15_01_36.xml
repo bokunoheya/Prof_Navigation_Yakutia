@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S15_01_36" >
+    tools:context="com.pc.profnavykt.ProfessiiCode.S15_01_36" >
 
     <TextView
         android:id="@+id/textView47"

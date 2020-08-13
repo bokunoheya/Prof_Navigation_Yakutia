@@ -14,11 +14,11 @@ android {
     buildToolsVersion "29.0.3"
     viewBinding.enabled = true
     defaultConfig {
-        applicationId "com.pc.profnavykt2"
+        applicationId "com.pc.profnavykt"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

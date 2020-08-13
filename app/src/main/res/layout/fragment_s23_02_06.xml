@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pc.profnavykt.S23_02_06">
+    tools:context="com.pc.profnavykt.ProfessiiCode.S23_02_06">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/upText"
         style="@style/TextApp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/srok_3_10" />
+                android:text="@string/srok_2_10" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -163,9 +163,10 @@
 
             <TextView
                 android:id="@+id/textView32"
+                style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/zsoo11" />
+                android:text="@string/soo11" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 style="@style/spec_t"
@@ -201,7 +202,7 @@
                 style="@style/spec_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/budjet_m15" />
+                android:text="@string/budjet_m25" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
